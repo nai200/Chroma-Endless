@@ -1,5 +1,5 @@
 <!-- markdownlint-disable MD033 -->
-# Chroma-Endless
+# Chroma Endless
 
 [![Chroma-Endless](https://img.shields.io/badge/CurseForge-Chroma--Endless-F16436)](https://www.curseforge.com/minecraft/modpacks/chroma-endless)
 [![Website](https://shields.io/website?up_message=anyijun.com&url=http://anyijun.com&label=Website)](http://anyijun.com)
