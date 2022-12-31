@@ -1,0 +1,5716 @@
+{
+	id: "05F7FCA81A7AC3EC"
+	group: ""
+	order_index: 8
+	filename: "useful_items"
+	title: "Useful Items"
+	icon: {
+		id: "tiab:timeinabottle"
+		Count: 1b
+		tag: {
+			timeData: { }
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 15.5d
+			y: 16.0d
+			shape: "gear"
+			dependencies: [
+				"0623F7FAB4511760"
+				"679DF08FABBE8A87"
+				"00E6F30F0B847212"
+			]
+			size: 2.0d
+			id: "6321C311B46FC390"
+			tasks: [{
+				id: "17B3F79AF03D031C"
+				type: "item"
+				item: {
+					id: "tiab:timeinabottle"
+					Count: 1b
+					tag: {
+						timeData: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "1DC58826ACD4A10D"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "alexsmobs:speed_iii"
+					}
+				}
+			}]
+		}
+		{
+			title: "&#806517Handled Crafting Table&r"
+			x: 17.25d
+			y: -1.5d
+			shape: "square"
+			subtitle: "Store your crafting table in your pocket."
+			dependencies: ["1C7C41C2FA427B8F"]
+			id: "6F206C31ECDB6FCB"
+			tasks: [{
+				id: "1DB643470509253F"
+				type: "item"
+				item: "extendedcrafting:handheld_table"
+			}]
+			rewards: [{
+				id: "4E1B43C3FC878533"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: 17.5d
+			y: 3.5d
+			shape: "diamond"
+			description: ["Can place up to 9 blocks at once!"]
+			id: "638165806CD28566"
+			tasks: [{
+				id: "2422238994B5A2B6"
+				type: "item"
+				item: {
+					id: "constructionwand:stone_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3E58EB7D474AD011"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 4
+			}]
+		}
+		{
+			x: 18.0d
+			y: 4.0d
+			shape: "diamond"
+			description: ["Can place up to 27 blocks at once!"]
+			id: "63F28BD0AF216A10"
+			tasks: [{
+				id: "77D5E494E9766A32"
+				type: "item"
+				item: {
+					id: "constructionwand:iron_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "00D4B16F793CCB47"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 8
+			}]
+		}
+		{
+			x: 18.5d
+			y: 4.5d
+			shape: "diamond"
+			description: ["Can place up to 128 blocks at once!"]
+			id: "6C2EDE1E42BE0A94"
+			tasks: [{
+				id: "04327FC5CC811648"
+				type: "item"
+				item: {
+					id: "constructionwand:diamond_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2014BDC7F591A87B"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 16
+			}]
+		}
+		{
+			x: 19.0d
+			y: 5.0d
+			shape: "diamond"
+			description: ["Can place up to 1024 blocks at once!"]
+			id: "048043A236E1665A"
+			tasks: [{
+				id: "7A6E4CFA7E826A3A"
+				type: "item"
+				item: {
+					id: "constructionwand:infinity_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "177EC61AF8398574"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 32
+			}]
+		}
+		{
+			x: 12.0d
+			y: -1.0d
+			shape: "rsquare"
+			id: "11EF1BF56CF6467F"
+			tasks: [{
+				id: "661AD39C50A7226A"
+				type: "item"
+				item: "nomowanderer:no_soliciting_sign"
+			}]
+			rewards: [{
+				id: "173682B7ED0B8F82"
+				type: "item"
+				item: "nomowanderer:no_soliciting_sign"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			shape: "rsquare"
+			id: "5C879571A9D252AE"
+			tasks: [{
+				id: "475608E181E9584C"
+				type: "item"
+				item: "nomowanderer:no_mo_wanderer_totem"
+			}]
+			rewards: [{
+				id: "1DBC5D96F6320BA9"
+				type: "item"
+				item: "minecraft:totem_of_undying"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 5.0d
+			shape: "diamond"
+			id: "0F68C52D0DC642D4"
+			tasks: [{
+				id: "7D621DB67A125D61"
+				type: "item"
+				item: "darkutils:charm_portal"
+			}]
+			rewards: [{
+				id: "09C50930D84D4C61"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 4.5d
+			shape: "diamond"
+			id: "7A5CF37CA4758C02"
+			tasks: [{
+				id: "0A56F5DA7E15EB11"
+				type: "item"
+				item: "darkutils:charm_sleep"
+			}]
+			rewards: [{
+				id: "571D66825D941604"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 13.0d
+			y: 4.0d
+			shape: "diamond"
+			id: "71DF957C13C681EF"
+			tasks: [{
+				id: "2A5E71D6EC685B78"
+				type: "item"
+				item: "darkutils:charm_experience"
+			}]
+			rewards: [{
+				id: "01B60C6128D1830D"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 13.5d
+			y: 3.5d
+			shape: "diamond"
+			id: "7B7B1D359C4A42DA"
+			tasks: [{
+				id: "0E6395C0634315AA"
+				type: "item"
+				item: "darkutils:charm_gluttony"
+			}]
+			rewards: [{
+				id: "5EAC29F3E3793F35"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 21.25d
+			y: 10.75d
+			shape: "rsquare"
+			id: "2E8A9D0CED3B0627"
+			tasks: [{
+				id: "3803CE27C418CDF3"
+				type: "item"
+				title: "Elevator"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "elevatorid:elevator_white"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_orange"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_magenta"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_light_blue"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_yellow"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_lime"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_pink"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_gray"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_light_gray"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_cyan"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_purple"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_blue"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_brown"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_green"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_red"
+								Count: 1b
+							}
+							{
+								id: "elevatorid:elevator_black"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "79C9AC61C082789D"
+				type: "item"
+				item: "elevatorid:elevator_white"
+			}]
+		}
+		{
+			x: 21.25d
+			y: 11.75d
+			shape: "rsquare"
+			dependencies: ["4055881864FF87C5"]
+			id: "71D5F6597073E0DF"
+			tasks: [{
+				id: "26EE6A09AB9E78F6"
+				type: "item"
+				item: "energymeter:meter"
+			}]
+			rewards: [{
+				id: "37C0AEB28BC9E4B3"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 13.75d
+			y: -1.5d
+			shape: "square"
+			subtitle: "Mooooooooooooooo !"
+			dependencies: [
+				"54DC8317D4B7A510"
+				"677773349FE468C2"
+				"3AC2609EA33632B8"
+			]
+			id: "716B778C431200EB"
+			tasks: [{
+				id: "27347C05B60753DB"
+				type: "item"
+				item: {
+					id: "shrink:shrinking_device"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "5975010576D72AE6"
+					type: "item"
+					item: {
+						id: "shrink:mob_bottle"
+						Count: 1b
+						tag: {
+							Brain: {
+								memories: { }
+							}
+							HurtByTimestamp: 0
+							ForgeData: { }
+							Attributes: [
+								{
+									Base: 0.0d
+									Name: "minecraft:generic.knockback_resistance"
+								}
+								{
+									Base: 0.08d
+									Name: "forge:entity_gravity"
+								}
+								{
+									Base: 16.0d
+									Modifiers: [{
+										Operation: 1
+										UUID: [I;
+											1935233019
+											1998474279
+											-1815266517
+											34271669
+										]
+										Amount: 0.05105994877915796d
+										Name: "Random spawn bonus"
+									}]
+									Name: "minecraft:generic.follow_range"
+								}
+								{
+									Base: 0.20000000298023224d
+									Name: "minecraft:generic.movement_speed"
+								}
+							]
+							Invulnerable: 0b
+							FallFlying: 0b
+							ForcedAge: 0
+							PortalCooldown: 0
+							AbsorptionAmount: 0.0f
+							FallDistance: 0.0f
+							InLove: 0
+							CanUpdate: 1b
+							DeathTime: 0s
+							BoundingBox: [
+								-92.94999998807907d
+								63.0d
+								1884.050000011921d
+								-92.05000001192093d
+								64.39999997615814d
+								1884.949999988079d
+							]
+							ForgeCaps: {
+								"structure_gel:gel_entity": {
+									portal: "structure_gel:empty"
+								}
+								"citadel:extended_entity_data_citadel": { }
+								"mekanism:radiation": {
+									radiation: "1.0E-7d"
+								}
+								"pneumaticcraft:hacking": { }
+								"shrink:shrunk": {
+									width: 0.9f
+									defaulteyeheight: 1.3f
+									scale: 10.050002f
+									isshrinking: 1b
+									fixed: 0b
+									isshrunk: 1b
+									height: 1.4f
+								}
+							}
+							HandDropChances: [
+								0.085f
+								0.085f
+							]
+							PersistenceRequired: 0b
+							id: "minecraft:cow"
+							UUID: [I;
+								-334747941
+								485115880
+								-1127469910
+								169992620
+							]
+							Age: 0
+							Motion: [
+								0.0d
+								-0.0784000015258789d
+								0.0d
+							]
+							Health: 10.0f
+							KubeJSPersistentData: { }
+							LeftHanded: 0b
+							Air: 300s
+							OnGround: 1b
+							CitadelData: { }
+							Rotation: [
+								-41.944824f
+								0.0f
+							]
+							HandItems: [
+								{ }
+								{ }
+							]
+							ArmorDropChances: [
+								0.085f
+								0.085f
+								0.085f
+								0.085f
+							]
+							Pos: [
+								-92.5d
+								63.0d
+								1884.5d
+							]
+							Fire: -1s
+							ArmorItems: [
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							CanPickUpLoot: 0b
+							HurtTime: 0s
+							entity: "minecraft:cow"
+						}
+					}
+				}
+				{
+					id: "111B69102A61466D"
+					type: "item"
+					item: {
+						id: "shrink:mob_bottle"
+						Count: 1b
+						tag: {
+							Brain: {
+								memories: { }
+							}
+							HurtByTimestamp: 1580
+							Attributes: [
+								{
+									Base: 0.8999999761581421d
+									Name: "minecraft:generic.knockback_resistance"
+								}
+								{
+									Base: 15.0d
+									Name: "minecraft:generic.attack_damage"
+								}
+								{
+									Base: 0.0d
+									Name: "minecraft:generic.armor"
+								}
+								{
+									Base: 1.0d
+									Name: "forge:swim_speed"
+								}
+								{
+									Base: 0.08d
+									Name: "forge:entity_gravity"
+								}
+								{
+									Base: 32.0d
+									Modifiers: [{
+										Operation: 1
+										UUID: [I;
+											1812432935
+											247876758
+											-2085011746
+											-631644724
+										]
+										Amount: 0.01216496835251498d
+										Name: "Random spawn bonus"
+									}]
+									Name: "minecraft:generic.follow_range"
+								}
+								{
+									Base: 0.3499999940395355d
+									Name: "minecraft:generic.movement_speed"
+								}
+								{
+									Base: 80.0d
+									Name: "minecraft:generic.max_health"
+								}
+							]
+							Invulnerable: 0b
+							Carpet: -1
+							AbsorptionAmount: 0.0f
+							FallDistance: 0.0f
+							InLove: 0
+							CanUpdate: 1b
+							ChargeCooldown: 0
+							ForgeCaps: {
+								"structure_gel:gel_entity": {
+									portal: "structure_gel:empty"
+								}
+								"citadel:extended_entity_data_citadel": { }
+								"mekanism:radiation": {
+									radiation: "1.0E-7d"
+								}
+								"pneumaticcraft:hacking": { }
+								"shrink:shrunk": {
+									width: 2.1f
+									defaulteyeheight: 2.125f
+									scale: 0.21f
+									isshrinking: 1b
+									fixed: 0b
+									isshrunk: 1b
+									height: 2.5f
+								}
+							}
+							HandDropChances: [
+								0.085f
+								0.085f
+							]
+							PersistenceRequired: 0b
+							Items: [ ]
+							id: "alexsmobs:elephant"
+							UUID: [I;
+								-139685216
+								-1494595430
+								-2073495642
+								1619742342
+							]
+							Air: 300s
+							CitadelData: { }
+							HandItems: [
+								{ }
+								{ }
+							]
+							ArmorDropChances: [
+								0.085f
+								0.085f
+								0.085f
+								0.085f
+							]
+							Pos: [
+								-80.51490611430884d
+								64.0d
+								1855.952811342891d
+							]
+							CanPickUpLoot: 0b
+							HurtTime: 0s
+							Chested: 0b
+							ForgeData: { }
+							Sitting: 0b
+							FallFlying: 0b
+							ForcedAge: 0
+							PortalCooldown: 0
+							Tamed: 0b
+							DeathTime: 0s
+							ForcedToSit: 0b
+							BoundingBox: [
+								-81.66490609046699d
+								64.0d
+								1854.8028113667328d
+								-79.3649061381507d
+								66.75d
+								1857.1028113190491d
+							]
+							Age: 0
+							Motion: [
+								-0.007522705966863222d
+								-0.0784000015258789d
+								-0.04999999839584514d
+							]
+							Health: 80.0f
+							Tusked: 1b
+							Trader: 0b
+							KubeJSPersistentData: { }
+							LeftHanded: 0b
+							OnGround: 1b
+							Rotation: [
+								160.58043f
+								0.0f
+							]
+							ElephantSitting: 0b
+							Fire: -1s
+							ArmorItems: [
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							DespawnDelay: 47999
+							Standing: 0b
+							entity: "alexsmobs:elephant"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Sleeping Bag"
+			icon: "comforts:sleeping_bag_light_blue"
+			x: 10.0d
+			y: 10.75d
+			shape: "rsquare"
+			id: "38D2E67E3EAF0C45"
+			tasks: [{
+				id: "0C6A1F0C9EC0F8BE"
+				type: "item"
+				title: "Sleeping Bag"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "comforts:sleeping_bag_white"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_orange"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_magenta"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_light_blue"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_yellow"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_lime"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_pink"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_gray"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_light_gray"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_cyan"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_purple"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_blue"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_brown"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_green"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_red"
+								Count: 1b
+							}
+							{
+								id: "comforts:sleeping_bag_black"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "3E85F18B682C0B6D"
+				type: "item"
+				item: "upgrade_aquatic:bedroll"
+			}]
+		}
+		{
+			title: "Hammock"
+			icon: "comforts:hammock_light_blue"
+			x: 10.0d
+			y: 11.75d
+			shape: "rsquare"
+			id: "4CF7A627823E69EE"
+			tasks: [
+				{
+					id: "01AA8FA7AA463E6F"
+					type: "item"
+					title: "Hammock Cloth"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "comforts:hammock_white"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_orange"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_magenta"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_light_blue"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_yellow"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_lime"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_pink"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_gray"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_light_gray"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_cyan"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_purple"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_blue"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_brown"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_green"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_red"
+									Count: 1b
+								}
+								{
+									id: "comforts:hammock_black"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "44D2161D9E02A376"
+					type: "item"
+					item: "comforts:rope_and_nail"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "45E643A560CCBEEF"
+				type: "item"
+				item: "comforts:hammock_purple"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 5.5d
+			shape: "hexagon"
+			subtitle: "The Schematicannon is required for building a loaded and positioned Schematic"
+			description: [
+				"It will use materials from adjacent inventories unless a Schematicannon Creatifier Crate has been placed next to it."
+				""
+				"Having prepared a Schematic for placement, you are now ready to consult the Schematicannon for the construction.For this Workflow you will need:"
+				"- A deployed Schematic x1"
+				"- Schematicannon x1"
+				"- Chests or other Inventories x1-4"
+				"- Gunpowder (x1 for every 400 Blocks in the Schematic)"
+				"- Book x1 (Optional)"
+				""
+				"Place the Schematicannon near but outside of the boundaries of your Schematic. It is important that the target area is loaded and not too far away from the cannon."
+				""
+				"As usual for more informations:"
+				"&9&n&ohttps://github.com/Creators-of-Create/Create/wiki/Printing-a-Schematic"
+			]
+			min_width: 300
+			id: "4395EBC605AA491D"
+			tasks: [{
+				id: "15F4852FB6CEAF67"
+				type: "item"
+				item: "create:schematicannon"
+			}]
+			rewards: [{
+				id: "4670291FE62FC25D"
+				type: "item"
+				item: "minecraft:gunpowder"
+				random_bonus: 15
+			}]
+		}
+		{
+			icon: "create:schematic_table"
+			x: 10.5d
+			y: 5.5d
+			shape: "hexagon"
+			subtitle: "Using the Schematic module you can load Structures and bring them into the world"
+			description: [
+				"Craft yourself a Schematic Table and place it in your workshop. Open it up and place the Empty Schematic in the input slot on the left. The checkered area shows the schematic file to be loaded onto the item."
+				"You can change it to any of the files available in the &b&o/schematics&r folder:"
+				""
+				"● Scroll on the text to select the Schematic you would like to load."
+				""
+				"● Press the check-mark Button to confirm your choice. The Table will now start to write the schematic onto the item."
+				""
+				"The processing time of this table depends on the size of the schematic you chose.On the technical side - the schematic is being uploaded onto the server in order to be place-able by server side actors.If your structure is very large, you can leave the Table interface while the upload is happening, and come back later."
+				"Once it finished, take the Schematic from the output slot and hold it in your main hand. For initial positioning, you have two options: Using the Deploy Mode, or to input coordinates directly."
+				""
+				"- For positioning the Schematic without coordinates, Right-click with the Schematic when the bounding-box is near the desired location. (Can be moved later)"
+				""
+				"-For positioning in the Air, Hold Ctrl to lock the selected position at a fixed distance.Modify the distance by Scrolling while Ctrl is being held. Right-click to confirm."
+			]
+			min_width: 300
+			id: "3CBBAC9AEDBDE316"
+			tasks: [
+				{
+					id: "37DF63AF814CC754"
+					type: "item"
+					item: "create:schematic_table"
+				}
+				{
+					id: "5F702C9DAD20A59B"
+					type: "item"
+					item: "create:schematic_and_quill"
+				}
+				{
+					id: "6CC9D93B9DA8B1A9"
+					type: "item"
+					item: "create:empty_schematic"
+				}
+			]
+			rewards: [{
+				id: "2B6CC64711D0C39F"
+				type: "item"
+				item: "create:empty_schematic"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 5.25d
+			shape: "diamond"
+			dependencies: [
+				"54DC8317D4B7A510"
+				"531AF03ED27571D3"
+				"0AC2E1D9469B0B57"
+				"3AC2609EA33632B8"
+			]
+			id: "6330A65090AB666B"
+			tasks: [{
+				id: "290F384C9AA2FBF4"
+				type: "item"
+				item: "ironfurnaces:heater"
+			}]
+			rewards: [{
+				id: "732ADF7EE875E580"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 15.5d
+			y: 4.5d
+			shape: "diamond"
+			dependencies: [
+				"3441111B8198CC9D"
+				"3D3D8B33A6D7BE77"
+			]
+			id: "10EE1D9522E830E5"
+			tasks: [{
+				id: "6D9D2774DD1A67BE"
+				type: "item"
+				item: "ironfurnaces:item_copy"
+			}]
+			rewards: [{
+				id: "1E2B8349F9318999"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 16.0d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: [
+				"14083B579D63FAF8"
+				"3441111B8198CC9D"
+				"109D647ED52D215D"
+			]
+			id: "3C8956111C8648AA"
+			tasks: [{
+				id: "291418BD8BBB6383"
+				type: "item"
+				item: "ironfurnaces:augment_smoking"
+			}]
+			rewards: [{
+				id: "5F0A1CD2726110FB"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 16.5d
+			y: 4.0d
+			shape: "diamond"
+			dependencies: [
+				"3441111B8198CC9D"
+				"109D647ED52D215D"
+			]
+			id: "02D76463D55BA3EC"
+			tasks: [{
+				id: "19B95E4D137AFFAA"
+				type: "item"
+				item: "ironfurnaces:augment_fuel"
+			}]
+			rewards: [{
+				id: "163E8F644C03486D"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 16.0d
+			y: 5.25d
+			shape: "diamond"
+			dependencies: [
+				"54DC8317D4B7A510"
+				"3AC2609EA33632B8"
+				"3D3D8B33A6D7BE77"
+			]
+			id: "4AB791DF05DD76D5"
+			tasks: [{
+				id: "35C14EBE8FA80D4D"
+				type: "item"
+				item: "ironfurnaces:item_heater"
+			}]
+			rewards: [{
+				id: "3811D2C8EBC231AF"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 14.5d
+			y: 4.0d
+			shape: "diamond"
+			dependencies: [
+				"3441111B8198CC9D"
+				"109D647ED52D215D"
+			]
+			id: "642A1973E5978C6F"
+			tasks: [{
+				id: "113377F9E929662B"
+				type: "item"
+				item: "ironfurnaces:augment_speed"
+			}]
+			rewards: [{
+				id: "21F8EA8E6C0EF2EE"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: [
+				"3441111B8198CC9D"
+				"109D647ED52D215D"
+				"0372B8AFF3B231B0"
+			]
+			id: "213B364A5C1CFDA5"
+			tasks: [{
+				id: "7A0A5C44C0895412"
+				type: "item"
+				item: "ironfurnaces:augment_blasting"
+			}]
+			rewards: [{
+				id: "7E0CF937AA303EA3"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 21.75d
+			y: 3.0d
+			shape: "rsquare"
+			dependencies: ["0EE91E18C97F2206"]
+			id: "5BF1FAA9A29BF036"
+			tasks: [{
+				id: "58C45843F58E69B1"
+				type: "item"
+				item: "ironfurnaces:unobtainium_furnace"
+			}]
+			rewards: [{
+				id: "664671399F12FB1C"
+				type: "item"
+				item: "ironfurnaces:rainbow_coal"
+			}]
+		}
+		{
+			x: 20.5d
+			y: 2.75d
+			shape: "rsquare"
+			dependencies: ["7D7DAFCF00B389A6"]
+			id: "0EE91E18C97F2206"
+			tasks: [{
+				id: "40053EEF44B2101D"
+				type: "item"
+				item: "ironfurnaces:vibranium_furnace"
+			}]
+			rewards: [{
+				id: "34D815740282BCFA"
+				type: "item"
+				item: "minecraft:coal"
+				count: 22
+			}]
+		}
+		{
+			x: 19.25d
+			y: 2.5d
+			shape: "rsquare"
+			dependencies: ["20C428EA1F5489F6"]
+			id: "7D7DAFCF00B389A6"
+			tasks: [{
+				id: "745BE6B96149DD26"
+				type: "item"
+				item: "ironfurnaces:allthemodium_furnace"
+			}]
+			rewards: [{
+				id: "5D4384B6D29F8B34"
+				type: "item"
+				item: "minecraft:coal"
+				count: 20
+			}]
+		}
+		{
+			x: 18.0d
+			y: 2.25d
+			shape: "rsquare"
+			dependencies: [
+				"79B1C8033477ADC2"
+				"2E7BFDA1FA247D89"
+				"121DF7B31DB4BEF8"
+				"61DE66EC5C066250"
+			]
+			id: "20C428EA1F5489F6"
+			tasks: [{
+				id: "69FAE3C1138BFD63"
+				type: "item"
+				item: "ironfurnaces:netherite_furnace"
+			}]
+			rewards: [{
+				id: "46FCAFEB71AC3E85"
+				type: "item"
+				item: "minecraft:coal"
+				count: 18
+			}]
+		}
+		{
+			x: 16.75d
+			y: 2.0d
+			shape: "rsquare"
+			dependencies: [
+				"556A3F480CA2CCF8"
+				"31DB904A4019BD4B"
+			]
+			id: "79B1C8033477ADC2"
+			tasks: [{
+				id: "12778D5CFC19861C"
+				type: "item"
+				item: "ironfurnaces:obsidian_furnace"
+			}]
+			rewards: [{
+				id: "538317F1A65CF764"
+				type: "item"
+				item: "minecraft:coal"
+				count: 16
+			}]
+		}
+		{
+			x: 15.5d
+			y: 2.0d
+			shape: "rsquare"
+			dependencies: [
+				"0DFB35270EEE03C3"
+				"7260BE309AD6DF62"
+			]
+			id: "556A3F480CA2CCF8"
+			tasks: [{
+				id: "75DFCCC1F456AB75"
+				type: "item"
+				item: "ironfurnaces:emerald_furnace"
+			}]
+			rewards: [{
+				id: "3BB5CB8593F05C18"
+				type: "item"
+				item: "minecraft:coal"
+				count: 14
+			}]
+		}
+		{
+			x: 14.25d
+			y: 2.0d
+			shape: "rsquare"
+			dependencies: [
+				"567219ED39ED4114"
+				"68E7A3D70265EBF0"
+			]
+			id: "0DFB35270EEE03C3"
+			tasks: [{
+				id: "0C28EE7B6FA5E88C"
+				type: "item"
+				item: "ironfurnaces:diamond_furnace"
+			}]
+			rewards: [{
+				id: "7A0CD19C908A6837"
+				type: "item"
+				item: "minecraft:coal"
+				count: 12
+			}]
+		}
+		{
+			x: 13.0d
+			y: 2.25d
+			shape: "rsquare"
+			dependencies: [
+				"693C170D5C372A5D"
+				"57CC5F007AA6A8DF"
+			]
+			id: "567219ED39ED4114"
+			tasks: [{
+				id: "07D46A0156996876"
+				type: "item"
+				item: "ironfurnaces:gold_furnace"
+			}]
+			rewards: [{
+				id: "26FE3C565402B82F"
+				type: "item"
+				item: "minecraft:coal"
+				count: 10
+			}]
+		}
+		{
+			x: 11.75d
+			y: 2.5d
+			shape: "rsquare"
+			dependencies: [
+				"3843BC8578F53EEA"
+				"414FB84D8E12D770"
+			]
+			id: "693C170D5C372A5D"
+			tasks: [{
+				id: "58E8A92834969F3E"
+				type: "item"
+				item: "ironfurnaces:silver_furnace"
+			}]
+			rewards: [{
+				id: "39BF401644FB1C27"
+				type: "item"
+				item: "minecraft:coal"
+				count: 8
+			}]
+		}
+		{
+			x: 10.5d
+			y: 2.75d
+			shape: "rsquare"
+			dependencies: [
+				"7FE7112E50515EC3"
+				"54DC8317D4B7A510"
+			]
+			id: "3843BC8578F53EEA"
+			tasks: [{
+				id: "328353ED7BFF980F"
+				type: "item"
+				item: "ironfurnaces:iron_furnace"
+			}]
+			rewards: [{
+				id: "4EE56A2387CF61B7"
+				type: "item"
+				item: "minecraft:coal"
+				count: 6
+			}]
+		}
+		{
+			x: 9.25d
+			y: 3.0d
+			shape: "rsquare"
+			dependencies: [
+				"60E0E583C1CBCE56"
+				"08528C5E98F66E31"
+			]
+			id: "7FE7112E50515EC3"
+			tasks: [{
+				id: "5F07E1991BE9376E"
+				type: "item"
+				item: "ironfurnaces:copper_furnace"
+			}]
+			rewards: [{
+				id: "035A3FFE1FB60799"
+				type: "item"
+				item: "minecraft:coal"
+				count: 4
+			}]
+		}
+		{
+			x: 12.5d
+			y: 12.0d
+			shape: "square"
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "7FF7D1CFDA3E23C1"
+			tasks: [{
+				id: "430D2E6AE257D167"
+				type: "item"
+				item: {
+					id: "modularrouters:activator_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6C753BB71AA17330"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 14.0d
+			shape: "square"
+			description: [
+				"This module tries to pull the first eligible item from the adjacent inventory in its configured direction into the router's buffer."
+				""
+				"If the buffer is full or contains something that stacks with nothing in the inventory, nothing will be pulled."
+			]
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "077F54E23DB98DAE"
+			tasks: [{
+				id: "6581055B0AC28458"
+				type: "item"
+				item: {
+					id: "modularrouters:puller_module_1"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "18C10F7DD5432760"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 13.0d
+			shape: "square"
+			description: [
+				"This module extends and withdraws a row of blocks (from the router's buffer) in the module's configured direction."
+				""
+				"By default, the module extends blocks when the router has a redstone signal, and withdraws them when the router has no signal, but a Redstone Enhancement can be added to the module to customise this behaviour."
+				""
+				"Using this module, it's possible to build large extending bridges and doorways."
+			]
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "62E891A8B012DAD6"
+			tasks: [{
+				id: "12E0F092B2F58267"
+				type: "item"
+				item: {
+					id: "modularrouters:extruder_module_1"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5F3F0BFD65B97A07"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 13.5d
+			y: 12.0d
+			shape: "square"
+			description: [
+				"This module tries to break a block, adjacent to the router in the module's configured direction."
+				""
+				"Most blocks are breakable, although anything with an unbreakable hardness can not be broken, nor can any fluid blocks."
+				""
+				"If the block is broken, its primary drop(s) will be pulled into the item router's buffer."
+			]
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "7D2B3E0BBA1F8066"
+			tasks: [{
+				id: "1F078B5C71423AC0"
+				type: "item"
+				item: {
+					id: "modularrouters:breaker_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3123CAF29A8BEB02"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 13.5d
+			y: 13.0d
+			shape: "square"
+			description: ["This module behaves rather like the Extruder Module Mk1, but with some important differences."]
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "4679E31D0EAEF85C"
+			tasks: [{
+				id: "1624290B71E758EE"
+				type: "item"
+				item: {
+					id: "modularrouters:extruder_module_2"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "78DF9110EDA6291C"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 14.5d
+			y: 13.0d
+			shape: "square"
+			description: [
+				"This module behaves like the dropper module, except that it also imparts a configurable velocity to the dropped item, potentially throwing the item a considerable distance."
+				""
+				"You can adjust the item's speed, pitch and yaw via the module's GUI."
+			]
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "3DE6B26FAF4BD237"
+			tasks: [{
+				id: "5DFE3C3CCFC6201A"
+				type: "item"
+				item: {
+					id: "modularrouters:flinger_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							Pitch: 0.0f
+							Speed: 0.0f
+							ModuleFilter: { }
+							Direction: "NONE"
+							Yaw: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "56B3C2A7EDE7B9C4"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 14.5d
+			y: 12.0d
+			shape: "square"
+			description: [
+				"This module doesn't actually manipulate items, but instead detects specific items in the router's buffer."
+				""
+				"If the buffer contents are matched by the module's filter, it will make the router emit a redstone signal in the configured direction, or all directions if the configured direction is None."
+				""
+				"The signal level (default: 15) and signal type (default: weak) can be adjust via the module GUI."
+			]
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "0243246953371F59"
+			tasks: [{
+				id: "2D6B19826C380295"
+				type: "item"
+				item: {
+					id: "modularrouters:detector_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							StrongSignal: 0b
+							SignalLevel: 15
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "329E2F31562E911A"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 15.5d
+			y: 12.0d
+			shape: "square"
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "38DA1BD30E1B10D2"
+			tasks: [{
+				id: "362D03B876CD2E4B"
+				type: "item"
+				item: {
+					id: "modularrouters:distributor_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2EC3FBA07821D7A7"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 15.5d
+			y: 13.0d
+			shape: "square"
+			description: [
+				"While Item Routers can't handle fluids directly, they can manipulate fluids if there is a fluid container item in the buffer."
+				""
+				"This includes buckets and any fluid containers added by other mods."
+			]
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "042DDB1FDAA0645F"
+			tasks: [{
+				id: "161B02DD43CF1491"
+				type: "item"
+				item: {
+					id: "modularrouters:fluid_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							FluidDir: 0b
+							MaxTransfer: 1000
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "79FA4B75C35FA81F"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 16.5d
+			y: 13.0d
+			shape: "square"
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "6CFC8DF1EB0C923B"
+			tasks: [{
+				id: "0D5FBB5B032F87EC"
+				type: "item"
+				item: {
+					id: "modularrouters:fluid_module_2"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							FluidDir: 0b
+							MaxTransfer: 1000
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3C4B37729F866D47"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 16.5d
+			y: 12.0d
+			shape: "square"
+			description: [
+				"This module tries to drop an item from the router's buffer as an item entity in the world. "
+				""
+				"The drop will be adjacent to the router in the module's configured direction."
+				""
+				"The item entity will be placed with a zero velocity, unlike the vanilla Dropper which adds an irritating random velocity to the item."
+			]
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "22EFAA1868522D03"
+			tasks: [{
+				id: "32AAC867D94DC396"
+				type: "item"
+				item: {
+					id: "modularrouters:dropper_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "44F6BEF66B6E31AA"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 17.5d
+			y: 12.0d
+			shape: "square"
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "375BC4081E13BD30"
+			tasks: [{
+				id: "2E6A70C781761D93"
+				type: "item"
+				item: {
+					id: "modularrouters:energy_distributor_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "62AE35B25A2BFCE1"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 17.5d
+			y: 13.0d
+			shape: "square"
+			description: ["This module tries to place an item from the router's buffer as a block, adjacent to the router in the module's configured direction."]
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "6F5E77909AE14928"
+			tasks: [{
+				id: "54D1C91A8DC8D484"
+				type: "item"
+				item: {
+					id: "modularrouters:placer_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6EA37A39FC34DF56"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 18.5d
+			y: 13.0d
+			shape: "square"
+			description: [
+				"This module tries to transfer items between the router and a player's own inventory."
+				""
+				"The player can be anywhere in any dimension, making this a rather powerful module."
+			]
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "47577A1D5FD3A9FA"
+			tasks: [{
+				id: "5B4837250BACD144"
+				type: "item"
+				item: {
+					id: "modularrouters:player_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "22A105B274149B81"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 18.5d
+			y: 12.0d
+			shape: "square"
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "3191D602DA278DD2"
+			tasks: [{
+				id: "389F89E7EB26DEE5"
+				type: "item"
+				item: {
+					id: "modularrouters:energy_output_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4ED1EA5A418DF415"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 18.5d
+			y: 14.0d
+			shape: "square"
+			description: [
+				"This dangerous module permanently destroys items in the router's buffer!"
+				""
+				"It is strongly recommended to configure this module with a Whitelist to prevent accidental deletion of valuable items..."
+			]
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "29C10B36B7B5D130"
+			tasks: [{
+				id: "0A82E167BF90349B"
+				type: "item"
+				item: {
+					id: "modularrouters:void_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5BF4C2A5B99F1932"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 17.5d
+			y: 14.0d
+			shape: "square"
+			description: ["This module scans for dropped items in a 13x13x13 cubic area around the router, and absorbs them into the router's buffer, if possible."]
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "033B301D67E728B4"
+			tasks: [{
+				id: "612DA2388AA216FE"
+				type: "item"
+				item: {
+					id: "modularrouters:vacuum_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "309A4F3FF8BB19CF"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 16.5d
+			y: 14.0d
+			shape: "square"
+			description: [
+				"This top-end sender module operates very much like the Mk2 Sender, but can send to any inventory (in any dimension) with no restrictions!"
+				""
+				"Note: the target inventory must be chunk-loaded; Modular Routers will not do this for you."
+			]
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "1DC99012B697B393"
+			tasks: [{
+				id: "16ABFA458E9CB625"
+				type: "item"
+				item: {
+					id: "modularrouters:sender_module_3"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4E541CB8D15E6FBC"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 15.5d
+			y: 14.0d
+			shape: "square"
+			description: ["This more powerful sender module tries to send an item from the router's buffer to a nearby inventory."]
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "495B6600182C5479"
+			tasks: [{
+				id: "3936E184935D39F8"
+				type: "item"
+				item: {
+					id: "modularrouters:sender_module_2"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4A0F2008C00242CE"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 13.5d
+			y: 14.0d
+			shape: "square"
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "1D98BB310BFCBDCC"
+			tasks: [{
+				id: "1157C5E9E1594C59"
+				type: "item"
+				item: {
+					id: "modularrouters:puller_module_2"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3107B22E85D7F0F3"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 15.5d
+			y: 10.25d
+			shape: "octagon"
+			dependencies: ["7AF65DD50D0EDA7A"]
+			size: 1.2d
+			id: "2BE9A56F04E9A59C"
+			tasks: [{
+				id: "334F20E8770B585B"
+				type: "item"
+				item: "modularrouters:blank_module"
+			}]
+			rewards: [{
+				id: "5489951E7417CEBE"
+				type: "item"
+				item: "modularrouters:blank_module"
+			}]
+		}
+		{
+			x: 15.52976190476192d
+			y: 8.043112244898033d
+			shape: "gear"
+			description: [
+				"The Modular Router is the centre of the system: it has a single buffer slot for items, nine module slots, and five upgrade slots."
+				""
+				"The Modular Router has a single-slot buffer for items."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"5E6932FE693B1BAA"
+				"6B12289F3D68A2C1"
+				"15CD0545458B6513"
+			]
+			size: 2.5d
+			id: "7AF65DD50D0EDA7A"
+			tasks: [{
+				id: "22CCC714D20F6623"
+				type: "item"
+				item: "modularrouters:item_router"
+			}]
+			rewards: [{
+				id: "3F95C3F01C0916CE"
+				type: "item"
+				item: "modularrouters:item_router"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 14.0d
+			shape: "square"
+			description: ["This module tries to send an item from the router's buffer to an inventory in the module's configured direction."]
+			dependencies: ["2BE9A56F04E9A59C"]
+			id: "23728F9B42AE8BFB"
+			tasks: [{
+				id: "0D6422E3B2BB9B26"
+				type: "item"
+				item: {
+					id: "modularrouters:sender_module_1"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4D9DE51578D14D6E"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 13.25d
+			y: 8.0d
+			shape: "octagon"
+			dependencies: ["7AF65DD50D0EDA7A"]
+			size: 1.2d
+			id: "037FB1EF30A6D443"
+			tasks: [{
+				id: "124F368F69F494FF"
+				type: "item"
+				item: "modularrouters:blank_upgrade"
+			}]
+			rewards: [{
+				id: "061289142296BA68"
+				type: "item"
+				item: "modularrouters:blank_upgrade"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 9.0d
+			shape: "square"
+			description: [
+				"By default, a router ticks every 20 server ticks, or once per second."
+				""
+				"On each tick, every installed module is executed in order, left to right."
+			]
+			dependencies: ["037FB1EF30A6D443"]
+			id: "511599B20F7EAB7E"
+			tasks: [{
+				id: "7ED287674DC03094"
+				type: "item"
+				item: "modularrouters:speed_upgrade"
+			}]
+			rewards: [{
+				id: "56F1DC4BB50372C4"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 8.0d
+			shape: "square"
+			description: [
+				"This upgrade allows you to disguise the router as another block. Sneak+Right-click the module against a block to record that block on the camouflage upgrade."
+				""
+				"When inserted into a router, that router will take on the appearance of the recorded block."
+			]
+			dependencies: ["037FB1EF30A6D443"]
+			id: "441909867458B81A"
+			tasks: [{
+				id: "3C16680A9F7251C2"
+				type: "item"
+				item: "modularrouters:camouflage_upgrade"
+			}]
+			rewards: [{
+				id: "780E69775AD6B313"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 7.0d
+			shape: "square"
+			description: ["This upgrade makes the router fully immune to explosion damage, and also to being destroyed by boss mobs."]
+			dependencies: ["037FB1EF30A6D443"]
+			id: "6AA09AFC6FAA63DA"
+			tasks: [{
+				id: "7F5137EF26B16CDC"
+				type: "item"
+				item: "modularrouters:blast_upgrade"
+			}]
+			rewards: [{
+				id: "2E510985FDAC825A"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 7.0d
+			shape: "square"
+			dependencies: ["037FB1EF30A6D443"]
+			id: "63C2B0D03BD0C612"
+			tasks: [{
+				id: "4533ECEED8411007"
+				type: "item"
+				item: "modularrouters:energy_upgrade"
+			}]
+			rewards: [{
+				id: "2AE6AD9D0C8FD9AD"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 10.5d
+			y: 8.0d
+			shape: "square"
+			description: ["This upgrade can be used to suppress sounds and particle effects made by item routers, and can be useful if a noisy module is regularly running in a place where a player often is."]
+			dependencies: ["037FB1EF30A6D443"]
+			id: "3DCED36AC1A645B5"
+			tasks: [{
+				id: "3E9ED17BC56E695B"
+				type: "item"
+				item: "modularrouters:muffler_upgrade"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 9.0d
+			shape: "square"
+			description: [
+				"This upgrade is used to guarantee that two or more routers run at the same time."
+				""
+				"The Sync Upgrade has a tuning value of 0 .. 19 (i.e. 1 less than the base router tick rate of 20)."
+				""
+				"This tuning value can be set by right-clicking the Sync Upgrade to open its GUI, or quickly set to a random value by sneak-right-clicking the upgrade."
+			]
+			dependencies: ["037FB1EF30A6D443"]
+			id: "122948B8A9B72C20"
+			tasks: [{
+				id: "4F898009EA149A03"
+				type: "item"
+				item: "modularrouters:sync_upgrade"
+			}]
+			rewards: [{
+				id: "585A5C800F0328E8"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 9.0d
+			shape: "square"
+			description: ["Modules in a router operate on a single item at a time: e.g. a Sender module will send a single item from the router's buffer, regardless of how many items are in the buffer."]
+			dependencies: ["037FB1EF30A6D443"]
+			id: "4CEDC6946C79E792"
+			tasks: [{
+				id: "70F47CDE802FF35E"
+				type: "item"
+				item: "modularrouters:stack_upgrade"
+			}]
+			rewards: [{
+				id: "76514F1D0664815A"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 8.0d
+			shape: "square"
+			description: [
+				"This upgrade, when inserted, will restrict the players who can open the router's GUI."
+				""
+				"By default, it only allows the player who crafted the upgrade."
+			]
+			dependencies: ["037FB1EF30A6D443"]
+			id: "789308C6D247F877"
+			tasks: [{
+				id: "3E80149F426235BD"
+				type: "item"
+				item: "modularrouters:security_upgrade"
+			}]
+			rewards: [{
+				id: "4E3052E3D3E7EF74"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 7.0d
+			shape: "square"
+			description: [
+				"This upgrade only affects the Fluid Module."
+				"It increases the overall fluid transfer rate of the Item Router from the base rate of 50mB/tick by 10mB/tick, up to a maximum of 400mB/tick."
+				""
+				"Therefore the maximum useful number of Fluid Transfer Upgrades in a router is 35."
+			]
+			dependencies: ["037FB1EF30A6D443"]
+			id: "0FE9786F86D02B3D"
+			tasks: [{
+				id: "2088FA39D605C197"
+				type: "item"
+				item: "modularrouters:fluid_upgrade"
+			}]
+			rewards: [{
+				id: "15271BE445A98EF1"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 17.75d
+			y: 8.0d
+			shape: "octagon"
+			dependencies: ["7AF65DD50D0EDA7A"]
+			size: 1.2d
+			id: "6CFD6E1CE7405E59"
+			tasks: [{
+				id: "1D87AB96ED75CF5F"
+				type: "item"
+				item: "modularrouters:augment_core"
+			}]
+			rewards: [{
+				id: "1DC9D82538C96798"
+				type: "item"
+				item: "modularrouters:augment_core"
+			}]
+		}
+		{
+			x: 19.5d
+			y: 9.0d
+			shape: "square"
+			description: [
+				"This augment can be added to any module. Normally, modules are run when the router runs, no questions asked."
+				""
+				"However, if this augment is added to a module, that module can define its own redstone behaviour; an extra button is added to the module's GUI to control this."
+			]
+			dependencies: ["6CFD6E1CE7405E59"]
+			id: "1CD0CBB8131F0E1C"
+			tasks: [{
+				id: "0E0895BB65B4692B"
+				type: "item"
+				item: "modularrouters:redstone_augment"
+			}]
+			rewards: [{
+				id: "3758801C12968391"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 19.5d
+			y: 8.0d
+			shape: "square"
+			description: [
+				"This augment can only be added to the Dropper and Flinger modules."
+				""
+				"It can be stacked; each augment added will increase the pickup delay on dropped/flung items by 10 ticks (0.5 sec)."
+				""
+				"This can be useful if you don't want players accidentally picking up nearby dropped items, for example."
+			]
+			dependencies: ["6CFD6E1CE7405E59"]
+			id: "45375A2F7E5360A6"
+			tasks: [{
+				id: "119485FFA4147237"
+				type: "item"
+				item: "modularrouters:pickup_delay_augment"
+			}]
+			rewards: [{
+				id: "78F1DFB208A98BC1"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 19.5d
+			y: 7.0d
+			shape: "square"
+			description: [
+				"This augment can only be added to the Vacuum Module."
+				""
+				"It allows the Vacuum Module to ignore the normal pickup delay on dropped items - 40 ticks for items dropped by players, and 10 ticks for items dropped by other means and pick up items as soon as it sees them."
+			]
+			dependencies: ["6CFD6E1CE7405E59"]
+			id: "4E8024A60B451274"
+			tasks: [{
+				id: "585A52C7D707F4F3"
+				type: "item"
+				item: "modularrouters:fast_pickup_augment"
+			}]
+			rewards: [{
+				id: "6BEEDE48D98F6C40"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 20.5d
+			y: 7.0d
+			shape: "square"
+			dependencies: ["6CFD6E1CE7405E59"]
+			id: "78A5AD3A617F3E35"
+			tasks: [{
+				id: "741D2578BB40253C"
+				type: "item"
+				item: "modularrouters:filter_round_robin_augment"
+			}]
+			rewards: [{
+				id: "34245ECC2CEB8BBF"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 20.5d
+			y: 8.0d
+			shape: "square"
+			description: [
+				"This augment can be added to any module which has a range (Sender Mk1/Mk2, Puller Mk1/Mk2, Extruder Mk1/Mk2, Vacuum)."
+				""
+				"It can be stacked; each augment will reduce the range of the module by one block."
+				""
+				"This is probably only useful in conjunction with the Vacuum Module, to control the range it scans for items."
+			]
+			dependencies: ["6CFD6E1CE7405E59"]
+			id: "41193073A44A79EA"
+			tasks: [{
+				id: "5887CC116BD6DB00"
+				type: "item"
+				item: "modularrouters:range_down_augment"
+			}]
+			rewards: [{
+				id: "7414DB2DF4C8BDD7"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 20.5d
+			y: 9.0d
+			shape: "square"
+			description: [
+				"The Regulator Augment allows for precise control over how many items may be sent to or pulled from an inventory, or the router's buffer."
+				""
+				"When a module has the Regulator Augment activated, you will see an extra numeric textfield in its GUI where you can configure a limit."
+				""
+				"The module's tooltip text will also show the limit."
+			]
+			dependencies: ["6CFD6E1CE7405E59"]
+			id: "5CDD12B6597A77EE"
+			tasks: [{
+				id: "581BEB467293E9BB"
+				type: "item"
+				item: "modularrouters:regulator_augment"
+			}]
+			rewards: [{
+				id: "6D81ECCAF81477E9"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 21.5d
+			y: 9.0d
+			shape: "square"
+			description: [
+				"This module can be added to any module which handles items (as opposed to blocks or fluids)."
+				""
+				"Adding Stack Augments to a module increases the number of items it can process per tick; each Stack Augment doubles the number of items, up to a maximum of the item's natural stack size (64 for most items)."
+			]
+			dependencies: ["6CFD6E1CE7405E59"]
+			id: "5F7600CB80164892"
+			tasks: [{
+				id: "2DBC3139CDE35AED"
+				type: "item"
+				item: "modularrouters:stack_augment"
+			}]
+			rewards: [{
+				id: "684AF156BF1F7640"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 21.5d
+			y: 8.0d
+			shape: "square"
+			description: [
+				"This augment can be added to any module which has a range (Sender Mk1/Mk2, Puller Mk1/Mk2, Extruder Mk1/Mk2, Vacuum)."
+				""
+				"It can be stacked; each augment will increase the range of the module by one block."
+			]
+			dependencies: ["6CFD6E1CE7405E59"]
+			id: "6C8777B6BAE55128"
+			tasks: [{
+				id: "43F9BF2D45ACA362"
+				type: "item"
+				item: "modularrouters:range_up_augment"
+			}]
+			rewards: [{
+				id: "2A237F40D7B08556"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 22.5d
+			y: 7.5d
+			shape: "square"
+			dependencies: ["6CFD6E1CE7405E59"]
+			id: "1228FF7B324FE670"
+			tasks: [{
+				id: "3324BB43ED5A8983"
+				type: "item"
+				item: "modularrouters:mimic_augment"
+			}]
+			rewards: [{
+				id: "63F841993258CB98"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 21.5d
+			y: 7.0d
+			shape: "square"
+			description: [
+				"This augment can only be added to a Vacuum Module."
+				""
+				"When this augment is added, the Vacuum Module will absorb experience orbs instead of items."
+				""
+				"The orbs will be converted into Bottles o' Enchanting at the rate of 7XP per bottle"
+			]
+			dependencies: ["6CFD6E1CE7405E59"]
+			id: "03E24A59CC0B87DF"
+			tasks: [{
+				id: "0A8753AD16475D85"
+				type: "item"
+				item: "modularrouters:xp_vacuum_augment"
+			}]
+			rewards: [{
+				id: "2318E8B47173AB12"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 22.5d
+			y: 8.5d
+			shape: "square"
+			dependencies: ["6CFD6E1CE7405E59"]
+			id: "40EC26556BB0740B"
+			tasks: [{
+				id: "785837A7B3BB71B3"
+				type: "item"
+				item: "modularrouters:pushing_augment"
+			}]
+			rewards: [{
+				id: "5F56446DF79E258F"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 11.149999999999999d
+			y: 16.5d
+			shape: "hexagon"
+			subtitle: "Basic stuff"
+			description: ["Unlocks Create's and Occultism's Jetpack. "]
+			dependencies: [
+				"137F5768445A7B2E"
+				"41C2A896B9CD146B"
+			]
+			id: "13446A385D0DD1BA"
+			tasks: [{
+				id: "61593DB558BBD1BC"
+				type: "item"
+				item: "ironjetpacks:basic_coil"
+			}]
+			rewards: [{
+				id: "35DAF7F01CD3E293"
+				type: "item"
+				item: "create:andesite_alloy"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 15.5d
+			y: 24.75d
+			shape: "hexagon"
+			subtitle: "I am speed"
+			description: ["Unlocks Botania's and Undergarden's Jetpack. "]
+			dependencies: [
+				"7892883CB3B0A12C"
+				"2F31A00279CCC783"
+			]
+			id: "4207988A2711BFD1"
+			tasks: [{
+				id: "0F8D7188C36794E5"
+				type: "item"
+				item: "ironjetpacks:advanced_coil"
+			}]
+			rewards: [{
+				id: "3247B0D84237A868"
+				type: "item"
+				item: "elementalcraft:swift_alloy_ingot"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 19.75d
+			y: 16.75d
+			shape: "hexagon"
+			subtitle: "Nyoooom"
+			description: ["Unlocks Extreme Reactor's and EnderIO Alloys's Jetpack. "]
+			dependencies: [
+				"19A27F02019AB288"
+				"6DC4C73055E5FE09"
+			]
+			id: "065348771A647171"
+			tasks: [{
+				id: "26F704F83676BA2E"
+				type: "item"
+				item: "ironjetpacks:elite_coil"
+			}]
+			rewards: [{
+				id: "57A01284653608C2"
+				type: "item"
+				item: "bigreactors:cyanite_ingot"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 24.75d
+			y: 20.454251700680267d
+			shape: "hexagon"
+			subtitle: "Faster Than Light"
+			description: ["Unlocks Powah's Jetpack. "]
+			dependencies: [
+				"576932BEEA63B919"
+				"59B336127CA627CD"
+				"109D647ED52D215D"
+			]
+			id: "54ECD5468EAC1B26"
+			tasks: [{
+				id: "2596B01D0360B5CB"
+				type: "item"
+				item: "ironjetpacks:ultimate_coil"
+			}]
+			rewards: [{
+				id: "43ACCE9A2D06828E"
+				type: "item"
+				item: "powah:crystal_spirited"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 20.5d
+			y: 20.454251700680267d
+			shape: "rsquare"
+			subtitle: "The sun in a bottle"
+			description: ["Crafted in Custom Machinery's Alloy Smelter."]
+			dependencies: [
+				"3DA966C6436DB383"
+				"4E811B1DDCA7ACFE"
+				"30E7945206FE2CF7"
+			]
+			id: "28F65AB06F632E4C"
+			tasks: [{
+				id: "2B2DFA3B5D1CB22E"
+				type: "item"
+				item: "ironjetpacks:stellar_cell"
+			}]
+			rewards: [{
+				id: "2B2AAFE31C5EB14F"
+				type: "item"
+				item: "ironjetpacks:inanite_cell"
+			}]
+		}
+		{
+			x: 21.75d
+			y: 18.0d
+			shape: "rsquare"
+			subtitle: "Uhh does anyone know how that works ?"
+			description: ["Crafted in Extended's Crafting Advanced Crafting Table."]
+			dependencies: [
+				"4BD29526B90994E7"
+				"5AC34B619EB27C7F"
+				"23D4D5A08A70D5F6"
+			]
+			id: "5072216A8B07BC59"
+			tasks: [{
+				id: "0B14FE27BA05EC13"
+				type: "item"
+				item: "ironjetpacks:stellar_thruster"
+			}]
+			rewards: [{
+				id: "14938752C9C57793"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_stellar_alloy"
+				random_bonus: 9
+			}]
+		}
+		{
+			x: 20.5d
+			y: 19.204251700680267d
+			shape: "rsquare"
+			subtitle: "The sun is a deadly laser"
+			description: ["Crafted in Extended's Crafting Advanced Crafting Table."]
+			dependencies: [
+				"28F65AB06F632E4C"
+				"4BD29526B90994E7"
+				"5AC34B619EB27C7F"
+			]
+			id: "6271F71E47DA8F8B"
+			tasks: [{
+				id: "6DDDBB4A0FBE14B5"
+				type: "item"
+				item: "ironjetpacks:stellar_capacitor"
+			}]
+			rewards: [{
+				id: "48EF5A33E254C774"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_stellar_alloy"
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 20.5d
+			y: 17.954251700680267d
+			shape: "gear"
+			subtitle: "Stars stored on your back"
+			description: ["Crafted in Extended's Crafting Ultimate Crafting Table."]
+			dependencies: [
+				"6271F71E47DA8F8B"
+				"5072216A8B07BC59"
+				"7D5739EF61CB79DA"
+				"4BD29526B90994E7"
+				"23D4D5A08A70D5F6"
+				"5AC34B619EB27C7F"
+			]
+			id: "35E466F8B378343F"
+			tasks: [{
+				id: "106A505BEDB3CE02"
+				type: "item"
+				item: {
+					id: "ironjetpacks:stellar_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "5116C47A20419971"
+				type: "item"
+				item: "enderioalloys:item_alloy_ingot_stellar_alloy"
+				random_bonus: 9
+			}]
+		}
+		{
+			x: 13.0d
+			y: 23.0d
+			shape: "rsquare"
+			subtitle: "Oooo magic"
+			description: ["Crafted in Botania's Runic Altar."]
+			dependencies: ["679DF08FABBE8A87"]
+			id: "018F1C35300E1792"
+			tasks: [{
+				id: "5F7BF4FC4987368F"
+				type: "item"
+				item: "ironjetpacks:terrasteel_thruster"
+			}]
+			rewards: [{
+				id: "7DA36016A8895F4E"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+			}]
+		}
+		{
+			x: 14.25d
+			y: 20.5d
+			shape: "rsquare"
+			subtitle: "Shiny"
+			description: ["Crafted using Botania's Terrastrial Agglomeration Plate."]
+			dependencies: [
+				"0B086A4E1638EFBA"
+				"7D06301D09F5D628"
+			]
+			id: "59F8023BEB99C34A"
+			tasks: [{
+				id: "387F91B06CC76E1D"
+				type: "item"
+				item: "ironjetpacks:terrasteel_cell"
+			}]
+			rewards: [{
+				id: "74D390E477E15C0E"
+				type: "item"
+				item: "ironjetpacks:otherworldian_cell"
+			}]
+		}
+		{
+			x: 14.25d
+			y: 21.75d
+			shape: "rsquare"
+			subtitle: "Uses mana for electricity"
+			description: ["Crafted in Botania's Runic Altar."]
+			dependencies: [
+				"59F8023BEB99C34A"
+				"69E268DB0F8CB0A3"
+				"679DF08FABBE8A87"
+			]
+			id: "5FFFB9F1D06A332A"
+			tasks: [{
+				id: "0F3BBE2EFBC9FBCD"
+				type: "item"
+				item: "ironjetpacks:terrasteel_capacitor"
+			}]
+			rewards: [{
+				id: "05A295810C9EC95E"
+				type: "item"
+				item: "ironjetpacks:terrasteel_cell"
+			}]
+		}
+		{
+			x: 14.25d
+			y: 23.0d
+			shape: "gear"
+			subtitle: "Magic is in the air "
+			description: ["Crafted using Botania's Terrastrial Agglomeration Plate."]
+			dependencies: [
+				"5FFFB9F1D06A332A"
+				"018F1C35300E1792"
+				"4207988A2711BFD1"
+				"7D06301D09F5D628"
+			]
+			id: "3569AA04F0AE3682"
+			tasks: [{
+				id: "2CB36B0F1C7429DA"
+				type: "item"
+				item: {
+					id: "ironjetpacks:terrasteel_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "31297143E12F9DEB"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 23.25d
+			y: 20.454251700680267d
+			shape: "rsquare"
+			subtitle: "Energy from the void"
+			description: ["Obtained from Environmental Tech's Void Miner Tier 3 or more with the custom \"Black Hole Harvester\" in the End Dimenstion. (Note that the \"Red Lens\" doubles the chances of obtaining it)."]
+			dependencies: [
+				"28F65AB06F632E4C"
+				"3EAB4C4E47E658EA"
+				"51A865804BE34E1F"
+			]
+			id: "685F94719391D77F"
+			tasks: [{
+				id: "438B1C77DBE7D93F"
+				type: "item"
+				item: "ironjetpacks:nitro_cell"
+			}]
+			rewards: [{
+				id: "51F7BBE86B4D5B9A"
+				type: "item"
+				item: "powah:crystal_nitro"
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 23.25d
+			y: 19.454251700680267d
+			shape: "rsquare"
+			subtitle: "Litteral rocket"
+			description: ["Obtained from Environmental Tech's Void Miner Tier 3 or more with the custom \"Black Hole Harvester\" in the End Dimenstion. (Note that the \"Red Lens\" doubles the chances of obtaining it)."]
+			dependencies: [
+				"685F94719391D77F"
+				"3EAB4C4E47E658EA"
+				"51A865804BE34E1F"
+			]
+			id: "0C4BB75A847B5143"
+			tasks: [{
+				id: "2973F35B1A6E6811"
+				type: "item"
+				item: "ironjetpacks:nitro_thruster"
+			}]
+			rewards: [{
+				id: "765CC6038AF91DD4"
+				type: "item"
+				item: "powah:crystal_nitro"
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 23.25d
+			y: 21.454251700680267d
+			shape: "rsquare"
+			subtitle: "If this explodes we're screwed"
+			description: ["Crafted in Environmental Tech's Assembler."]
+			dependencies: ["685F94719391D77F"]
+			id: "07C51EEE022BF8A1"
+			tasks: [{
+				id: "3CD3601E8933C768"
+				type: "item"
+				item: "ironjetpacks:nitro_capacitor"
+			}]
+			rewards: [{
+				id: "1EF71F3C3F7A702B"
+				type: "item"
+				item: "ironjetpacks:nitro_cell"
+			}]
+		}
+		{
+			x: 26.75d
+			y: 20.454251700680267d
+			shape: "gear"
+			subtitle: "I'm fast as f boiiii"
+			description: ["Crafted in Environmental Tech's Assembler."]
+			dependencies: [
+				"0C4BB75A847B5143"
+				"07C51EEE022BF8A1"
+				"54ECD5468EAC1B26"
+				"509BB4FBE8A13799"
+			]
+			id: "61BD6F6549ABCE1D"
+			tasks: [{
+				id: "129FF1FE3245EAEC"
+				type: "item"
+				item: {
+					id: "ironjetpacks:nitro_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "292B643D48C32462"
+				type: "item"
+				item: "powah:crystal_nitro"
+				random_bonus: 9
+			}]
+		}
+		{
+			x: 11.75d
+			y: 20.5d
+			shape: "rsquare"
+			subtitle: "How does that work ?"
+			description: ["Crafted by throwing the mechanical cell into the Spirit Fire from Occultism."]
+			dependencies: [
+				"1273070937E58B44"
+				"28C3F89057684CC6"
+			]
+			id: "0B086A4E1638EFBA"
+			tasks: [{
+				id: "2B1102D29975F698"
+				type: "item"
+				item: "ironjetpacks:otherworldian_cell"
+			}]
+			rewards: [{
+				id: "494AAEAC92824EC7"
+				type: "item"
+				item: "ironjetpacks:mechanical_cell"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 18.0d
+			shape: "rsquare"
+			subtitle: "You can hear demons screaming"
+			description: ["Crafted with Occultism's Ritual \"Eziveus' Spectral Compulsion\"."]
+			dependencies: ["7BF5F871992F55AE"]
+			id: "00B345F47553EA72"
+			tasks: [{
+				id: "6BE671C6EE06FBB5"
+				type: "item"
+				item: "ironjetpacks:otherworldian_thruster"
+			}]
+			rewards: [{
+				id: "2ACD1AA1E77F801B"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
+		}
+		{
+			x: 11.75d
+			y: 19.25d
+			shape: "rsquare"
+			subtitle: "How do demons even have electricity ?"
+			description: ["Crafted with Occultism's Ritual \"Eziveus' Spectral Compulsion\"."]
+			dependencies: [
+				"0B086A4E1638EFBA"
+				"7BF5F871992F55AE"
+			]
+			id: "0ACAD13C5F639666"
+			tasks: [{
+				id: "48A8E404617DC64E"
+				type: "item"
+				item: "ironjetpacks:otherworldian_capacitor"
+			}]
+			rewards: [{
+				id: "7C97BFA3D070AD09"
+				type: "item"
+				item: "ironjetpacks:otherworldian_cell"
+			}]
+		}
+		{
+			x: 11.75d
+			y: 18.0d
+			shape: "gear"
+			subtitle: "It radiates dark magic"
+			description: ["Crafted using Occultism's ritual \"Sevira's Permanent Confinment\"."]
+			dependencies: [
+				"0ACAD13C5F639666"
+				"00B345F47553EA72"
+				"13446A385D0DD1BA"
+				"4DA463AF4ABD0CA4"
+				"0A29B302F28F3AF1"
+			]
+			id: "47BC225F3820724B"
+			tasks: [{
+				id: "18227E535E014002"
+				type: "item"
+				item: {
+					id: "ironjetpacks:otherworldian_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "6933ECC6F1B7F3BC"
+				type: "random"
+				table_id: 8202122937404650615L
+			}]
+		}
+		{
+			x: 16.75d
+			y: 20.5d
+			shape: "rsquare"
+			subtitle: "Un régal"
+			description: ["Crafted in Pneumaticraft's Assembly Line."]
+			dependencies: [
+				"1FDDA157DFAF2A7F"
+				"59F8023BEB99C34A"
+			]
+			id: "4EC4ECA83ADD6135"
+			tasks: [{
+				id: "4D88EAFA902253E5"
+				type: "item"
+				item: "ironjetpacks:regalium_cell"
+			}]
+			rewards: [{
+				id: "053DF75E81A69746"
+				type: "item"
+				item: "ironjetpacks:terrasteel_cell"
+			}]
+		}
+		{
+			x: 18.0d
+			y: 23.0d
+			shape: "rsquare"
+			subtitle: "Whatever it uses to fly, it's good stuff"
+			description: ["Crafted using Pneumaticraft's Pressure Chamber."]
+			dependencies: ["7B9FBBCD2F962A0B"]
+			id: "260F4399A442FB59"
+			tasks: [{
+				id: "21B4F61719F710DE"
+				type: "item"
+				item: "ironjetpacks:regalium_thruster"
+			}]
+			rewards: [{
+				id: "4BF633A20EE19320"
+				type: "item"
+				item: "undergarden:gloomgourd_pie"
+			}]
+		}
+		{
+			x: 16.75d
+			y: 21.75d
+			shape: "rsquare"
+			subtitle: "Stores the energy of the depth"
+			description: ["Crafted using Pneumaticraft's Pressure Chamber."]
+			dependencies: [
+				"4EC4ECA83ADD6135"
+				"7B9FBBCD2F962A0B"
+			]
+			id: "5C2E98450FB34A2C"
+			tasks: [{
+				id: "6F5A4E7073179DDC"
+				type: "item"
+				item: "ironjetpacks:regalium_capacitor"
+			}]
+			rewards: [{
+				id: "20D646E48A8BDFAC"
+				type: "item"
+				item: "ironjetpacks:regalium_cell"
+			}]
+		}
+		{
+			x: 16.75d
+			y: 23.0d
+			shape: "gear"
+			subtitle: "Going to the bottom to reach new height "
+			description: ["Crafted using Pneumaticraft's Pressure Chamber."]
+			dependencies: [
+				"5C2E98450FB34A2C"
+				"260F4399A442FB59"
+				"4207988A2711BFD1"
+				"3569AA04F0AE3682"
+				"7B9FBBCD2F962A0B"
+			]
+			id: "5FA07205D8BC20F7"
+			tasks: [{
+				id: "71C77BD181ADBED7"
+				type: "item"
+				item: {
+					id: "ironjetpacks:regalium_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "7A7BAE785D289725"
+				type: "item"
+				item: "undergarden:regalium_ingot"
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 10.5d
+			y: 20.5d
+			shape: "rsquare"
+			subtitle: "James Watt would be happy"
+			description: ["Crafted in a regular Crafting Table."]
+			min_required_dependencies: 2
+			dependencies: [
+				"41C2A896B9CD146B"
+				"0C9DB078527C8A34"
+				"772D69D5F95A9009"
+			]
+			id: "1273070937E58B44"
+			tasks: [{
+				id: "6AA9B7BECD4A9A5D"
+				type: "item"
+				item: "ironjetpacks:mechanical_cell"
+			}]
+			rewards: [{
+				id: "6A763C7028D358D0"
+				type: "item"
+				item: "create:shaft"
+				random_bonus: 5
+			}]
+		}
+		{
+			x: 9.25d
+			y: 18.0d
+			shape: "rsquare"
+			subtitle: "You sure you want to fly with this ?"
+			description: ["Crafted in Create's Compacter."]
+			dependencies: ["761BAE3E76AB71A3"]
+			id: "164B6A3448808077"
+			tasks: [{
+				id: "1B8910D48D620416"
+				type: "item"
+				item: "ironjetpacks:mechanical_thruster"
+			}]
+			rewards: [{
+				id: "74A379006BE42DA0"
+				type: "item"
+				item: "create:andesite_alloy"
+				random_bonus: 9
+			}]
+		}
+		{
+			x: 10.5d
+			y: 19.25d
+			shape: "rsquare"
+			subtitle: "Is that a potato or a capacitor ?"
+			description: ["Crafted in Create's Compacter."]
+			dependencies: ["1273070937E58B44"]
+			id: "525D184EC233D716"
+			tasks: [{
+				id: "22DFD31598C6C566"
+				type: "item"
+				item: "ironjetpacks:mechanical_capacitor"
+			}]
+			rewards: [{
+				id: "029401C55675CFFE"
+				type: "item"
+				item: "ironjetpacks:mechanical_cell"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 18.0d
+			shape: "gear"
+			subtitle: "Click click click"
+			description: ["Crafted using Create's Mechanical Crafters."]
+			dependencies: [
+				"164B6A3448808077"
+				"525D184EC233D716"
+				"13446A385D0DD1BA"
+			]
+			id: "0A29B302F28F3AF1"
+			tasks: [{
+				id: "00E73E0FC500DC53"
+				type: "item"
+				item: {
+					id: "ironjetpacks:mechanical_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "537FBC1A57698DCB"
+				type: "random"
+				table_id: 8720166214252051590L
+			}]
+		}
+		{
+			x: 19.25d
+			y: 20.454251700680267d
+			shape: "rsquare"
+			subtitle: "Pinky"
+			description: ["Crafted using Industiral Foregoing's Dissolution Chamber (With 0.5 Bucket of Rossinite)."]
+			dependencies: [
+				"4EC4ECA83ADD6135"
+				"73368EF2948452D9"
+			]
+			id: "3DA966C6436DB383"
+			tasks: [{
+				id: "21A33FF4882A404E"
+				type: "item"
+				item: "ironjetpacks:inanite_cell"
+			}]
+			rewards: [{
+				id: "311C4ACBEF2E489C"
+				type: "item"
+				item: "ironjetpacks:regalium_cell"
+			}]
+		}
+		{
+			x: 18.0d
+			y: 18.0d
+			shape: "rsquare"
+			subtitle: "I'm not even sure what it shoots out anymore"
+			description: ["Crafted in a regular Crafting Table."]
+			dependencies: ["6B860E2F39D660BE"]
+			id: "7618457DC31F6DFB"
+			tasks: [{
+				id: "124B747C74EF78B6"
+				type: "item"
+				item: "ironjetpacks:inanite_thruster"
+			}]
+			rewards: [{
+				id: "657D232DB43F2999"
+				type: "item"
+				item: "bigreactors:inanite_ingot"
+			}]
+		}
+		{
+			x: 19.25d
+			y: 19.204251700680267d
+			shape: "rsquare"
+			subtitle: "Stores Radiation /!\\"
+			description: ["Crafted in a regular Crafting Table."]
+			dependencies: ["3DA966C6436DB383"]
+			id: "4AF26F6881D26ED4"
+			tasks: [{
+				id: "344776D9D1D04C2E"
+				type: "item"
+				item: "ironjetpacks:inanite_capacitor"
+			}]
+			rewards: [{
+				id: "02244FDAFF17B618"
+				type: "item"
+				item: "ironjetpacks:inanite_cell"
+			}]
+		}
+		{
+			x: 19.25d
+			y: 17.954251700680267d
+			shape: "gear"
+			subtitle: "Beware of the radiations "
+			description: ["Crafted using Industiral Foregoing's Dissolution Chamber (With 8 Buckets of Ether Gas). "]
+			dependencies: [
+				"7618457DC31F6DFB"
+				"4AF26F6881D26ED4"
+				"065348771A647171"
+				"73368EF2948452D9"
+				"44D3AC1068B07EAE"
+			]
+			id: "7D5739EF61CB79DA"
+			tasks: [{
+				id: "6BE5AFC53F55F5E4"
+				type: "item"
+				item: {
+					id: "ironjetpacks:inanite_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [{
+				id: "014D784C0121513F"
+				type: "item"
+				item: "bigreactors:inanite_ingot"
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 7.5d
+			y: 20.5d
+			description: [
+				"Jetpacks are used throughout the game. They come in different tier, ranging from a very slow and with almost no energy jetpack, to one; if not the best way; to travel. "
+				""
+				"Each tier is represented by it's \"coil\". If some quests aren't unlocked check the dependencies !"
+				""
+				"Note that each jetpack is made with a custom craft linked to the mod it represents (i.e mechanical for create)"
+				""
+				"This is everything i've got to say, now fly little one !"
+			]
+			id: "772D69D5F95A9009"
+			tasks: [{
+				id: "1B2E2D3FD5C1EEFD"
+				type: "checkmark"
+				title: "You will need this !"
+			}]
+		}
+		{
+			title: "&dInformation about Create Schematics !"
+			x: 9.5d
+			y: 5.5d
+			shape: "octagon"
+			description: [
+				"On Chroma Endless you will be able to find a lot of custom multiblocks, we advise you to use the create schematics that we have provided you to build the custom machines."
+				""
+				"They are named MM_name_of_machine for Masterfull multiblock and CC_name_of_machine for mutiblock which are made with Compact Crafting !"
+				""
+				"You can find them in the Schematics Table !"
+			]
+			dependencies: [
+				"3CBBAC9AEDBDE316"
+				"4395EBC605AA491D"
+			]
+			id: "55F1A6E2D7BE8D7A"
+			tasks: [{
+				id: "6D87F8382A595E02"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -4.25d
+			shape: "octagon"
+			description: ["The Building Gadget allows you to build structures using a set of different Building Modes."]
+			id: "7927897C054A2F05"
+			tasks: [{
+				id: "63C08F9D4E5EA5A8"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "19FF8B5B413FA910"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 14.25d
+			y: -3.0d
+			shape: "octagon"
+			description: ["The Exchanging Gadget provides basic exchanging abilities using a set of different Exchanging Modes."]
+			id: "1ECD79FC519D7BEC"
+			tasks: [{
+				id: "26709FDD8DE6E0D9"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_exchanging"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1381838741D6E9E5"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 16.75d
+			y: -3.0d
+			shape: "octagon"
+			description: ["The Copy Paste Gadget allows you to select a large radius to copy and paste in a different location."]
+			id: "35FD512BD7931A6B"
+			tasks: [{
+				id: "2EEB142A5677D2BF"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_copy_paste"
+					Count: 1b
+					tag: {
+						mode: 0b
+						template_id: [I;
+							-1555422228
+							667175199
+							-1364033967
+							-260765143
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "60D10A9F00DEB2D3"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 15.5d
+			y: -1.75d
+			shape: "octagon"
+			description: ["The Destruction Gadget allows you to void a large area."]
+			id: "1D56E78A72A293DC"
+			tasks: [{
+				id: "20396F4A3BA589B9"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_destruction"
+					Count: 1b
+					tag: {
+						overlay: 1b
+						fuzzy: 1b
+					}
+				}
+			}]
+			rewards: [{
+				id: "39F9A1937E80D9FD"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 15.5d
+			y: -3.0d
+			shape: "gear"
+			size: 1.5d
+			id: "735DFE40CEA8DAB7"
+			tasks: [{
+				id: "7BFE606899F1FD0B"
+				type: "item"
+				item: "buildinggadgets:template_manager"
+			}]
+			rewards: [{
+				id: "3764C821D768BAE7"
+				type: "item"
+				item: "minecraft:paper"
+				count: 8
+			}]
+		}
+		{
+			x: 18.75d
+			y: -1.0d
+			shape: "rsquare"
+			description: [
+				"&lBinding an Entangled Block&r"
+				"1. Craft an Entangled Block and an Entangled Binder"
+				"2. Place down your Entangled Block"
+				"3. Right-Click on the block you want to bind with the Entangled Binder"
+				"4. Right-Click on your Entangled Block with the Entangled Binder"
+				""
+				"&lUnbinding an Entangled Block&r"
+				"1. Select an empty slot on your hotbar"
+				"2. Start crouching"
+				"3. Right-Click on the Entangled Block"
+			]
+			id: "5458B4B77C7D8370"
+			tasks: [{
+				id: "2D54093870371BE2"
+				type: "item"
+				item: {
+					id: "entangled:block"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "198795C10F913248"
+				type: "item"
+				item: {
+					id: "entangled:block"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 18.75d
+			y: 0.0d
+			shape: "rsquare"
+			description: ["Entangled Binder Allows you to control what blocks bind together!"]
+			id: "05E92D8B7478247F"
+			tasks: [{
+				id: "74297583706C3B04"
+				type: "item"
+				item: {
+					id: "entangled:item"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "627C00120D50E172"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -0.5d
+			description: ["You can trash Items !"]
+			id: "51C1BD39EFFC3779"
+			tasks: [{
+				id: "26B792CA2E0CC56A"
+				type: "item"
+				item: "trashcans:item_trash_can"
+			}]
+			rewards: [{
+				id: "17F133E01BA94163"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: 14.25d
+			y: 0.0d
+			description: ["You can trash Fluids !"]
+			id: "49E136B1520B2146"
+			tasks: [{
+				id: "63BC66BDAA5B7A27"
+				type: "item"
+				item: "trashcans:liquid_trash_can"
+			}]
+			rewards: [{
+				id: "7131C89F8A17C3F3"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: 16.75d
+			y: 0.0d
+			description: ["You can trash Energy !"]
+			id: "025EE85BB25CB285"
+			tasks: [{
+				id: "79BA239AC69D75F4"
+				type: "item"
+				item: "trashcans:energy_trash_can"
+			}]
+			rewards: [{
+				id: "5A4F630289C240B4"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: 15.5d
+			y: 0.75d
+			description: ["You can trash everything."]
+			dependencies: [
+				"025EE85BB25CB285"
+				"49E136B1520B2146"
+				"51C1BD39EFFC3779"
+			]
+			id: "4A47C3C6F8C08B44"
+			tasks: [{
+				id: "7799A4A0F862DDEB"
+				type: "item"
+				item: "trashcans:ultimate_trash_can"
+			}]
+			rewards: [{
+				id: "683C96F142D7FDFA"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 8.75d
+			y: 15.25d
+			shape: "diamond"
+			subtitle: "Tier 2"
+			description: ["&bEnergy Capacity: 8,000,000 FE"]
+			dependencies: ["2D31986387CE4C65"]
+			id: "7598222D3C2DDB3B"
+			tasks: [{
+				id: "537E59A687B230C5"
+				type: "item"
+				item: "fluxnetworks:herculean_flux_storage"
+			}]
+			rewards: [{
+				id: "36A6C76CA8B18AAB"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 8
+			}]
+		}
+		{
+			x: 8.25d
+			y: 14.75d
+			shape: "diamond"
+			subtitle: "Used to Store Energy in the network"
+			description: [
+				"Flux Storage is used to store excess energy. It will only be filled once each Flux Point has received enough energy."
+				""
+				"This energy can only be accessed by removing energy with a Flux Point."
+				""
+				"&7&lThis energy can only be accessed by removing energy with a Flux Point."
+				""
+				"&bEnergy Capacity: 1,000,000 FE"
+			]
+			dependencies: ["1F71F911773ED178"]
+			min_width: 240
+			id: "2D31986387CE4C65"
+			tasks: [{
+				id: "0CAE0D826DE41651"
+				type: "item"
+				item: "fluxnetworks:basic_flux_storage"
+			}]
+			rewards: [{
+				id: "68B8BED45BF6D7CB"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 8
+			}]
+		}
+		{
+			x: 9.25d
+			y: 14.75d
+			shape: "diamond"
+			subtitle: "Tier 3"
+			description: ["&bEnergy Capacity: 128,000,000 FE"]
+			dependencies: ["7598222D3C2DDB3B"]
+			id: "1EA3FA891CD9D86B"
+			tasks: [{
+				id: "27948C2546309C33"
+				type: "item"
+				item: "fluxnetworks:gargantuan_flux_storage"
+			}]
+			rewards: [{
+				id: "230889E5A3AB87A4"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 8
+			}]
+		}
+		{
+			x: 7.75d
+			y: 14.25d
+			shape: "diamond"
+			subtitle: "Other key crafting ingredients of the mod !"
+			dependencies: ["0346878606EED7AF"]
+			min_width: 240
+			id: "641BEA5DCB499C89"
+			tasks: [{
+				id: "6521FD4200918689"
+				type: "item"
+				item: "fluxnetworks:flux_core"
+			}]
+			rewards: [{
+				id: "54DCC65D1BA8A50D"
+				type: "item"
+				item: "fluxnetworks:flux_core"
+			}]
+		}
+		{
+			x: 9.75d
+			y: 14.25d
+			shape: "diamond"
+			subtitle: "Other key crafting ingredients of the mod !"
+			dependencies: ["0346878606EED7AF"]
+			min_width: 240
+			id: "1F71F911773ED178"
+			tasks: [{
+				id: "63E3CC8DDDEC0897"
+				type: "item"
+				item: "fluxnetworks:flux_block"
+			}]
+			rewards: [{
+				id: "2A0C78888A04A36B"
+				type: "item"
+				item: "fluxnetworks:flux_core"
+			}]
+		}
+		{
+			x: 8.75d
+			y: 13.0d
+			shape: "diamond"
+			subtitle: "The key crafting ingredient of the mod"
+			dependencies: ["5E2A78C08B7A29B1"]
+			size: 1.5d
+			id: "0346878606EED7AF"
+			tasks: [{
+				id: "0350848958D861DE"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 8L
+			}]
+			rewards: [{
+				id: "6CC4362872E0CEF5"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 8.75d
+			y: 14.25d
+			shape: "diamond"
+			description: ["Required to activate &lCross-dimensional inventory charging&r"]
+			dependencies: [
+				"1F71F911773ED178"
+				"0D3B58EA40DC53A8"
+			]
+			min_width: 240
+			id: "6FF7B4E1C7187615"
+			tasks: [{
+				id: "77C8636502F22F8F"
+				type: "item"
+				item: "fluxnetworks:flux_controller"
+			}]
+			rewards: [{
+				id: "46B245A1F69F5CBA"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 8
+			}]
+		}
+		{
+			x: 9.25d
+			y: 15.75d
+			shape: "diamond"
+			subtitle: "Used to Remove Energy from the network"
+			description: ["You can remove energy from all sides simultaneously."]
+			dependencies: ["256631A4863B5967"]
+			min_width: 240
+			id: "3AC7B8BCFAEA298F"
+			tasks: [{
+				id: "0C452ACC04DC8B2F"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+			}]
+			rewards: [{
+				id: "279D3EB74E1C2F85"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+			}]
+		}
+		{
+			x: 8.75d
+			y: 16.25d
+			shape: "diamond"
+			subtitle: "The Flux Configurator can also be connected to a network"
+			description: [
+				"● It can be used to access, edit, delete networks on the go. And shares the same GUI as connectors."
+				""
+				"● It can also be used to copy / paste settings between connectors."
+				""
+				"&lCopying Settings:&r Shift-Right Click on a connector to copy it's settings and then Right Click on a connector you wish to paste the settings to. If you right click something which isn't a connector you'll bring up the Network GUI and also you'll be able to edit the settings which the Configurator will paste. The configurator can also be renamed here, with the name field."
+			]
+			dependencies: ["641BEA5DCB499C89"]
+			min_width: 240
+			id: "256631A4863B5967"
+			tasks: [{
+				id: "7A49376458495B60"
+				type: "item"
+				item: "fluxnetworks:flux_configurator"
+			}]
+			rewards: [{
+				id: "310BFE9BA925EA6A"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+				count: 4
+			}]
+		}
+		{
+			x: 8.25d
+			y: 15.75d
+			shape: "diamond"
+			subtitle: "Used for Adding Energy to the network"
+			description: ["You can add energy from all sides simultaneously."]
+			dependencies: ["256631A4863B5967"]
+			min_width: 240
+			id: "4ECC7C1447375BC6"
+			tasks: [{
+				id: "091665EC9CE00211"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
+			rewards: [{
+				id: "450C832EB8DCA1AB"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 27.75d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["032D6D89B4986CC0"]
+			id: "6EE391988F2155A8"
+			tasks: [{
+				id: "77C41A8145F58B1B"
+				type: "item"
+				item: "pipez:advanced_upgrade"
+			}]
+			rewards: [{
+				id: "2965E5D14CECBB2D"
+				type: "item"
+				item: "pipez:advanced_upgrade"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 28.25d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["6EE391988F2155A8"]
+			id: "6846C6A978E3805F"
+			tasks: [{
+				id: "5E70D5AAF4512EBC"
+				type: "item"
+				item: "pipez:ultimate_upgrade"
+			}]
+			rewards: [{
+				id: "48B7BCE8ED402C3B"
+				type: "item"
+				item: "pipez:ultimate_upgrade"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 29.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["6846C6A978E3805F"]
+			id: "69ECF2E281408712"
+			tasks: [{
+				id: "3BF87521C2426870"
+				type: "item"
+				item: "pipez:infinity_upgrade"
+			}]
+			rewards: [{
+				id: "679CE6DC225AD630"
+				type: "item"
+				item: "pipez:infinity_upgrade"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 28.25d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5E14FAAB6F872A18"]
+			id: "032D6D89B4986CC0"
+			tasks: [{
+				id: "328F58E48B7049AC"
+				type: "item"
+				item: "pipez:improved_upgrade"
+			}]
+			rewards: [{
+				id: "04BB8C2CA150EC61"
+				type: "item"
+				item: "pipez:improved_upgrade"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 27.25d
+			shape: "diamond"
+			dependencies: [
+				"659E0ADFDBC41623"
+				"5175DE9956FEAE1D"
+				"15CD0545458B6513"
+				"6B12289F3D68A2C1"
+			]
+			size: 2.0d
+			id: "3DD90A96D72BC85A"
+			tasks: [{
+				id: "5DA4E84E50DC22B8"
+				type: "item"
+				item: "pipez:universal_pipe"
+			}]
+			rewards: [{
+				id: "69EE495DE614964F"
+				type: "item"
+				item: "pipez:universal_pipe"
+				count: 3
+			}]
+		}
+		{
+			x: 16.0d
+			y: 26.25d
+			shape: "diamond"
+			dependencies: ["44CC0C8D21ACB085"]
+			id: "15CD0545458B6513"
+			tasks: [{
+				id: "508A3940637D5BF5"
+				type: "item"
+				item: "pipez:item_pipe"
+			}]
+			rewards: [{
+				id: "50026F524B7250DC"
+				type: "item"
+				item: "pipez:item_pipe"
+				count: 16
+			}]
+		}
+		{
+			x: 16.5d
+			y: 26.75d
+			shape: "diamond"
+			dependencies: ["1E796A43D7E14A82"]
+			id: "6B12289F3D68A2C1"
+			tasks: [{
+				id: "690D7572810902CA"
+				type: "item"
+				item: "pipez:fluid_pipe"
+			}]
+			rewards: [{
+				id: "0CB175FD279FE199"
+				type: "item"
+				item: "pipez:fluid_pipe"
+				count: 16
+			}]
+		}
+		{
+			x: 16.5d
+			y: 25.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"659E0ADFDBC41623"
+				"5175DE9956FEAE1D"
+				"15CD0545458B6513"
+				"6B12289F3D68A2C1"
+			]
+			dependency_requirement: "one_completed"
+			id: "477C8B01B0FED3E8"
+			tasks: [{
+				id: "30BB4B715680DD31"
+				type: "item"
+				item: "pipez:filter_destination_tool"
+			}]
+			rewards: [{
+				id: "1B5FD8193ED90F4A"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 26.25d
+			shape: "diamond"
+			dependencies: ["3CE25095E2661776"]
+			id: "5175DE9956FEAE1D"
+			tasks: [{
+				id: "19F36712BE53EB5C"
+				type: "item"
+				item: "pipez:gas_pipe"
+			}]
+			rewards: [{
+				id: "6104D49E73E58BAB"
+				type: "item"
+				item: "pipez:gas_pipe"
+				count: 8
+			}]
+		}
+		{
+			x: 14.5d
+			y: 25.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"6F12B52BF15AFC39"
+				"5F40E25848C15A4F"
+			]
+			dependency_requirement: "one_completed"
+			id: "5009C69A5F2BF603"
+			tasks: [{
+				id: "4DE097E6B65FB931"
+				type: "item"
+				item: "pipez:wrench"
+			}]
+			rewards: [{
+				id: "2D3024F0DEB2BC8A"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: 14.5d
+			y: 26.75d
+			shape: "diamond"
+			dependencies: [
+				"109D647ED52D215D"
+				"4A018BBC2F5AD675"
+			]
+			id: "659E0ADFDBC41623"
+			tasks: [{
+				id: "3515832DFED2DE70"
+				type: "item"
+				item: "pipez:energy_pipe"
+			}]
+			rewards: [{
+				id: "1B844B76E6F0EEF7"
+				type: "item"
+				item: "pipez:energy_pipe"
+				count: 8
+			}]
+		}
+		{
+			x: 14.5d
+			y: 27.75d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"659E0ADFDBC41623"
+				"5175DE9956FEAE1D"
+				"15CD0545458B6513"
+				"6B12289F3D68A2C1"
+			]
+			dependency_requirement: "one_completed"
+			id: "5E14FAAB6F872A18"
+			tasks: [{
+				id: "075DF069A10BBED0"
+				type: "item"
+				item: "pipez:basic_upgrade"
+			}]
+			rewards: [{
+				id: "529F7CDEEFF20F18"
+				type: "item"
+				item: "pipez:basic_upgrade"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 6.0d
+			shape: "hexagon"
+			dependencies: [
+				"027D4039082CE989"
+				"7E91683FD0EF4C94"
+				"4FF742939987793B"
+			]
+			id: "51037328E98FFA1E"
+			tasks: [{
+				id: "7F65D98B32AD18FB"
+				type: "item"
+				item: {
+					id: "wstweaks:blaze_blade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6A94EA166216A926"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 6.0d
+			shape: "hexagon"
+			dependencies: [
+				"027D4039082CE989"
+				"7E91683FD0EF4C94"
+				"4FF742939987793B"
+			]
+			id: "53BFA2FDD764A234"
+			tasks: [{
+				id: "4479C21DFD77BA45"
+				type: "item"
+				item: {
+					id: "wstweaks:lava_blade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0A1F7B09220AB1E4"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+			}]
+		}
+		{
+			x: 22.499999999999993d
+			y: 13.0d
+			shape: "diamond"
+			dependencies: ["3AC2609EA33632B8"]
+			size: 1.5d
+			id: "7972EC10283246EF"
+			tasks: [{
+				id: "5F8A3DBAF4CB278F"
+				type: "item"
+				item: "scannable:scanner"
+			}]
+			rewards: [{
+				id: "568613B4265B9E77"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 22.5d
+			y: 14.26190476190476d
+			shape: "diamond"
+			dependencies: ["0D3B58EA40DC53A8"]
+			id: "6697C99058C41FA5"
+			tasks: [{
+				id: "2C198389AE64A54A"
+				type: "item"
+				item: "scannable:module_blank"
+			}]
+			rewards: [{
+				id: "240D8D0C6186466F"
+				type: "item"
+				item: "scannable:module_blank"
+			}]
+		}
+		{
+			x: 21.5d
+			y: 14.26190476190476d
+			shape: "diamond"
+			dependencies: ["6697C99058C41FA5"]
+			id: "202FA63D166AA020"
+			tasks: [{
+				id: "72FC5760E4A8D55B"
+				type: "item"
+				item: "scannable:module_range"
+			}]
+			rewards: [{
+				id: "76DA059DC090E07C"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 22.0d
+			y: 14.76190476190476d
+			shape: "diamond"
+			dependencies: ["6697C99058C41FA5"]
+			id: "1B14A7D5D52741B0"
+			tasks: [{
+				id: "18B9CC2260BA06F7"
+				type: "item"
+				item: "scannable:module_entity"
+			}]
+			rewards: [{
+				id: "09B8CABD7B488D83"
+				type: "command"
+				title: "Summon &6Small Cat"
+				icon: "engineersdecor:sign_danger"
+				auto: "no_toast"
+				command: "/summon alexsmobs:tiger"
+				player_command: true
+			}]
+		}
+		{
+			x: 23.0d
+			y: 14.76190476190476d
+			shape: "diamond"
+			dependencies: ["6697C99058C41FA5"]
+			id: "1002B4F6498E2D6A"
+			tasks: [{
+				id: "1D6DFB4CAAF03B42"
+				type: "item"
+				item: "scannable:module_animal"
+			}]
+			rewards: [{
+				id: "2F6F05D7F178F8E4"
+				type: "command"
+				title: "Summon &6Cow"
+				icon: "minecraft:cow_spawn_egg"
+				auto: "no_toast"
+				command: "/summon minecraft:cow"
+				player_command: true
+			}]
+		}
+		{
+			x: 23.5d
+			y: 14.26190476190476d
+			shape: "diamond"
+			dependencies: ["6697C99058C41FA5"]
+			id: "65A288AD24EF8240"
+			tasks: [{
+				id: "6449E43CC13F553D"
+				type: "item"
+				item: "scannable:module_monster"
+			}]
+			rewards: [{
+				id: "319DB5B327C14C3B"
+				type: "command"
+				title: "Summon &6Skeleton"
+				icon: "minecraft:skeleton_spawn_egg"
+				auto: "no_toast"
+				command: "/summon minecraft:skeleton"
+				player_command: true
+			}]
+		}
+		{
+			x: 22.0d
+			y: 15.76190476190476d
+			shape: "diamond"
+			dependencies: ["6697C99058C41FA5"]
+			id: "44860787A372B5E5"
+			tasks: [{
+				id: "62DD224E5DCE3360"
+				type: "item"
+				item: "scannable:module_block"
+			}]
+			rewards: [{
+				id: "1A500D7CE3EFB0B5"
+				type: "item"
+				item: "minecraft:andesite"
+				count: 10
+				random_bonus: 22
+			}]
+		}
+		{
+			x: 22.5d
+			y: 16.26190476190476d
+			shape: "diamond"
+			dependencies: ["6697C99058C41FA5"]
+			id: "7EB5436EC36A095D"
+			tasks: [{
+				id: "5FC3D718B31E1F81"
+				type: "item"
+				item: "scannable:module_ore_common"
+			}]
+			rewards: [{
+				id: "5B714C151A052B8B"
+				type: "item"
+				item: "emendatusenigmatica:coal_ore"
+				count: 3
+				random_bonus: 10
+			}]
+		}
+		{
+			x: 22.5d
+			y: 15.26190476190476d
+			shape: "diamond"
+			dependencies: ["6697C99058C41FA5"]
+			id: "5B0525A4EB6AE21A"
+			tasks: [{
+				id: "57FD136297E5972E"
+				type: "item"
+				item: "scannable:module_ore_rare"
+			}]
+			rewards: [{
+				id: "5068C3CA9D2934D5"
+				type: "item"
+				item: "emendatusenigmatica:diamond_ore"
+				count: 2
+				random_bonus: 5
+			}]
+		}
+		{
+			x: 23.0d
+			y: 15.76190476190476d
+			shape: "diamond"
+			dependencies: ["6697C99058C41FA5"]
+			id: "3E873C31329D9BF0"
+			tasks: [{
+				id: "34F9B0A216428F48"
+				type: "item"
+				item: "scannable:module_fluid"
+			}]
+			rewards: [{
+				id: "03E291B58469D22F"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 18.0d
+			shape: "diamond"
+			dependencies: ["559F61F3E7E1AA0F"]
+			id: "2916786E16B58AEA"
+			tasks: [{
+				id: "7C3F4D7019636FF9"
+				type: "item"
+				item: "chipped:botanist_workbench"
+			}]
+			rewards: [{
+				id: "202F5C99C8946941"
+				type: "item"
+				item: "minecraft:shroomlight"
+				count: 8
+			}]
+		}
+		{
+			x: 15.0d
+			y: 19.0d
+			shape: "diamond"
+			dependencies: ["559F61F3E7E1AA0F"]
+			id: "1F3366A1C6491FA8"
+			tasks: [{
+				id: "488C1EC27BBE218F"
+				type: "item"
+				item: "chipped:glassblower"
+			}]
+			rewards: [{
+				id: "08CF03D545389D7A"
+				type: "item"
+				item: "minecraft:glass"
+				count: 8
+			}]
+		}
+		{
+			x: 16.0d
+			y: 19.0d
+			shape: "diamond"
+			dependencies: ["559F61F3E7E1AA0F"]
+			id: "6FCD15DFE99279E5"
+			tasks: [{
+				id: "01E5B114E9A76366"
+				type: "item"
+				item: "chipped:carpenters_table"
+			}]
+			rewards: [{
+				id: "20F7081F32F6E820"
+				type: "item"
+				item: "minecraft:oak_planks"
+				count: 8
+			}]
+		}
+		{
+			x: 16.5d
+			y: 18.5d
+			shape: "diamond"
+			dependencies: ["559F61F3E7E1AA0F"]
+			id: "696E93D496F81E0D"
+			tasks: [{
+				id: "516F58A66E81C763"
+				type: "item"
+				item: "chipped:loom_table"
+			}]
+			rewards: [{
+				id: "27F38E20D895DE58"
+				type: "item"
+				item: "minecraft:white_wool"
+				count: 8
+			}]
+		}
+		{
+			x: 14.5d
+			y: 18.5d
+			shape: "diamond"
+			dependencies: ["559F61F3E7E1AA0F"]
+			id: "1F27C6879966C76F"
+			tasks: [{
+				id: "063F2C78F7C351C9"
+				type: "item"
+				item: "chipped:mason_table"
+			}]
+			rewards: [{
+				id: "0C590B273A835E00"
+				type: "item"
+				item: "minecraft:gray_concrete"
+				count: 16
+			}]
+		}
+		{
+			x: 15.0d
+			y: 18.0d
+			shape: "diamond"
+			dependencies: ["559F61F3E7E1AA0F"]
+			id: "4EAD195E1AAA5292"
+			tasks: [{
+				id: "00B5170A55677085"
+				type: "item"
+				item: "chipped:alchemy_bench"
+			}]
+			rewards: [{
+				id: "1BC25C66715B3C42"
+				type: "item"
+				item: "minecraft:obsidian"
+				count: 4
+			}]
+		}
+		{
+			x: 15.5d
+			y: 19.5d
+			shape: "diamond"
+			dependencies: ["559F61F3E7E1AA0F"]
+			id: "34AB2FF94120C200"
+			tasks: [{
+				id: "53673B32E0F876D7"
+				type: "item"
+				item: "chipped:mechanist_workbench"
+			}]
+			rewards: [{
+				id: "598C8EB51DF63E0A"
+				type: "item"
+				item: "minecraft:redstone_lamp"
+				count: 4
+			}]
+		}
+		{
+			x: 15.5d
+			y: 18.5d
+			shape: "diamond"
+			description: [
+				"&eChipped&r expands on the variety of blocks you can use in-game."
+				""
+				"The mod offers over 2000 unique building blocks."
+				""
+				"Chipped works in the same way as the stone cutter."
+			]
+			id: "559F61F3E7E1AA0F"
+			tasks: [{
+				id: "1CD3A0A1FB6AF006"
+				type: "checkmark"
+				title: "Chipped"
+			}]
+			rewards: [{
+				id: "6ABE9491DD2DD0AD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 19.25d
+			y: 26.0d
+			shape: "square"
+			description: [
+				"A tugboat powered by Forge Energy, can be charged when docked with a Vessel Charger."
+				""
+				"The tug has an extra slot for a capacitor, this is useful if the tug ran out of energy mid-way and needs to be recharged."
+			]
+			dependencies: ["0AC2E1D9469B0B57"]
+			id: "17FA09C5EBA8FA12"
+			tasks: [{
+				id: "22D215327FE19025"
+				type: "item"
+				item: "littlelogistics:energy_tug"
+			}]
+			rewards: [{
+				id: "7432511AC3C62D06"
+				type: "item"
+				item: {
+					id: "transport:modular_boat"
+					Count: 1b
+					tag: {
+						modules: {
+							moduleInstances: [{
+								instance: {
+									capability: {
+										energy: 0
+									}
+									uniqueId: [I;
+										-1317246881
+										-686274299
+										-1534723833
+										1461390729
+									]
+								}
+								moduleSlot: "transport:cargo"
+								type: "transport:cargo"
+								module: "transport:energy"
+							}]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 19.25d
+			y: 25.0d
+			shape: "square"
+			description: [
+				"A basic tugboat that can operate on any furnace fuel."
+				""
+				"Fuel can be loaded with hoppers placed on top of tug docks."
+			]
+			dependencies: ["4F0254EAFC83FA04"]
+			id: "72147CB81D9DB69A"
+			tasks: [{
+				id: "41A98E1275D8414D"
+				type: "item"
+				item: "littlelogistics:tug"
+			}]
+			rewards: [{
+				id: "4FE25FB0E89BF73B"
+				type: "item"
+				item: {
+					id: "transport:modular_boat"
+					Count: 1b
+					tag: {
+						modules: {
+							moduleInstances: [{
+								instance: {
+									cake: {
+										Properties: {
+											bites: "0"
+										}
+										Name: "minecraft:cake"
+									}
+									uniqueId: [I;
+										-1620672605
+										-67154405
+										-1999009811
+										1831900859
+									]
+								}
+								moduleSlot: "transport:cargo"
+								type: "transport:cargo"
+								module: "transport:cake"
+							}]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 20.25d
+			y: 26.0d
+			shape: "square"
+			description: ["Place under a block of water, works similar to vanilla powered rail. Can be used to force the tug to take a specific route. Does not affect barges. Shift-right-click to rotate."]
+			hide_dependency_lines: true
+			dependencies: ["572DE70FE0E80A42"]
+			id: "28C28E3705B41DB8"
+			tasks: [{
+				id: "59C97B8360FA7D7D"
+				type: "item"
+				item: "littlelogistics:guide_rail_tug"
+			}]
+			rewards: [{
+				id: "50C963562DEA078F"
+				type: "item"
+				item: "littlelogistics:guide_rail_tug"
+				count: 4
+			}]
+		}
+		{
+			x: 20.25d
+			y: 25.0d
+			shape: "square"
+			description: ["&bThe Tug Dock&r can only insert into the tug, place a hopper on top of the dock to extract. Shift right-click the tug dock to flip the dock direction."]
+			hide_dependency_lines: true
+			dependencies: [
+				"572DE70FE0E80A42"
+				"54DC8317D4B7A510"
+			]
+			id: "2976C8F71BD90A63"
+			tasks: [{
+				id: "5379C4D8E3AE005D"
+				type: "item"
+				item: "littlelogistics:tug_dock"
+			}]
+			rewards: [{
+				id: "4CA5B0F2F768CC22"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: 20.25d
+			y: 24.0d
+			shape: "square"
+			description: [
+				"&bTug Route&r stores a route for the tug. When the item is placed in the tug's route slot, the tug will follow the route in order from node 0."
+				""
+				"Right click at any coordinate to add a node to the back of the tug route."
+				"Right click at the location of any existing node to remove it."
+				""
+				"The nodes will be indicated with beams when the item is held in the main hand."
+			]
+			dependencies: [
+				"109D647ED52D215D"
+				"3441111B8198CC9D"
+			]
+			id: "0E99ED4A033B5BF3"
+			tasks: [{
+				id: "5726D2F19DA7618F"
+				type: "item"
+				item: "littlelogistics:tug_route"
+			}]
+			rewards: [{
+				id: "73273CEB71FFB4EE"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: 15.5d
+			y: 33.0d
+			shape: "square"
+			description: ["Emits a redstone signal when a vessel is within 3 blocks in a given direction. Needs a straight line of water."]
+			dependencies: ["572DE70FE0E80A42"]
+			id: "4E18D14B8B6F3A34"
+			tasks: [{
+				id: "7DFE51C82D947E9E"
+				type: "item"
+				item: "littlelogistics:vessel_detector"
+			}]
+			rewards: [{
+				id: "73F9BD4F410818AB"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 4
+			}]
+		}
+		{
+			x: 15.5d
+			y: 32.0d
+			shape: "square"
+			description: ["A charger for &bEnergy Rug&r, connect to any forge energy cable to add power to the charger. Place on top of a dock to charge the vessel when docking."]
+			dependencies: [
+				"0AC2E1D9469B0B57"
+				"3AC2609EA33632B8"
+				"0728FA0EBC3963BA"
+			]
+			id: "11B3FBEFCBA81B64"
+			tasks: [{
+				id: "2F54C3DADAEB9E42"
+				type: "item"
+				item: "littlelogistics:vessel_charger"
+			}]
+			rewards: [{
+				id: "216C9C750644F24A"
+				type: "item"
+				item: "thermal:rf_coil"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 33.0d
+			shape: "square"
+			description: [
+				"A hopper but for fluids, can import from the top and export from the sides."
+				"Can be loaded by right-clicking with buckets."
+				"Can be used to load/unload vessels using Docks."
+			]
+			dependencies: ["7CCCE060E49A883E"]
+			id: "0160BCBD25F5A54B"
+			tasks: [{
+				id: "41E5B3767A45AD75"
+				type: "item"
+				item: "littlelogistics:fluid_hopper"
+			}]
+			rewards: [{
+				id: "0A25B38A0C69D16F"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 33.0d
+			shape: "square"
+			description: [
+				"Assists vessels around sharp corners, should always be used on shard corners or near entrances to narrow waterways."
+				""
+				"Affects both tugs and barges. Shift-right-click to flip direction."
+				""
+				"Must not have a full solid block directly on top."
+			]
+			dependencies: ["572DE70FE0E80A42"]
+			id: "3C5F76E40FB21228"
+			tasks: [{
+				id: "014EC328D5F0CF8A"
+				type: "item"
+				item: "littlelogistics:guide_rail_corner"
+			}]
+			rewards: [{
+				id: "00F2F02DF8717AC5"
+				type: "item"
+				item: "littlelogistics:guide_rail_corner"
+			}]
+		}
+		{
+			x: 15.5d
+			y: 34.0d
+			shape: "square"
+			description: [
+				"Used to link &bVessels&r together."
+				""
+				"Right click vessels in order to create a \"Vesserl train\". A train can only have one tugboat and cannot have loops."
+				"Will break if vessels are more than 20 blocks apart."
+			]
+			dependencies: ["3441111B8198CC9D"]
+			id: "572DE70FE0E80A42"
+			tasks: [{
+				id: "16EDB82BAA34DCF5"
+				type: "item"
+				item: {
+					id: "littlelogistics:spring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2C713A01219E63AE"
+				type: "item"
+				item: {
+					id: "littlelogistics:spring"
+					Count: 1b
+					tag: { }
+				}
+				count: 3
+			}]
+		}
+		{
+			x: 10.75d
+			y: 26.0d
+			shape: "square"
+			description: ["&bThe Barge Docks&r can both output and input to/from the barges, shift-right click to switch the mode. Place a hopper underneath the barge's path to extract resources."]
+			hide_dependency_lines: true
+			dependencies: [
+				"572DE70FE0E80A42"
+				"54DC8317D4B7A510"
+			]
+			id: "5FC04EAB2C9A5BFF"
+			tasks: [{
+				id: "3011640F66D61C8F"
+				type: "item"
+				item: "littlelogistics:barge_dock"
+			}]
+			rewards: [{
+				id: "44642663103EF91A"
+				type: "item"
+				item: "upgrade_aquatic:tooth_lantern"
+			}]
+		}
+		{
+			x: 10.75d
+			y: 25.0d
+			shape: "square"
+			description: ["Use this barge to transport fluids, can be loaded with a Fluid Hopper."]
+			dependencies: [
+				"0728FA0EBC3963BA"
+				"7CCCE060E49A883E"
+			]
+			id: "6886D58F0CDEDC40"
+			tasks: [{
+				id: "51E6FE475AD2C4FD"
+				type: "item"
+				item: "littlelogistics:fluid_barge"
+			}]
+			rewards: [{
+				id: "10D973DA5AA006B3"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			x: 10.75d
+			y: 24.0d
+			shape: "square"
+			description: [
+				"A simple barge that holds items, similar to chest minecart."
+				""
+				"The barge must be docked and part of a tug-train to interface with hoppers."
+			]
+			dependencies: ["0728FA0EBC3963BA"]
+			id: "5ECD7092BD6D6CB8"
+			tasks: [{
+				id: "6A014D568253CA53"
+				type: "item"
+				item: "littlelogistics:barge"
+			}]
+			rewards: [{
+				id: "5107B65337C4389E"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+		}
+		{
+			x: 11.75d
+			y: 26.0d
+			shape: "square"
+			description: ["Nees to be in open water for nets to be deployed. Use on long routes in open oceans to avoir \"Shallow water\" and \"overfishing\" penalties."]
+			dependencies: ["0728FA0EBC3963BA"]
+			id: "48541A9AAB05258E"
+			tasks: [{
+				id: "47D57FDECDE333A8"
+				type: "item"
+				item: "littlelogistics:fishing_barge"
+			}]
+			rewards: [{
+				id: "08E814BF0C110226"
+				type: "item"
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 11.75d
+			y: 25.0d
+			shape: "square"
+			subtitle: "Welcome on board Captain !"
+			description: ["A simple barge that seats one player."]
+			dependencies: ["0728FA0EBC3963BA"]
+			id: "1275849B6A9A4663"
+			tasks: [{
+				id: "69B893015E66FB4E"
+				type: "item"
+				item: "littlelogistics:seater_barge"
+			}]
+			rewards: [{
+				id: "6804788A0C1333C3"
+				type: "item"
+				item: "cfm:cyan_cooler"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 31.0d
+			shape: "hexagon"
+			dependencies: ["54DC8317D4B7A510"]
+			id: "2D43FB509195BCA4"
+			tasks: [{
+				id: "0E9A5FFAE3B58945"
+				type: "item"
+				item: "wormhole:portal_frame"
+			}]
+			rewards: [{
+				id: "67A62B2BEFF48B28"
+				type: "item"
+				item: "wormhole:portal_frame"
+				count: 4
+			}]
+		}
+		{
+			x: 14.5d
+			y: 31.0d
+			shape: "hexagon"
+			dependencies: [
+				"2D43FB509195BCA4"
+				"3D3D8B33A6D7BE77"
+				"42B4D74321A27197"
+			]
+			id: "275F0E1A9C9B1899"
+			tasks: [{
+				id: "3BA0E918A52B8874"
+				type: "item"
+				item: {
+					id: "wormhole:portal_stabilizer"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6EBC51A7B659F28B"
+				type: "item"
+				item: {
+					id: "wormhole:portal_stabilizer"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 30.0d
+			shape: "hexagon"
+			dependencies: [
+				"2B0269A10C4CCA04"
+				"489C740C46074BBD"
+			]
+			id: "6FAC177221C1194F"
+			tasks: [{
+				id: "3137772F79BFF68E"
+				type: "item"
+				item: {
+					id: "wormhole:basic_energy_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0FC12E33BD109748"
+				type: "item"
+				item: "wormhole:portal_frame"
+				count: 2
+			}]
+		}
+		{
+			x: 14.5d
+			y: 30.0d
+			shape: "hexagon"
+			dependencies: ["6FAC177221C1194F"]
+			id: "33661D5C39C1EEB0"
+			tasks: [{
+				id: "2DEF554AF11903D4"
+				type: "item"
+				item: {
+					id: "wormhole:advanced_energy_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5CF69144F8719B95"
+				type: "item"
+				item: "wormhole:portal_frame"
+				count: 2
+			}]
+		}
+		{
+			x: 16.5d
+			y: 30.0d
+			shape: "hexagon"
+			dependencies: [
+				"489C740C46074BBD"
+				"68CBC7E57700B6BE"
+				"3D3D8B33A6D7BE77"
+			]
+			id: "731167C7B277FDC3"
+			tasks: [{
+				id: "028DAFC5CD36FEE7"
+				type: "item"
+				item: {
+					id: "wormhole:basic_target_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "564E6CCFD0667967"
+				type: "item"
+				item: "wormhole:portal_frame"
+				count: 2
+			}]
+		}
+		{
+			x: 17.5d
+			y: 30.0d
+			shape: "hexagon"
+			dependencies: [
+				"731167C7B277FDC3"
+				"489C740C46074BBD"
+				"3D3D8B33A6D7BE77"
+				"058C53606A481B5A"
+			]
+			id: "7B4009295B3B1C49"
+			tasks: [{
+				id: "3F931F1E01979F72"
+				type: "item"
+				item: {
+					id: "wormhole:advanced_target_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "397171D21BED72A1"
+				type: "item"
+				item: "wormhole:portal_frame"
+				count: 2
+			}]
+		}
+		{
+			x: 15.5d
+			y: 30.5d
+			shape: "hexagon"
+			dependencies: [
+				"54DC8317D4B7A510"
+				"109D647ED52D215D"
+				"68E7A3D70265EBF0"
+			]
+			id: "78E8021C1118D465"
+			tasks: [{
+				id: "5832A762A3325CB0"
+				type: "item"
+				item: {
+					id: "wormhole:coal_generator"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "23AFED6E8EACA336"
+				type: "item"
+				item: "minecraft:coal"
+				count: 8
+			}]
+		}
+		{
+			x: 16.5d
+			y: 31.0d
+			shape: "hexagon"
+			dependencies: [
+				"3D3D8B33A6D7BE77"
+				"109D647ED52D215D"
+				"54DC8317D4B7A510"
+				"68E7A3D70265EBF0"
+			]
+			id: "5E09238C6211D544"
+			tasks: [{
+				id: "7F4F786C4A0CA06B"
+				type: "item"
+				item: {
+					id: "wormhole:target_device"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3D570849CAA32B01"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 17.5d
+			y: 31.0d
+			shape: "hexagon"
+			dependencies: [
+				"5E09238C6211D544"
+				"54DC8317D4B7A510"
+				"5269FB3852203971"
+				"058C53606A481B5A"
+			]
+			id: "3D29B363627CFF2F"
+			tasks: [{
+				id: "097122B88553EBBF"
+				type: "item"
+				item: {
+					id: "wormhole:advanced_target_device"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5E5536C8A2D8F986"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 6.25d
+			id: "003C667F315390DD"
+			tasks: [{
+				id: "4B1F01F298FEA8FB"
+				type: "item"
+				title: "Botany Pots"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "botanypots:botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:white_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:orange_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:magenta_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:light_blue_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:yellow_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:lime_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:pink_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:gray_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:light_gray_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:cyan_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:purple_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:blue_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:brown_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:green_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:red_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:black_botany_pot"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0AB3FB4ADE3EE099"
+				type: "item"
+				item: "botanypots:botany_pot"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 6.25d
+			dependencies: [
+				"003C667F315390DD"
+				"380CF1D8364DD30D"
+			]
+			id: "4C66DC19783A95A1"
+			tasks: [{
+				id: "78A37160C0D75AC5"
+				type: "item"
+				title: "Hopper Botany Pots"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "botanypots:hopper_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_white_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_orange_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_magenta_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_light_blue_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_yellow_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_lime_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_pink_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_gray_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_light_gray_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_cyan_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_purple_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_blue_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_brown_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_green_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_red_botany_pot"
+								Count: 1b
+							}
+							{
+								id: "botanypots:hopper_black_botany_pot"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "1162C9799B7DC393"
+				type: "item"
+				item: "botanypots:hopper_botany_pot"
+			}]
+		}
+		{
+			x: 28.0d
+			y: 6.75d
+			shape: "rsquare"
+			dependencies: ["5818D79835BC71DA"]
+			id: "279A04C78949BFC6"
+			tasks: [{
+				id: "2B22EC69493AA31D"
+				type: "item"
+				item: "prefab:item_starter_farm"
+			}]
+			rewards: [{
+				id: "4A154BFF48C8123C"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+				count: 16
+			}]
+		}
+		{
+			x: 28.0d
+			y: 5.75d
+			shape: "rsquare"
+			dependencies: ["279A04C78949BFC6"]
+			id: "716D947E7A743685"
+			tasks: [{
+				id: "19D060200697AE46"
+				type: "item"
+				item: "prefab:item_moderate_farm"
+			}]
+			rewards: [{
+				id: "3597513F7D358B7E"
+				type: "item"
+				item: "sushigocrafting:cucumber_seeds"
+				count: 8
+			}]
+		}
+		{
+			x: 28.0d
+			y: 4.75d
+			shape: "rsquare"
+			dependencies: ["716D947E7A743685"]
+			id: "0AA6706431A68D1F"
+			tasks: [{
+				id: "68475BC62A30FC82"
+				type: "item"
+				item: "prefab:item_advanced_farm"
+			}]
+			rewards: [{
+				id: "068F41C0BBCABBC0"
+				type: "item"
+				item: "simplefarming:sunflower_seeds"
+				count: 8
+			}]
+		}
+		{
+			x: 25.25d
+			y: 9.0d
+			shape: "octagon"
+			dependencies: [
+				"5078188812830472"
+				"489C740C46074BBD"
+			]
+			id: "780A9DA22F2B8B3D"
+			tasks: [{
+				id: "1D6F6DAACA7D52ED"
+				type: "item"
+				item: {
+					id: "prefab:item_modern_buildings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "018A6612E11ACAA8"
+				type: "item"
+				item: "engineersdecor:dark_shingle_roof_chimneytrunk"
+			}]
+		}
+		{
+			x: 30.25d
+			y: 11.25d
+			shape: "square"
+			dependencies: ["489C740C46074BBD"]
+			id: "6838A7591783515A"
+			tasks: [{
+				id: "5E6FCEF2D8AB2FCD"
+				type: "item"
+				item: "prefab:item_warehouse"
+			}]
+			rewards: [{
+				id: "3888AF1857F640D9"
+				type: "item"
+				item: "minecraft:chest"
+				count: 4
+			}]
+		}
+		{
+			x: 30.25d
+			y: 12.25d
+			shape: "square"
+			dependencies: ["6838A7591783515A"]
+			id: "7369922AE8C855ED"
+			tasks: [{
+				id: "5D47CF3181192EDB"
+				type: "item"
+				item: "prefab:item_advanced_warehouse"
+			}]
+			rewards: [{
+				id: "5793A6A326D96E86"
+				type: "item"
+				item: "expandedstorage:iron_chest"
+				count: 4
+			}]
+		}
+		{
+			x: 29.0d
+			y: 10.0d
+			shape: "square"
+			dependencies: ["5818D79835BC71DA"]
+			id: "4511B0D5DFECAC21"
+			tasks: [{
+				id: "2A7974ED4097B397"
+				type: "item"
+				item: {
+					id: "prefab:item_villager_houses"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "53DDE70A7AAA7570"
+				type: "item"
+				item: "prefab:item_pallet_of_bricks"
+			}]
+		}
+		{
+			x: 27.0d
+			y: 9.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: [
+				"5818D79835BC71DA"
+				"489C740C46074BBD"
+				"59A8BE208A1433B3"
+			]
+			id: "2B05605041838C85"
+			tasks: [{
+				id: "72CB8D2181312FA6"
+				type: "item"
+				item: "prefab:item_workshop"
+			}]
+			rewards: [{
+				id: "2E7DB1E8E7BC40A9"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+		}
+		{
+			x: 25.75d
+			y: 12.25d
+			shape: "square"
+			dependencies: ["78346ABB2E20D47C"]
+			id: "465EF35E998E9EA9"
+			tasks: [{
+				id: "3209A895E8EB5FD0"
+				type: "item"
+				item: "prefab:item_advanced_aqua_base"
+			}]
+			rewards: [{
+				id: "73F7079FBA4120D8"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:long_night_vision"
+					}
+				}
+			}]
+		}
+		{
+			x: 28.5d
+			y: 15.25d
+			shape: "hexagon"
+			dependencies: [
+				"0F01F4CCB3915082"
+				"6770AB2A85C49A63"
+			]
+			id: "40F39A63CA623232"
+			tasks: [{
+				id: "2718F4303F25BBCB"
+				type: "item"
+				item: "prefab:item_nether_gate"
+			}]
+			rewards: [{
+				id: "24927E97EFC45D74"
+				type: "item"
+				item: {
+					id: "minecraft:flint_and_steel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 28.0d
+			y: 10.0d
+			shape: "square"
+			dependencies: ["5818D79835BC71DA"]
+			id: "7A28E558A687140A"
+			tasks: [{
+				id: "5861BE518F83D309"
+				type: "item"
+				item: "prefab:item_town_hall"
+			}]
+			rewards: [{
+				id: "1FA9D0EEA01B84FF"
+				type: "item"
+				item: "prefab:item_wooden_crate"
+				count: 32
+			}]
+		}
+		{
+			x: 28.0d
+			y: 9.0d
+			shape: "square"
+			dependencies: ["5818D79835BC71DA"]
+			id: "79DDF8B6DA66F3B1"
+			tasks: [{
+				id: "11228BE0E5255BF1"
+				type: "item"
+				item: "prefab:item_wind_mill"
+			}]
+			rewards: [{
+				id: "683038C7E1D91989"
+				type: "item"
+				item: "supplementaries:wind_vane"
+			}]
+		}
+		{
+			x: 30.75d
+			y: 9.0d
+			shape: "octagon"
+			dependencies: ["5818D79835BC71DA"]
+			id: "2CF31C77D31F5325"
+			tasks: [{
+				id: "1ABEC3FA38A04A93"
+				type: "item"
+				item: "prefab:item_ski_lodge"
+			}]
+			rewards: [{
+				id: "36AE706586A36649"
+				type: "item"
+				item: "minecraft:snowball"
+				count: 64
+			}]
+		}
+		{
+			x: 28.0d
+			y: 8.0d
+			shape: "square"
+			dependencies: ["5818D79835BC71DA"]
+			id: "5694ED605664B052"
+			tasks: [{
+				id: "3A4DCA0A9458C63B"
+				type: "item"
+				item: "prefab:item_saloon"
+			}]
+			rewards: [{
+				id: "205EC67694498645"
+				type: "item"
+				item: "prefab:item_carton_of_eggs"
+				count: 2
+			}]
+		}
+		{
+			x: 27.0d
+			y: 10.0d
+			shape: "square"
+			dependencies: ["5818D79835BC71DA"]
+			id: "52163272E019BC29"
+			tasks: [{
+				id: "55A3BB209A6A4DC7"
+				type: "item"
+				item: "prefab:item_jail"
+			}]
+			rewards: [{
+				id: "765DAEA441C68894"
+				type: "item"
+				item: "supplementaries:cage"
+			}]
+		}
+		{
+			x: 29.0d
+			y: 9.0d
+			shape: "square"
+			dependencies: ["5818D79835BC71DA"]
+			id: "670ED955EB8E4B6C"
+			tasks: [{
+				id: "01B52E440D3EBCCF"
+				type: "item"
+				item: "prefab:item_watch_tower"
+			}]
+			rewards: [{
+				id: "2628F23420EB8CB3"
+				type: "item"
+				item: "prefab:item_ton_of_timber"
+				count: 3
+			}]
+		}
+		{
+			x: 27.5d
+			y: 13.75d
+			shape: "hexagon"
+			dependencies: [
+				"51C9C6085335ABB3"
+				"51E04796F0F37E9D"
+			]
+			id: "3E67BF98F36D6D80"
+			tasks: [{
+				id: "7993841C20830FB7"
+				type: "item"
+				item: "prefab:item_magic_temple"
+			}]
+			rewards: [
+				{
+					id: "7B00136658E555FD"
+					type: "item"
+					item: "minecraft:experience_bottle"
+					count: 8
+				}
+				{
+					id: "26421FC64BEA72CA"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 27.0d
+			y: 14.5d
+			shape: "hexagon"
+			dependencies: ["0BF43EA3825CC0BA"]
+			id: "07926832238C1298"
+			tasks: [{
+				id: "2F7866F03569A214"
+				type: "item"
+				item: "prefab:item_grassy_plain"
+			}]
+			rewards: [{
+				id: "1D6D6AAF79AC92F5"
+				type: "item"
+				item: "minecraft:grass_block"
+				count: 8
+			}]
+		}
+		{
+			x: 25.75d
+			y: 11.25d
+			shape: "square"
+			dependencies: ["0BF43EA3825CC0BA"]
+			id: "78346ABB2E20D47C"
+			tasks: [{
+				id: "59E3B964DD3B1F4C"
+				type: "item"
+				item: "prefab:item_aqua_base"
+			}]
+			rewards: [{
+				id: "7942DF647CA8C1BE"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:water_breathing"
+					}
+				}
+			}]
+		}
+		{
+			x: 29.0d
+			y: 14.5d
+			shape: "hexagon"
+			dependencies: ["0F01F4CCB3915082"]
+			id: "361E10527613BF8F"
+			tasks: [{
+				id: "51F33A5C7FA21F70"
+				type: "item"
+				item: "prefab:item_ender_gateway"
+			}]
+			rewards: [{
+				id: "2E44AC50F2FFCFCE"
+				type: "item"
+				item: "minecraft:ender_eye"
+				count: 6
+			}]
+		}
+		{
+			x: 27.5d
+			y: 15.25d
+			shape: "hexagon"
+			dependencies: ["0976209956D1ADCD"]
+			id: "0427208D1E1467FE"
+			tasks: [{
+				id: "6D7336E175096062"
+				type: "item"
+				item: "prefab:item_mineshaft_entrance"
+			}]
+			rewards: [{
+				id: "0B39962136A704A7"
+				type: "item"
+				item: "chipped:torch_3"
+				count: 32
+			}]
+		}
+		{
+			x: 28.5d
+			y: 13.75d
+			shape: "hexagon"
+			dependencies: ["121DF7B31DB4BEF8"]
+			id: "6B5C99F2CABFA76D"
+			tasks: [{
+				id: "3FABC4291C8443B6"
+				type: "item"
+				item: "prefab:item_defense_bunker"
+			}]
+			rewards: [{
+				id: "6FD2C5D57FAD301B"
+				type: "item"
+				item: "minecraft:dispenser"
+				count: 3
+			}]
+		}
+		{
+			x: 27.0d
+			y: 8.0d
+			shape: "square"
+			dependencies: ["5818D79835BC71DA"]
+			id: "31FCBCD7C99747C7"
+			tasks: [{
+				id: "2700853F61DEE1D0"
+				type: "item"
+				item: "prefab:item_machinery_tower"
+			}]
+			rewards: [{
+				id: "706D4A3148A8711C"
+				type: "item"
+				item: "immersiveengineering:minecart_reinforcedcrate"
+			}]
+		}
+		{
+			x: 28.0d
+			y: 11.75d
+			shape: "gear"
+			dependencies: ["0976209956D1ADCD"]
+			size: 1.5d
+			id: "5FFC2D372F4EF9D1"
+			tasks: [{
+				id: "13C62DD2EED941B5"
+				type: "item"
+				item: {
+					id: "prefab:item_bulldozer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2A741D8CB7F5827B"
+				type: "item"
+				item: {
+					id: "tconstruct:excavator"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.3f
+							"tconstruct:attack_damage": 1.2f
+							"tconstruct:durability": 3.75f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 1.1f
+							"tconstruct:mining_speed": 2.4750001f
+							"tconstruct:attack_damage": 4.2000003f
+							"tconstruct:harvest_level": 2.0f
+							"tconstruct:durability": 1515.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [
+							{
+								name: "tconstruct:knockback"
+								level: 2s
+							}
+							{
+								name: "materialis:polished"
+								level: 4s
+							}
+							{
+								name: "tconstruct:shovel_transform_hidden"
+								level: 1s
+							}
+							{
+								name: "tconstruct:two_handed"
+								level: 1s
+							}
+						]
+						tic_materials: [
+							"materialis:brass"
+							"materialis:brass"
+							"materialis:brass"
+							"materialis:brass"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 29.0d
+			y: 8.0d
+			shape: "square"
+			dependencies: [
+				"5818D79835BC71DA"
+				"489C740C46074BBD"
+			]
+			id: "59A8BE208A1433B3"
+			tasks: [{
+				id: "28B237013B4DC05A"
+				type: "item"
+				item: "prefab:item_moderate_house"
+			}]
+			rewards: [{
+				id: "2FD866DA91D40672"
+				type: "item"
+				item: "morecfm:byg_cherry_mail_box"
+			}]
+		}
+		{
+			x: 28.0d
+			y: 14.5d
+			shape: "hexagon"
+			dependencies: ["0BF43EA3825CC0BA"]
+			id: "6E2FCDB60E58D6A8"
+			tasks: [{
+				id: "58E518C463C8B69E"
+				type: "item"
+				item: {
+					id: "prefab:item_instant_bridge"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4C86BC944B542F91"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+	]
+}

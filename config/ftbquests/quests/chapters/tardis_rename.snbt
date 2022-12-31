@@ -1,0 +1,1824 @@
+{
+	id: "517173498A1D1695"
+	group: "649CE452F2BBF13D"
+	order_index: 3
+	filename: "tardis_rename"
+	title: "&bChapter 4&r &6-&r Tardis"
+	icon: "tardis:telescope"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -42.0d
+			y: -5.75d
+			width: 4.0d
+			height: 6.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/dalek.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -39.25d
+			y: -12.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/item_acces.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -64.0d
+			y: -16.75d
+			width: 5.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/spacesuit.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -59.0d
+			y: -11.25d
+			width: 4.0d
+			height: 6.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/dalek2.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -54.5d
+			y: -16.5d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/computer.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -50.75d
+			y: -21.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/drone.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -49.25d
+			y: -3.75d
+			width: 6.0d
+			height: 9.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/tardiss.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: -49.75d
+			y: -10.0d
+			dependencies: ["445EBC860C3ABE3C"]
+			id: "4F888FC4269D104E"
+			tasks: [{
+				id: "748A5A869A5F05FD"
+				type: "item"
+				item: {
+					id: "tardis:manual"
+					Count: 1b
+					tag: {
+						chapter: 14
+						page: 12
+					}
+				}
+			}]
+			rewards: [{
+				id: "08456DCE6CCAD0D3"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -46.25d
+			y: -10.0d
+			shape: "gear"
+			description: ["Found in a village."]
+			hide_dependency_lines: true
+			dependencies: ["32B12D10660F4037"]
+			size: 4.0d
+			id: "445EBC860C3ABE3C"
+			tasks: [{
+				id: "2E3E2E8D303D73BF"
+				type: "item"
+				item: "tardis:telescope"
+			}]
+			rewards: [{
+				id: "037479F6D3CCDEC0"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Tardis Key"
+			icon: "tardis:tardis_key"
+			x: -46.25d
+			y: -13.75d
+			description: ["The Tardis Key is an item that is used to lock and unlock the Tardis."]
+			dependencies: [
+				"2E012C406BEC6CD7"
+				"01247DAB4826AAF3"
+			]
+			id: "1B526DD30E043004"
+			tasks: [{
+				id: "0D5EA9C931C52553"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tardis:key_pirate"
+								Count: 1b
+							}
+							{
+								id: "tardis:key_gallifreyan"
+								Count: 1b
+							}
+							{
+								id: "tardis:tardis_key"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "10D0A9AB8AD9A9BA"
+				type: "item"
+				item: "rftoolsbase:infused_enderpearl"
+			}]
+		}
+		{
+			x: -41.25d
+			y: -15.25d
+			description: ["Allows for crafting of other Upgrades."]
+			dependencies: [
+				"54DC8317D4B7A510"
+				"7260BE309AD6DF62"
+				"1E7C7E14842E3A7B"
+			]
+			id: "3036833D11AB9650"
+			tasks: [{
+				id: "143E262B4428FBB0"
+				type: "item"
+				item: {
+					id: "tardis:blank_upgrade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "128992541AA87C3B"
+				type: "item"
+				item: "elementalcraft:fireite_ingot"
+				count: 2
+			}]
+		}
+		{
+			x: -42.5d
+			y: -14.0d
+			description: ["Allows the telepathic circuits to locate specific structures within 500 blocks of the exterior."]
+			dependencies: ["3036833D11AB9650"]
+			id: "0F8A02D5EB56D6CB"
+			tasks: [{
+				id: "30036C964F5C3651"
+				type: "item"
+				item: {
+					id: "tardis:upgrades/structure"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7A359C02C8A50FAB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -42.5d
+			y: -13.0d
+			description: ["Allows a Tardis to tow another connected Tardis. To connect this upgrade to a Tardis, right click the upgrade on the console of the Timeship you wish to tow, then place this into the Upgrade Slot of the engine belonging to the Tardis that you are using to move the other one."]
+			dependencies: ["3036833D11AB9650"]
+			id: "7D677EE98177CDA2"
+			tasks: [{
+				id: "10455C5393754F15"
+				type: "item"
+				item: {
+					id: "tardis:upgrades/time_link"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6B8AC06F056F9E10"
+				type: "item"
+				item: "tardis:circuits"
+			}]
+		}
+		{
+			x: -41.25d
+			y: -14.0d
+			description: ["Cures poison debuffs and heals all entities below their maximum health in the interior of a Tardis. Takes 1 damage for each heart healed. Currently unable to be repaired."]
+			dependencies: ["3036833D11AB9650"]
+			id: "131F6571537A8D7E"
+			tasks: [{
+				id: "110E46BF56038680"
+				type: "item"
+				item: {
+					id: "tardis:upgrades/zero_room"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1466D18636018321"
+				type: "item"
+				item: "minecraft:ghast_tear"
+			}]
+		}
+		{
+			x: -41.25d
+			y: -13.0d
+			description: ["Allows players with a Tardis key attuned to that Tardis to remotely lock/unlock the Timeship remotely. Works within a limited range of the exterior and an unlimited range within the interior."]
+			dependencies: ["3036833D11AB9650"]
+			id: "7A13637117EF1A6A"
+			tasks: [{
+				id: "00571CD3B0C51D01"
+				type: "item"
+				item: {
+					id: "tardis:upgrades/key_fob"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5FEF9A0BD85B9C1C"
+				type: "item"
+				item: "minecraft:tripwire_hook"
+			}]
+		}
+		{
+			x: -41.25d
+			y: -12.0d
+			description: ["If the exterior is submerged in water, will give nearby water submerged entities the Water Breathing effect."]
+			dependencies: ["3036833D11AB9650"]
+			id: "2C40339B6D0E8C0E"
+			tasks: [{
+				id: "62BCF7E0F2F09236"
+				type: "item"
+				item: {
+					id: "tardis:upgrades/electro_convert"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1D50713A36308A21"
+				type: "item"
+				item: "minecraft:prismarine_crystals"
+			}]
+		}
+		{
+			x: -54.0d
+			y: -9.25d
+			dependencies: ["6C5A409004043E59"]
+			id: "7C02780047FC1C4E"
+			tasks: [{
+				id: "55A78CAF5423BC81"
+				type: "item"
+				item: "tardis:leaky_capacitor"
+			}]
+			rewards: [{
+				id: "09228F517ECC50D2"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -52.5d
+			y: -9.25d
+			hide_dependency_lines: false
+			dependencies: [
+				"7C02780047FC1C4E"
+				"6558A4451C4D3B9B"
+			]
+			id: "3BA3545E0A9DDDF5"
+			tasks: [{
+				id: "12DF56F429B4E8DC"
+				type: "item"
+				item: "tardis:artron_capacitor"
+			}]
+			rewards: [{
+				id: "749E89A229D98487"
+				type: "item"
+				item: "tardis:mercury_bottle"
+			}]
+		}
+		{
+			x: -51.25d
+			y: -9.25d
+			dependencies: ["3BA3545E0A9DDDF5"]
+			id: "1861A8ED425D6810"
+			tasks: [{
+				id: "18D1691A3D15D9F0"
+				type: "item"
+				item: "tardis:artron_capacitor_mid"
+			}]
+			rewards: [{
+				id: "3610A1F899905EBA"
+				type: "item"
+				item: "tardis:mercury_bottle"
+			}]
+		}
+		{
+			x: -51.25d
+			y: -7.75d
+			dependencies: ["1861A8ED425D6810"]
+			id: "685EA473650AFE87"
+			tasks: [{
+				id: "17F2782BA86AA5A8"
+				type: "item"
+				item: "tardis:artron_capacitor_high"
+			}]
+			rewards: [{
+				id: "2EAE7B848FCBEB43"
+				type: "item"
+				item: "tardis:mercury_bottle"
+			}]
+		}
+		{
+			x: -37.0d
+			y: -11.5d
+			hide_dependency_lines: true
+			dependencies: ["6558A4451C4D3B9B"]
+			id: "63A23EAC8AFC90C1"
+			tasks: [{
+				id: "3B152BBE54807C78"
+				type: "item"
+				item: {
+					id: "tardis:artron_battery"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "39FE770F33F7E863"
+				type: "item"
+				item: "tardis:xion_crystal"
+				count: 16
+			}]
+		}
+		{
+			x: -36.75d
+			y: -12.75d
+			dependencies: ["63A23EAC8AFC90C1"]
+			id: "6A7D9B30A8CEB450"
+			tasks: [{
+				id: "4929DBAA022A257A"
+				type: "item"
+				item: {
+					id: "tardis:artron_battery_medium"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5262A85B3AA1F977"
+				type: "item"
+				item: "tardis:circuits"
+			}]
+		}
+		{
+			x: -36.5d
+			y: -14.0d
+			dependencies: ["6A7D9B30A8CEB450"]
+			id: "4E6150E4B58BE8C4"
+			tasks: [{
+				id: "6D8491988E927B74"
+				type: "item"
+				item: "tardis:artron_battery_high"
+			}]
+			rewards: [{
+				id: "7FE180AC1B934564"
+				type: "item"
+				item: "tardis:xion_crystal"
+				count: 16
+			}]
+		}
+		{
+			x: -56.25d
+			y: -6.0d
+			subtitle: "An Alembic is a device that processes raw materials. It can be mined with a pickaxe."
+			description: [
+				"It can be used to :"
+				"-Convert Cinnabar Dust to Mercury Bottles."
+				"-Create Circuit Paste."
+				"{image:chroma:textures/quests/alembic.png width:150 height:200 align:1}"
+			]
+			dependencies: [
+				"08672636B514D519"
+				"2CD1D3F4A706D6BF"
+				"0E6560337D7FFDAE"
+				"679DF08FABBE8A87"
+			]
+			id: "0D4598E401996079"
+			tasks: [{
+				id: "44E8F8DECF6B1BF7"
+				type: "item"
+				item: "tardis:alembic"
+			}]
+			rewards: [{
+				id: "4D327CABA0E00198"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: -54.5d
+			y: -6.0d
+			dependencies: ["0D4598E401996079"]
+			id: "3F83723C50953694"
+			tasks: [{
+				id: "1FB3C599A3762256"
+				type: "item"
+				item: "tardis:circuit_paste"
+			}]
+			rewards: [{
+				id: "17E868471DCFF44C"
+				type: "item"
+				item: "tardis:circuit_paste"
+			}]
+		}
+		{
+			x: -53.0d
+			y: -6.0d
+			dependencies: ["3F83723C50953694"]
+			id: "425D01177270DC27"
+			tasks: [{
+				id: "1A39E5C4BB1B3FA3"
+				type: "item"
+				item: "tardis:circuits"
+			}]
+			rewards: [{
+				id: "63BD6DA36F65D54A"
+				type: "item"
+				item: "thermal:redstone_servo"
+			}]
+		}
+		{
+			x: -56.25d
+			y: -7.75d
+			dependencies: ["0D4598E401996079"]
+			id: "57A8BC4F35239A61"
+			tasks: [{
+				id: "2AC11C32373EDC5E"
+				type: "item"
+				item: "tardis:mercury_bottle"
+			}]
+			rewards: [{
+				id: "29174080E7CBD2B1"
+				type: "item"
+				item: "tardis:mercury_bottle"
+			}]
+		}
+		{
+			x: -33.0d
+			y: -17.5d
+			hide_dependency_lines: true
+			dependencies: ["6558A4451C4D3B9B"]
+			id: "54A50CC1EF5FDF39"
+			tasks: [{
+				id: "64EFD48EF81C7055"
+				type: "item"
+				item: {
+					id: "tardis:sonic"
+					Count: 1b
+					tag: {
+						cap_sync: {
+							mode: "tardis:block_interaction"
+							charge: 500.0f
+							schematics: [ ]
+							progress: 0.0f
+							emmiter: 1
+							handle: 1
+							end: 1
+							activator: 1
+							forge_energy: -1
+						}
+					}
+					ForgeCaps: {
+						"tardis:sonic_cap": {
+							mode: "tardis:block_interaction"
+							charge: 500.0f
+							schematics: [ ]
+							progress: 0.0f
+							emmiter: 1
+							handle: 1
+							end: 1
+							activator: 1
+							forge_energy: -1
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "30E5696AD076AE40"
+				type: "item"
+				item: "tardis:xion_crystal"
+				count: 16
+			}]
+		}
+		{
+			x: -55.75d
+			y: -13.75d
+			description: ["The Waypoint Bank is a block that increases the Tardis' total waypoint capacity."]
+			dependencies: [
+				"7CD75FCA7BA0B415"
+				"1A39E5C4BB1B3FA3"
+			]
+			id: "383BEF7A4E76F4A5"
+			tasks: [{
+				id: "689B9A31B708098D"
+				type: "item"
+				item: "tardis:waypoint_bank"
+			}]
+			rewards: [{
+				id: "085897AAE3D95495"
+				type: "item"
+				item: "tardis:circuits"
+			}]
+		}
+		{
+			title: "Quantiscope"
+			icon: "tardis:quantiscope_brass"
+			x: -52.5d
+			y: -12.5d
+			subtitle: "The Quantiscope is a block that allows users to craft and modify various items."
+			description: [
+				"It can be used to :"
+				"-Modify each casing part of a Sonic Screwdriver."
+				"Note : It does not require any energy to change Sonic casings."
+				"-Craft Tardis Mod Items."
+				"-Repair Tardis Sub-systems"
+				"{image:chroma:textures/quests/quantiscope_fabricate.png width:150 height:150 align:1}"
+				"Sonic Customisation"
+				"{image:chroma:textures/quests/quantiscope_reconfig.png width:150 height:150 align:1}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["425D01177270DC27"]
+			id: "6558A4451C4D3B9B"
+			tasks: [{
+				id: "09241B420CDC6817"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tardis:quantiscope_brass"
+								Count: 1b
+							}
+							{
+								id: "tardis:quantiscope_iron"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "56B0970095675E82"
+				type: "item"
+				item: "tardis:circuits"
+			}]
+		}
+		{
+			x: -50.5d
+			y: -11.0d
+			description: ["The Diagnostic Tool is a multi-purpose device that allows a player to view dashboards and track their Tardis"]
+			dependencies: ["6558A4451C4D3B9B"]
+			id: "53CB21797EB0D903"
+			tasks: [{
+				id: "08B862B1E3ECDD3F"
+				type: "item"
+				item: {
+					id: "tardis:diagnostic_tool"
+					Count: 1b
+					tag: {
+						cap_sync: {
+							rotation_target: 0.0f
+							power: 0
+							subsystems: [ ]
+							on: 0b
+						}
+					}
+					ForgeCaps: {
+						"tardis:locator": {
+							rotation_target: 0.0f
+							power: 0
+							subsystems: [ ]
+							on: 0b
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "59C7F14EADB5E41C"
+				type: "item"
+				item: "tardis:artron_battery"
+			}]
+		}
+		{
+			x: -54.25d
+			y: -12.5d
+			description: ["A Timeship Backdoor is a form of emergency access to a Tardis."]
+			dependencies: ["6558A4451C4D3B9B"]
+			id: "5BBC774C3A787868"
+			tasks: [{
+				id: "7203F58A87C19132"
+				type: "item"
+				item: "tardis:timeship_backdoor"
+			}]
+			rewards: [{
+				id: "7718701D1CA0418B"
+				type: "item"
+				item: "tardis:int_door"
+			}]
+		}
+		{
+			x: -52.5d
+			y: -11.0d
+			description: ["The ARS Tablet is an item used to generate and delete rooms inside the Tardis"]
+			dependencies: [
+				"1A39E5C4BB1B3FA3"
+				"6558A4451C4D3B9B"
+			]
+			id: "3D57CE33D4EA8A14"
+			tasks: [{
+				id: "76AC678AA067253D"
+				type: "item"
+				item: {
+					id: "tardis:ars_tablet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7D685B286D26B37C"
+				type: "item"
+				item: "minecraft:iron_trapdoor"
+			}]
+		}
+		{
+			x: -42.0d
+			y: -10.0d
+			description: [
+				"The Artifact Map is a scroll that holds a Treasure Map that leads to rumoured space-time anomalies."
+				"{image:chroma:textures/quests/map.png width:300 height:150 align:1}"
+			]
+			dependencies: ["445EBC860C3ABE3C"]
+			size: 2.0d
+			id: "3521110EA6252CAA"
+			tasks: [{
+				id: "5D3911BE59E217E2"
+				type: "item"
+				item: "tardis:artifact_map"
+			}]
+			rewards: [{
+				id: "66B7934A096FF9D6"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -50.5d
+			y: -12.5d
+			description: ["The Pocket Watch is a device that allows a player to view the outside world's time whilst inside the Tardis."]
+			dependencies: ["6558A4451C4D3B9B"]
+			id: "1FF942CB25D5A8AD"
+			tasks: [{
+				id: "2E7A662EA33AFDDE"
+				type: "item"
+				item: "tardis:pocket_watch"
+			}]
+			rewards: [{
+				id: "2C6BD8FE797EAB53"
+				type: "item"
+				item: "tardis:xion_crystal"
+				count: 16
+			}]
+		}
+		{
+			x: -55.75d
+			y: -12.5d
+			description: ["The Waypoint Data Crystal is an item that allows players to transfer waypoints from one Tardis to another, or to restore old waypoints."]
+			dependencies: [
+				"6558A4451C4D3B9B"
+				"1A39E5C4BB1B3FA3"
+			]
+			id: "7CD75FCA7BA0B415"
+			tasks: [{
+				id: "55C328607EA119D3"
+				type: "item"
+				item: "tardis:data_crystal"
+			}]
+			rewards: [{
+				id: "15142E96BF0F9A83"
+				type: "item"
+				item: "tardis:xion_crystal"
+				count: 10
+			}]
+		}
+		{
+			x: -39.0d
+			y: -16.75d
+			description: ["The Vortex Manipulator is a portable means of transportation. It can teleport the player to any set of coordinates in the player’s current dimension."]
+			dependencies: ["3B98EA4C8E15AD17"]
+			id: "28A05F8218355507"
+			tasks: [{
+				id: "1C4106253BBBE918"
+				type: "item"
+				item: "tardis:vm_strap"
+			}]
+			rewards: [{
+				id: "140D7AAA8D5EB6BF"
+				type: "item"
+				item: "minecraft:leather"
+				count: 4
+			}]
+		}
+		{
+			x: -38.0d
+			y: -16.75d
+			dependencies: [
+				"5AFF7487B5CA8AC8"
+				"1A39E5C4BB1B3FA3"
+			]
+			id: "203848E34CF7D12C"
+			tasks: [{
+				id: "522150A1B1FD112C"
+				type: "item"
+				item: "tardis:vm_module"
+			}]
+			rewards: [{
+				id: "039D2B1E959DA812"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 4
+			}]
+		}
+		{
+			x: -38.5d
+			y: -14.5d
+			dependencies: [
+				"28A05F8218355507"
+				"203848E34CF7D12C"
+			]
+			id: "3D3AC37237398EDD"
+			tasks: [{
+				id: "20864D166574FC49"
+				type: "item"
+				item: {
+					id: "tardis:vm"
+					Count: 1b
+					tag: {
+						cap_sync: {
+							battery_inv: {
+								Size: 3
+								Items: [ ]
+							}
+							has_teleported: 0b
+							discharge_amount: 0.0f
+							used: 0b
+							total_charge: 0.0f
+						}
+					}
+					ForgeCaps: {
+						"tardis:vortex": {
+							battery_inv: {
+								Size: 3
+								Items: [ ]
+							}
+							discharge_amount: 0.0f
+							has_teleported: 0b
+							used: 0b
+							total_charge: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4AFD8D72FCD14D95"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -38.5d
+			y: -8.75d
+			description: [
+				"Uses"
+				"The Item Access Panel is like an Ender Chest that connects to a Tardis interior dimension's internal Item Buffer."
+				""
+				"This buffer can store up to 9 stacks (9x64) of items which can be transferred around the Tardis."
+				""
+				"-Transferring items wirelessly within Tardis interior dimension."
+				"-Transferring items from Tardis exterior to Tardis interior."
+				"-Transferring items from Tardis interior to Tardis exterior."
+			]
+			dependencies: ["1A39E5C4BB1B3FA3"]
+			id: "1F6EB3B5B3FA9115"
+			tasks: [{
+				id: "6E300877544AA6AB"
+				type: "item"
+				item: "tardis:item_access_panel"
+			}]
+			rewards: [{
+				id: "7875FFFD5E619DE5"
+				type: "item"
+				item: "tardis:circuits"
+			}]
+		}
+		{
+			title: "Rift"
+			icon: "tardis:artron_collector"
+			x: -51.75d
+			y: -17.0d
+			dependencies: ["7249BC3BF63A36B8"]
+			id: "479E2F607957EC9E"
+			tasks: [
+				{
+					id: "3C874F9DC709F1D8"
+					type: "item"
+					item: "tardis:artron_collector"
+				}
+				{
+					id: "17418DC59E31854A"
+					type: "item"
+					item: "tardis:artron_pylon"
+				}
+			]
+			rewards: [{
+				id: "55EBDBF86C2227DB"
+				type: "item"
+				item: "tardis:artron_battery"
+			}]
+		}
+		{
+			x: -50.5d
+			y: -14.25d
+			description: ["The Vortex Detector block is a block similar to the Daylight Sensor. It emits a Redstone signal when it detects if a Tardis is in flight, and can be inverted for the opposite."]
+			dependencies: ["6558A4451C4D3B9B"]
+			id: "17EF84F760BE6F2C"
+			tasks: [{
+				id: "784BF6B929D1CCAF"
+				type: "item"
+				item: "tardis:vortex_detector"
+			}]
+			rewards: [{
+				id: "5F5A57B3F708FD06"
+				type: "item"
+				item: "tardis:xion_crystal"
+				count: 16
+			}]
+		}
+		{
+			x: -54.25d
+			y: -14.25d
+			description: ["The Transduction Barrier is a block that prevents nearby Tardises from landing within its defined radius if the Tardis' Landing Codes don't match that of the barrier."]
+			dependencies: ["6558A4451C4D3B9B"]
+			id: "66758B3A8C008836"
+			tasks: [{
+				id: "58EEC18E25361359"
+				type: "item"
+				item: "tardis:transduction_barrier"
+			}]
+			rewards: [{
+				id: "08C11CC8169D5202"
+				type: "item"
+				item: "tardis:landing_pad"
+			}]
+		}
+		{
+			x: -54.25d
+			y: -11.0d
+			description: ["The Landing Pad is a block that allows nearby Tardises to land precisely on this block."]
+			dependencies: ["6558A4451C4D3B9B"]
+			id: "234B3A5B1671EC36"
+			tasks: [{
+				id: "22CC32C3990E0C7D"
+				type: "item"
+				item: "tardis:landing_pad"
+			}]
+			rewards: [{
+				id: "16E9FA8AADE807A9"
+				type: "item"
+				item: "minecraft:daylight_detector"
+				count: 2
+			}]
+		}
+		{
+			x: -41.25d
+			y: -20.0d
+			description: ["The Roundel Tap block allows for the transferring of Forge Energy within the Tardis interior dimension, or piping energy between the Tardis exterior and interior."]
+			dependencies: [
+				"7EFA7E873D6D662D"
+				"0D95BB72F3EF2EF7"
+				"453DC6175AA9267E"
+				"50B86956469CDE66"
+				"199D23BE5909C68E"
+				"12DF56F429B4E8DC"
+			]
+			id: "3731B9C0AA295D50"
+			tasks: [{
+				id: "46062A20B5D9F7F1"
+				type: "item"
+				item: "tardis:roundel_tap"
+			}]
+			rewards: [{
+				id: "5BDFC7851B7A7116"
+				type: "item"
+				item: "tardis:circuits"
+			}]
+		}
+		{
+			x: -52.5d
+			y: -14.25d
+			description: [
+				"The Architectural Reconfiguration System (ARS) Egg is a block that allows the player to obtain a variety of decoration blocks and other items in exchange for the depletion of the Tardis' Artron banks."
+				"{image:chroma:textures/quests/ars.png width:100 height:100 align:1}"
+			]
+			dependencies: ["6558A4451C4D3B9B"]
+			id: "2097C3BB8CBACD62"
+			tasks: [{
+				id: "5DB806CFCA71614A"
+				type: "item"
+				item: "tardis:ars_egg"
+			}]
+			rewards: [{
+				id: "414F7D6F8ECF223C"
+				type: "item"
+				item: "tardis:circuits"
+			}]
+		}
+		{
+			x: -37.5d
+			y: -8.75d
+			description: [
+				"1. Place down an Item Access Panel inside the Tardis interior. This is our input site."
+				"2. Place down a second Item Access Panel elsewhere inside the Tardis interior. This is our output site."
+				"3. Place a hopper or similar item transfer capable block next to the input site."
+				"4. Insert items into the hopper/similar item transfer capable block."
+				"5. Place a hopper or similar block beneath the output site."
+				"6. See that items are being added to the hopper beneath the output site."
+			]
+			dependencies: ["1F6EB3B5B3FA9115"]
+			id: "2FF3803EE2BDCD64"
+			tasks: [{
+				id: "54A42ED32295AF1A"
+				type: "checkmark"
+				title: "Transfer items within Tardis Interior"
+			}]
+			rewards: [{
+				id: "23CCF74A5C56AF07"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -37.5d
+			y: -7.75d
+			description: [
+				"1. Place down an Item Access Panel inside the Tardis interior. This is our input site."
+				"2. Place an item piping block on the Tardis Exterior block. This is our output site."
+				"2.1 This can be a \"pipe\" or similar blocks from other mods."
+				"3. Place a hopper or similar item transfer capable block next to or above the Item Access Panel inside the Tardis."
+				"4. Insert items into the hopper/similar item transfer capable block."
+				"5. See that items are being added to the item piping block at the Tardis Exterior."
+			]
+			dependencies: ["1F6EB3B5B3FA9115"]
+			id: "7036D5301FD904E8"
+			tasks: [{
+				id: "781282CB1F066ADD"
+				type: "checkmark"
+				title: "Transfer items from Tardis Interior to Tardis Exterior "
+			}]
+			rewards: [{
+				id: "7936F37FA8F89619"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -37.5d
+			y: -9.75d
+			description: [
+				"1. Place an item piping block on the Tardis Exterior block. This is our input site."
+				"2. Place down an Item Access Panel inside the Tardis interior. This is our output site."
+				"2.1 This can be a \"pipe\" or similar blocks from other mods."
+				"3. Place a hopper or similar item transfer capable block beneath the Item Access Panel inside the Tardis."
+				"4. Insert items into the hopper/similar item transfer capable block at the Tardis Exterior input site."
+				"5. See that items are being added to the item piping block below the Item Access Panel inside the Tardis."
+			]
+			dependencies: ["1F6EB3B5B3FA9115"]
+			id: "76ED3402D01F13B8"
+			tasks: [{
+				id: "617E184FAD256AAD"
+				type: "checkmark"
+				title: "Transfer items from Tardis Exterior to Tardis Interior"
+			}]
+			rewards: [{
+				id: "1B5EB7BA43D88D87"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -57.0d
+			y: -19.0d
+			description: [
+				"Subsystems must be enabled after they are installed in order to function."
+				""
+				"They can be enabled by flicking a switch above or below the component in the engine. When the switch is activated, it will glow a bright red and an activated sound will play."
+				""
+				"{image:chroma:textures/quests/activate_2.png width:200 height:100 align:1}"
+			]
+			dependencies: ["0C761DEAE05AF0E8"]
+			id: "68C298CD58B3F481"
+			tasks: [{
+				id: "62B5CC70CE6B4C94"
+				type: "checkmark"
+				title: "Activation"
+			}]
+			rewards: [{
+				id: "0F2F8DE7D6961853"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -54.25d
+			y: -20.75d
+			subtitle: "Optional"
+			description: ["Sending and receiving messages. Receiving distress calls."]
+			dependencies: ["68C298CD58B3F481"]
+			id: "1D7AAAC8A0889D68"
+			tasks: [{
+				id: "391A627F9DC5DA9C"
+				type: "item"
+				item: {
+					id: "tardis:subsystem/interstitial_antenna"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "537551B3D5C89B92"
+				type: "item"
+				item: "tardis:circuits"
+			}]
+		}
+		{
+			x: -55.25d
+			y: -20.75d
+			subtitle: "Optional"
+			description: ["Change the exterior shell of the Tardis."]
+			dependencies: ["68C298CD58B3F481"]
+			id: "588923D2B27C820B"
+			tasks: [{
+				id: "343E420F00A10993"
+				type: "item"
+				item: {
+					id: "tardis:subsystem/chameleon_circuit"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6077496E3D29FA16"
+				type: "item"
+				item: "tardis:circuits"
+			}]
+		}
+		{
+			x: -56.25d
+			y: -20.75d
+			subtitle: "Optional"
+			description: ["Cancels all damage inside the interior and allows for the Temporal Scoop feature to be used if this is activated."]
+			dependencies: ["68C298CD58B3F481"]
+			id: "1E36296CD248F719"
+			tasks: [{
+				id: "630119D0E8370130"
+				type: "item"
+				item: {
+					id: "tardis:subsystem/temporal_grace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "03AE6DB8D0266355"
+				type: "item"
+				item: "tardis:circuits"
+			}]
+		}
+		{
+			x: -57.25d
+			y: -20.75d
+			subtitle: "Optional"
+			description: ["Protect other subsystems when exterior is hit. Enabling forcefield."]
+			dependencies: ["68C298CD58B3F481"]
+			id: "508574EC349748FF"
+			tasks: [{
+				id: "3B0ACC29BCD1D336"
+				type: "item"
+				item: {
+					id: "tardis:subsystem/shield_generator"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "19580DCCAD37E351"
+				type: "item"
+				item: "tardis:circuits"
+			}]
+		}
+		{
+			x: -58.25d
+			y: -20.75d
+			subtitle: "Optional"
+			description: ["Allowing the activation of stabilised mode."]
+			dependencies: ["68C298CD58B3F481"]
+			id: "0385BDAA60AC23B9"
+			tasks: [{
+				id: "0AA2ADDE6A89A44E"
+				type: "item"
+				item: {
+					id: "tardis:subsystem/stabilizer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0E49CE0F699317CA"
+				type: "item"
+				item: "tardis:circuits"
+			}]
+		}
+		{
+			x: -59.25d
+			y: -20.75d
+			subtitle: "Optional"
+			description: ["Displaying current and destination co-ordinates. Setting non-randomised destination co-ordinates."]
+			dependencies: ["68C298CD58B3F481"]
+			id: "77927BEBA73A16C1"
+			tasks: [{
+				id: "4B8FC2E70CD50A52"
+				type: "item"
+				item: {
+					id: "tardis:subsystem/nav_com"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "30E54A01DD6CE94C"
+				type: "item"
+				item: "tardis:circuits"
+			}]
+		}
+		{
+			x: -60.25d
+			y: -20.75d
+			subtitle: "Essential"
+			description: ["Flight, if the Fluid Link is also installed. Exterior anti-gravity functionality."]
+			dependencies: ["68C298CD58B3F481"]
+			id: "53E71DE552F4CDD7"
+			tasks: [{
+				id: "5AFF7487B5CA8AC8"
+				type: "item"
+				item: {
+					id: "tardis:subsystem/dematerialisation_circuit"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "31EA76C8E5449A04"
+				type: "item"
+				item: "tardis:circuits"
+			}]
+		}
+		{
+			x: -61.25d
+			y: -20.75d
+			subtitle: "Essential"
+			description: ["Flight, if Dematerialisation Circuit is also installed. Required to enable the refuel button."]
+			dependencies: ["68C298CD58B3F481"]
+			id: "7FDB5B15B5F619CF"
+			tasks: [{
+				id: "1B26EB5DEDE30254"
+				type: "item"
+				item: {
+					id: "tardis:subsystem/fluid_link"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "71141B097023B6BE"
+				type: "item"
+				item: "tardis:circuits"
+			}]
+		}
+		{
+			x: -52.5d
+			y: -18.75d
+			description: ["Essential subsystems are required to allow a Tardis to enter flight mode. The Tardis console will emit smoke when one or more of these is under 10% of their total durability and will spark when under 5% of total durability. These effects will stop when the component is removed from the engine. Currently, only the Dematerialisation Circuit and Fluid Link are considered essential."]
+			dependencies: ["32B12D10660F4037"]
+			id: "060009E44354CAAA"
+			tasks: [{
+				id: "322F5C9F111604D2"
+				type: "checkmark"
+				title: "Essential"
+			}]
+			rewards: [{
+				id: "274555483B12D3E8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -54.25d
+			y: -19.5d
+			description: ["Optional subsystems are not required for flight, however, certain other functions of the Tardis may require a specific optional subsystem. For example, the Chameleon Circuit is required for the Tardis to change its exterior. There are no special effects when one of these is low in durability, so ensure you check your engine or Diagnostic Tool regularly and perform appropriate repairs."]
+			dependencies: ["060009E44354CAAA"]
+			id: "0C761DEAE05AF0E8"
+			tasks: [{
+				id: "17F40F32EAFF63F3"
+				type: "checkmark"
+				title: "Optional"
+			}]
+			rewards: [{
+				id: "3D6471736C5AEA6C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -42.5d
+			y: -15.25d
+			description: [
+				"Upgrades must be enabled after they are installed in order to function. They can be enabled by flicking a switch above or below the component in the engine. When the switch is activated, it will glow a bright red and an activated sound will play."
+				""
+				"Upgrades can be removed from the engine or disabled at any time by toggling its switch."
+				"{image:chroma:textures/quests/activation.png width:200 height:100 align:1}"
+			]
+			dependencies: ["3036833D11AB9650"]
+			id: "579BCBD73667F654"
+			tasks: [{
+				id: "17FB6A2C1E831207"
+				type: "checkmark"
+				title: "Activation"
+			}]
+			rewards: [{
+				id: "600CB6A275B8A5AE"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -50.5d
+			y: -17.0d
+			dependencies: ["32B12D10660F4037"]
+			id: "7249BC3BF63A36B8"
+			tasks: [{
+				id: "01D0DC5A8C987844"
+				type: "checkmark"
+				title: "Rift Chunk"
+			}]
+			rewards: [{
+				id: "2DB904BF5BCEDD3A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -49.75d
+			y: -15.75d
+			description: [
+				"Any chunk, at any time, will have a chance to become a rift. Rifts will have limited energy, and that will build overtime."
+				""
+				"A fully drained rift will close and not gain any power again, but like every other chunk, it has a chance to become a rift again."
+			]
+			dependencies: ["7249BC3BF63A36B8"]
+			id: "1E1901611F025610"
+			tasks: [{
+				id: "03595FE5717FC321"
+				type: "checkmark"
+				title: "Generation"
+			}]
+			rewards: [{
+				id: "74207611520FC4EF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -49.25d
+			y: -17.0d
+			description: ["When a Sonic Screwdriver on Passive Prove mode is in the inventory of a player which enters a Rift Chunk, a notification message and sound will be sent to the player."]
+			dependencies: ["1E1901611F025610"]
+			id: "42C1B84F1A72B43C"
+			tasks: [{
+				id: "0BF2E75E7B65A4A1"
+				type: "checkmark"
+				title: "Detection"
+			}]
+			rewards: [{
+				id: "47D3944513154BEE"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -47.75d
+			y: -17.0d
+			description: [
+				"1. Detect a Rift Chunk"
+				"2. Place down an Artron Collector and Artron Pylon within the Rift Chunk."
+				"{image:chroma:textures/quests/rift.png width:150 height:100 align:1}"
+				"{image:chroma:textures/quests/rift2.png width:150 height:100 align:1}"
+				"Take out the item from the Artron Collector. If the item has been charged, its stored Artron Units will have increased."
+			]
+			dependencies: ["42C1B84F1A72B43C"]
+			id: "360FBB77F43CA6C6"
+			tasks: [{
+				id: "374F0802DC7C9281"
+				type: "checkmark"
+				title: "Charging Artron compatible items"
+			}]
+			rewards: [{
+				id: "0232CE102B0D0DAD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -42.0d
+			y: -18.25d
+			description: [
+				"1. Place down a Roundel Tap inside the Tardis interior. This is the energy input site."
+				""
+				"2. Place down a second Roundel Tap elsewhere inside the Tardis interior. This is the energy output site."
+				""
+				"3. Place a Forge Energy generator block near the input Roundel Tap."
+				""
+				"4. Using wire blocks from other mods, connect the Forge Energy generator block to the input Roundel Tap."
+				""
+				"5. Right click the input Roundel Tap so that its \"emit\" blockstate value is set to false."
+				"5.1 A message similar to \"Tap is now pushing energy to Tardis\" will be shown."
+				""
+				"6. Place a Forge Energy storage block near the output Roundel Tap."
+				"6.1 E.g. Mekanism's Energy Cube."
+				""
+				"7. Using wire blocks from other mods, connect the Forge Energy storage block to the output Roundel Tap."
+				""
+				"8. Right click the output Roundel Tap so that its \"emit\" blockstate value is set to true."
+				"8.1 A message similar to \"Tap is now pushing energy to nearby blocks\" will be shown."
+				""
+				"9. See that energy is being transferred around."
+				""
+				"To see the current capacity of the Tardis' Forge Energy Buffer, use an attuned Tardis Diagnostic tool."
+			]
+			dependencies: ["32B12D10660F4037"]
+			id: "7EFA7E873D6D662D"
+			tasks: [{
+				id: "6F98234BF595F141"
+				type: "checkmark"
+				title: "Transfer energy within Tardis Interior"
+			}]
+			rewards: [{
+				id: "0DC6FB8EC0784C88"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -40.5d
+			y: -18.25d
+			description: [
+				"1. Place down a Roundel Tap inside the Tardis interior. This is the energy input site."
+				""
+				"2. Place a Forge Energy generator block near the input Roundel Tap."
+				""
+				"3. Using wire blocks from other mods, connect the Forge Energy generator block to the input Roundel Tap."
+				""
+				"4. Right click the input Roundel Tap so that its \"emit\" blockstate value is set to false."
+				"4.1 A message similar to \"Tap is now pushing energy to Tardis\" will be shown."
+				""
+				"5. At the Tardis Exterior, place a Forge Energy storage block near the exterior block."
+				"5.1 E.g. Mekanism's Energy Cube."
+				""
+				"6. Using wire blocks from other mods, connect the Forge Energy storage block to the exterior block."
+				""
+				"7. See that energy is being piped from interior to exterior."
+				"7.1 If the transfer is not occurring, please ensure the Tardis interior dimension is chunkloaded."
+			]
+			dependencies: ["32B12D10660F4037"]
+			id: "0D95BB72F3EF2EF7"
+			tasks: [{
+				id: "61B5E26367A2FD9A"
+				type: "checkmark"
+				title: "Transfer items from Tardis Interior to Tardis Exterior "
+			}]
+			rewards: [{
+				id: "46508CDA1D43A9DC"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -44.0d
+			y: -22.25d
+			description: [
+				"1. At the Tardis Exterior, place a Forge Energy generator block near the exterior block. This is the energy input site."
+				""
+				"2. Using wire blocks from other mods, connect the Forge Energy generator block to the exterior block."
+				""
+				"3. In the Tardis interior, place down a Roundel Tap. This is the energy output site."
+				""
+				"4. Place a Forge Energy storage block near the output Roundel Tap."
+				"4.1 E.g. Mekanism's Energy Cube."
+				""
+				"5. Using wire blocks from other mods, connect the Forge Energy storage block to the output Roundel Tap."
+				""
+				"6. Right click the output Roundel Tap so that its \"emit\" blockstate value is set to true."
+				"6.1 A message similar to \"Tap is now pushing energy to nearby blocks\" will be shown."
+				""
+				"7. See that energy is being piped from exterior to interior."
+				"7.1 If the transfer is not occurring, please ensure the Tardis exterior dimension is chunkloaded."
+			]
+			dependencies: ["32B12D10660F4037"]
+			id: "453DC6175AA9267E"
+			tasks: [{
+				id: "015000B21CDB6594"
+				type: "checkmark"
+				title: "Transfer items from Tardis Exterior to Tardis Interior"
+			}]
+			rewards: [{
+				id: "1F34120026E612A7"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -39.5d
+			y: -20.0d
+			description: ["{image:chroma:textures/quests/push_to_block.png width:100 height:100 align:1}"]
+			dependencies: ["32B12D10660F4037"]
+			id: "199D23BE5909C68E"
+			tasks: [{
+				id: "37FE534F0A6BD002"
+				type: "checkmark"
+				title: "Figure 1 - State when Roundel Tap is pushing energy to nearby blocks"
+			}]
+			rewards: [{
+				id: "068A1A4930BD396E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -44.0d
+			y: -21.0d
+			description: ["{image:chroma:textures/quests/push_to_tardis.png width:100 height:100 align:1}"]
+			dependencies: ["32B12D10660F4037"]
+			id: "50B86956469CDE66"
+			tasks: [{
+				id: "64F66CF0714CC922"
+				type: "checkmark"
+				title: "Figure 2 - State when Roundel Tap is pushing energy to the Tardis."
+			}]
+			rewards: [{
+				id: "6CDAF011CB0F502A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -46.5d
+			y: -20.25d
+			shape: "gear"
+			description: ["A Xion Crystal is an ore block that is used in many crafting recipes"]
+			dependencies: ["7FF11CD4F28B658F"]
+			size: 1.5d
+			id: "32B12D10660F4037"
+			tasks: [{
+				id: "3B98EA4C8E15AD17"
+				type: "item"
+				item: "tardis:xion_crystal"
+			}]
+			rewards: [{
+				id: "49E01A720BCB009C"
+				type: "item"
+				item: "tardis:xion_crystal"
+				count: 16
+			}]
+		}
+		{
+			title: "Space Armor"
+			icon: "tardis:space_chest"
+			x: -61.25d
+			y: -15.25d
+			dependencies: ["6C5A409004043E59"]
+			id: "43C1622EE516C74D"
+			tasks: [
+				{
+					id: "1A3C123D2802E768"
+					type: "item"
+					item: "tardis:space_helm"
+				}
+				{
+					id: "5EDC11F02526FD22"
+					type: "item"
+					item: "tardis:space_chest"
+				}
+				{
+					id: "171B14E065D01485"
+					type: "item"
+					item: "tardis:space_legs"
+				}
+				{
+					id: "460353B9BFCC2D65"
+					type: "item"
+					item: "tardis:space_boots"
+				}
+			]
+			rewards: [{
+				id: "3E810EB9D639C6E3"
+				type: "item"
+				item: "tardis:circuits"
+			}]
+		}
+		{
+			x: -35.5d
+			y: -17.5d
+			description: [
+				"Schematics are a \"blueprint\" that holds information such as Tardis Interiors, Exteriors or Consoles."
+				"It can be stored inside Sonic Screwdrivers."
+				"They are used to unlock various interiors, exteriors and consoles."
+			]
+			dependencies: ["54A50CC1EF5FDF39"]
+			id: "520F210D4023A44F"
+			tasks: [{
+				id: "0847DEBED1F8EB1B"
+				type: "checkmark"
+				title: "Schematics"
+			}]
+			rewards: [{
+				id: "39400A045C7DBC03"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -35.5d
+			y: -16.5d
+			description: [
+				"Using a Neutronic Spectrometer with an item"
+				"Extracting data fragments from Ship Computers in particular structures."
+			]
+			dependencies: ["54A50CC1EF5FDF39"]
+			id: "45F2ABC555330A9E"
+			tasks: [{
+				id: "2F1F5BD782BA693C"
+				type: "checkmark"
+				title: "Unlocking an Object"
+			}]
+			rewards: [{
+				id: "6B7F0D32459C3D9A"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -35.5d
+			y: -15.5d
+			description: [
+				"1. Place down a Neutronic Spectrometer"
+				"2. Open the GUI of the Spectrometer block"
+				"3. Add an item into the left slot of the GUI. If a valid item is added, the Spectromer will proceed to \"extract\" information from the item and a blue progress bar will slowly increase."
+				"{image:chroma:textures/quests/shematic_input.png width:100 height:100 align:1}"
+				"4. Wait until the blue progress bar for the \"extraction\" process to be completed. A green lamp on the top left hand side will be lit."
+				"{image:chroma:textures/quests/shematic_extract.png width:100 height:100 align:1}"
+				"5. If you hover over the screen display on the top right, you can see view what Schematic was extracted."
+				"{image:chroma:textures/quests/shematic_display.png width:100 height:100 align:1}"
+				"6. Place a Sonic Screwdriver into the bottom right slot to download the Schematic into the screwdriver. This slot has an outline indicating this."
+				"{image:chroma:textures/quests/progress_dowload.png width:100 height:100 align:1}"
+				"7. The Spectrometer will now proceed to download the Schematic into the Sonic Screwdriver. Two red lamps will be lit and a second progress bar will slowly increment. "
+				"8. Once the download process has completed, the red lamps will turn off, and only one of the lamps will be lit green."
+				"8.1 The Sonic Screwdriver now contains the Schematic"
+				"{image:chroma:textures/quests/shematic_finish.png width:100 height:100 align:1}"
+			]
+			dependencies: ["54A50CC1EF5FDF39"]
+			min_width: 300
+			id: "7957FA1C01B609CB"
+			tasks: [{
+				id: "7D265585385CAFE4"
+				type: "checkmark"
+				title: "Obtaining Schematics"
+			}]
+			rewards: [{
+				id: "4BD6B53837CC559F"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -34.5d
+			y: -15.5d
+			description: [
+				"1. Obtain a Sonic Screwdriver and set its mode to \"Block Interaction\" mode."
+				""
+				"2. Right click with a Sonic Screwdriver on a Ship Computer block inside a generated structure."
+				""
+				"3. If a computer contains a Schematic, a message similar to \"Downloaded Data Fragments!\" will be shown above the hotbar. Otherwise, there is not a valid schematic stored in the Ship Computer."
+				""
+				"4. You can view the downloaded Schematic in your Sonic Screwdriver by holding Left Control."
+			]
+			dependencies: ["54A50CC1EF5FDF39"]
+			id: "63F80F9BAA852EBA"
+			tasks: [{
+				id: "2CA54FE95925B7D9"
+				type: "checkmark"
+				title: "Ship Computer"
+			}]
+			rewards: [{
+				id: "19145DB3F41FB0B0"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -34.5d
+			y: -16.5d
+			description: [
+				"1. Enter the Tardis you wish to install the Schematic for."
+				""
+				"2. Right click with the Sonic Screwdriver into the Sonic Port Control of the Console."
+				""
+				"3. The Tardis will install any schematic stored inside the Sonic Screwdriver."
+				"3.1 It will not install the schematic if the Tardis already contains the interior/exterior/console."
+				"{image:chroma:textures/quests/schematic_unlocked.png width:200 height:100 align:1}"
+			]
+			dependencies: ["54A50CC1EF5FDF39"]
+			id: "6899380AA1DCEC80"
+			tasks: [{
+				id: "0F79E6687B75D986"
+				type: "checkmark"
+				title: "Installing Schematic into Tardis"
+			}]
+			rewards: [{
+				id: "74104DFCA685CE34"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -46.25d
+			y: -14.75d
+			description: [
+				"{image:chroma:textures/quests/control.png width:130 height:110 align:1 fit:true}"
+				"Brachacki/1963 Console Unit Control Layout"
+			]
+			dependencies: ["191867BFEBC6251A"]
+			id: "7232EEE913AC0F49"
+			tasks: [{
+				id: "0CD160B182A0B77B"
+				type: "checkmark"
+				title: "Tardis Console Controls"
+			}]
+			rewards: [{
+				id: "5226C9B55ACE76C2"
+				type: "command"
+				title: "Informations"
+				icon: {
+					id: "botania:cosmetic_questgiver_mark"
+					Count: 1b
+					tag: { }
+				}
+				command: "/tellraw @p [\"\",{\"text\":\"Go check the Wiki at this \"},{\"text\":\"link\",\"color\":\"aqua\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://tardis-mod.com/books/deprecated-features/page/tardis-console-controls-112\"}},{\"text\":\".\",\"color\":\"aqua\"}]"
+				player_command: false
+			}]
+		}
+		{
+			x: -46.25d
+			y: -12.75d
+			description: [
+				"One way the player can interact with the TARDIS is through giving it items it likes, especially items related to exploration/adventure."
+				""
+				"This is done by right clicking with an item on the TARDIS exterior."
+				""
+				"Some items a TARDIS may like include:"
+				"-Filled Map"
+				"-Ender Pearl"
+				"-Ender Eye"
+				"-Bells"
+				"-Clocks"
+				"-Compass"
+			]
+			dependencies: ["445EBC860C3ABE3C"]
+			id: "191867BFEBC6251A"
+			tasks: [{
+				id: "6C5A409004043E59"
+				type: "advancement"
+				advancement: "tardis:obtain_tardis"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "55FE94E3F43A145E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -61.25d
+			y: -16.75d
+			dependencies: ["43C1622EE516C74D"]
+			id: "4B2B1E98DD2D0B8F"
+			tasks: [{
+				id: "4B0DD77D2AB07AAA"
+				type: "advancement"
+				advancement: "tardis:space/space_suit"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "04C173C14E1CFB5B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+	]
+}

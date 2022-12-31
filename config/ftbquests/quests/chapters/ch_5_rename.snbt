@@ -1,0 +1,2430 @@
+{
+	id: "43BFF269728987B2"
+	group: "649CE452F2BBF13D"
+	order_index: 0
+	filename: "ch_5_rename"
+	title: "&bChapter 1&r &6-&r New technologies"
+	icon: "pneumaticcraft:pressure_gauge"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Reinforced Stone"
+			x: -8.25d
+			y: -17.25d
+			shape: "rsquare"
+			description: [
+				"After making &7Compressed Iron Ingot&r, you will have to melt it to obtain &7Molten Compressed Iron&r."
+				""
+				"This &7Molten Compressed Iron&r will have to be cast on stone in order to obtain &6Reinforced Stone&r."
+			]
+			dependencies: [
+				"121DF7B31DB4BEF8"
+				"5174E5B7DC17EF63"
+			]
+			min_width: 240
+			id: "7607D13B4DE67B94"
+			tasks: [{
+				id: "58A24068E4B92516"
+				type: "item"
+				item: "pneumaticcraft:reinforced_stone"
+				count: 8L
+			}]
+			rewards: [{
+				id: "0E7F50F7A431FA44"
+				type: "item"
+				item: "pneumaticcraft:reinforced_stone"
+				count: 8
+			}]
+		}
+		{
+			title: "&6The Pressure Chamber"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "chroma:textures/quests/pressure_chamber.png"
+				}
+			}
+			x: -8.23979591836735d
+			y: -13.839285714285715d
+			shape: "rsquare"
+			description: [
+				"The Pressure Chamber is a multi-block structure mainly used to compress various materials into others."
+				""
+				"It is made by creating a hollow cube out of Pressure Chamber Walls/Windows."
+				""
+				"The size of the cube can vary from 3x3x3 to 5x5x5, and windows are not needed to create the Pressure Chamber."
+				""
+				"The Pressure Chamber also requires a Valve, which has to be connected to the air blocks in the Pressure Chamber."
+				""
+				"At least one Valve is required, but more can be added. When the Pressure Chamber construction is completed, the GUI can be opened with a right-click of any of its constituent blocks."
+				""
+				"The Pressure Chamber Interface can also be added into the structure to allow the insertion and removal of items to and from the Pressure Chamber making it possible to automate the Input/Output with pipes."
+			]
+			dependencies: [
+				"3D156DB23470F2D5"
+				"1F9249795027D6AD"
+				"121DF7B31DB4BEF8"
+			]
+			size: 2.0d
+			min_width: 350
+			id: "7B9FBBCD2F962A0B"
+			tasks: [
+				{
+					id: "708E175BEB58A57B"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_wall"
+				}
+				{
+					id: "6358EB4C1C148BE0"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_glass"
+				}
+				{
+					id: "321E9030B2CED822"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_valve"
+				}
+				{
+					id: "58EFE33D9EDF5E82"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_interface"
+				}
+			]
+			rewards: [{
+				id: "7E36BD4E2DAF819D"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				count: 2
+				random_bonus: 4
+			}]
+		}
+		{
+			title: "Compressed Iron Ingot"
+			x: -8.25d
+			y: -19.0d
+			shape: "gear"
+			description: [
+				"To obtain this item to begin with, drop &6Cloggrum Ingots&r and activate TNT next to the dropped item(s). 90% of the ingots will be converted into &7Compressed Iron Ingots&r."
+				""
+				"But don't worry there is a way to get a 100% compressed iron, by creating the &ePressure Chamber&r, any &6Cloggrum Ingots&r you place into it with at least 2.0 bar of pressure will be converted into &7Compressed Iron Ingots&r."
+			]
+			dependencies: ["7D351CB50EFE608B"]
+			size: 1.5d
+			min_width: 240
+			id: "121DF7B31DB4BEF8"
+			tasks: [{
+				id: "033D2475938C8178"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				count: 32L
+			}]
+			rewards: [{
+				id: "6BC92067BEC50B4E"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				count: 16
+			}]
+		}
+		{
+			x: -8.25d
+			y: 12.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"415E0B809CECA783"
+				"444936B29FBDCB48"
+				"0BC66BB4F4B5D047"
+				"31DB904A4019BD4B"
+				"7B9FBBCD2F962A0B"
+			]
+			id: "3D1D2227EF54E1F3"
+			tasks: [{
+				id: "32EF5C28EDC62817"
+				type: "item"
+				item: "kubejs:extreme_circuit_board"
+			}]
+			rewards: [{
+				id: "041EBD79A6131648"
+				type: "item"
+				item: "kubejs:extreme_circuit_board"
+			}]
+		}
+		{
+			x: -8.25d
+			y: -15.75d
+			shape: "octagon"
+			description: ["Now you can make &6Reinforced Bricks&r that will allow you to unlock other &5Pneumaticcraft recipes&r."]
+			dependencies: ["7607D13B4DE67B94"]
+			min_width: 240
+			id: "1F9249795027D6AD"
+			tasks: [{
+				id: "3F0226BD2797B6DB"
+				type: "item"
+				item: "pneumaticcraft:reinforced_bricks"
+			}]
+			rewards: [{
+				id: "036E26368BB657D1"
+				type: "item"
+				item: "pneumaticcraft:reinforced_bricks"
+				count: 4
+			}]
+		}
+		{
+			x: -11.0d
+			y: 11.0d
+			shape: "square"
+			description: ["The &5Smart Chest&r is a 72-slot chest which has obsidian-level blast resistance, and keeps its inventory when broken."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1F0FC143ED336A13"
+				"1BB4E62851AF2A15"
+				"2427F60BED8EF311"
+			]
+			id: "2E333910717E3BB5"
+			tasks: [{
+				id: "73FF871164B064A6"
+				type: "item"
+				item: "pneumaticcraft:smart_chest"
+			}]
+			rewards: [{
+				id: "7085AE0D4F1BAFD2"
+				type: "item"
+				item: "pneumaticcraft:smart_chest"
+			}]
+		}
+		{
+			x: -7.25d
+			y: 11.75d
+			hide_dependency_lines: true
+			dependencies: [
+				"641BEA5DCB499C89"
+				"3D1D2227EF54E1F3"
+				"7B9FBBCD2F962A0B"
+			]
+			id: "4C32DDB98EFDC15A"
+			tasks: [{
+				id: "4AA11EB37376F977"
+				type: "item"
+				item: "kubejs:advanced_extreme_circuit_board"
+			}]
+			rewards: [{
+				id: "69405410281E54CD"
+				type: "item"
+				item: "kubejs:advanced_extreme_circuit_board"
+			}]
+		}
+		{
+			x: -8.25d
+			y: 11.25d
+			hide_dependency_lines: true
+			dependencies: [
+				"415E0B809CECA783"
+				"6A4A1C5F2959DCD1"
+				"61DE66EC5C066250"
+				"7B9FBBCD2F962A0B"
+			]
+			id: "1BB4E62851AF2A15"
+			tasks: [{
+				id: "249BD590E6B2DD3B"
+				type: "item"
+				item: "pneumaticcraft:printed_circuit_board"
+			}]
+			rewards: [{
+				id: "4E054CA5843EAF94"
+				type: "item"
+				item: "pneumaticcraft:printed_circuit_board"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -16.0d
+			dependencies: ["1F9249795027D6AD"]
+			id: "2E7BFDA1FA247D89"
+			tasks: [{
+				id: "0995EA0CBB1DB238"
+				type: "item"
+				item: "pneumaticcraft:logistics_core"
+			}]
+			rewards: [{
+				id: "7B20C85569A6E2EF"
+				type: "item"
+				item: "pneumaticcraft:logistics_core"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -8.75d
+			description: ["The &5Upgrade Matrix&r can be used in place of Lapis Lazuli for the crafting of any upgrade."]
+			dependencies: ["75B03878AA52F00E"]
+			id: "1E6277225CA889FC"
+			tasks: [{
+				id: "41F1F9A00AF9EB41"
+				type: "item"
+				item: "pneumaticcraft:upgrade_matrix"
+			}]
+			rewards: [{
+				id: "66F585AA4F2B28EF"
+				type: "item"
+				item: "pneumaticcraft:upgrade_matrix"
+			}]
+		}
+		{
+			x: -9.75d
+			y: -15.75d
+			shape: "octagon"
+			description: [
+				"&6Pressure Tubes&r are used to transport compressed air."
+				""
+				"They can contain up to 5 bar of pressure, and have a capacity of 1000mL of Air."
+			]
+			dependencies: ["121DF7B31DB4BEF8"]
+			min_width: 240
+			id: "3D156DB23470F2D5"
+			tasks: [{
+				id: "0407B9210E77CB2F"
+				type: "item"
+				item: "pneumaticcraft:pressure_tube"
+			}]
+			rewards: [{
+				id: "03AB09E84CE365BE"
+				type: "item"
+				item: "pneumaticcraft:pressure_tube"
+				count: 4
+			}]
+		}
+		{
+			x: -6.5d
+			y: -17.25d
+			description: [
+				"Spawner Agitator will prevent the spawned entity from despawning when the player leaves the area."
+				""
+				"Additionally, the spawner will keep spawning while the player is not in the area."
+			]
+			dependencies: ["121DF7B31DB4BEF8"]
+			id: "3C91A579E0AB0FE3"
+			tasks: [{
+				id: "17BBCD113C891E71"
+				type: "item"
+				item: "pneumaticcraft:spawner_agitator"
+			}]
+			rewards: [{
+				id: "61B4C5820E041F11"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: -11.0d
+			y: -17.5d
+			description: [
+				"Omnidirection Hopper is an upgraded version of the Minecraft Hopper that has the following improved properties:"
+				""
+				"- It can be oriented in different directions"
+				"- It accepts PneumaticCraft upgrades to speed up the hopper"
+			]
+			dependencies: ["121DF7B31DB4BEF8"]
+			id: "1F0FC143ED336A13"
+			tasks: [{
+				id: "72D571580A0D1569"
+				type: "item"
+				item: "pneumaticcraft:omnidirectional_hopper"
+			}]
+			rewards: [{
+				id: "01D2846B93C8A4F5"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+		}
+		{
+			icon: "pneumaticcraft:pneumatic_door"
+			x: -5.5d
+			y: -17.5d
+			description: [
+				"This block is used together with a Pneumatic Door Base to form a working door contraption."
+				""
+				"When you place the Pneumatic Door Base next to the top half on a Pneumatic Door, the door will automatically when there are players nearby."
+				""
+				"When the Pneumatic Door Base is within range of a Security Station, the Pneumatic Door Base will only react to players allowed by the Security Station."
+			]
+			dependencies: ["121DF7B31DB4BEF8"]
+			optional: true
+			id: "2503622E57EF510F"
+			tasks: [
+				{
+					id: "4DBFE7A59DD65862"
+					type: "item"
+					item: "pneumaticcraft:pneumatic_door"
+				}
+				{
+					id: "328F8E16C2847AB1"
+					type: "item"
+					item: "pneumaticcraft:pneumatic_door_base"
+				}
+			]
+			rewards: [{
+				id: "09AE0E1E4F3785DA"
+				type: "item"
+				item: "minecraft:lever"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -16.0d
+			dependencies: [
+				"121DF7B31DB4BEF8"
+				"3D156DB23470F2D5"
+			]
+			id: "1490D32522F73F20"
+			tasks: [{
+				id: "1570210C055E6A02"
+				type: "item"
+				item: "pneumaticcraft:air_canister"
+			}]
+			rewards: [{
+				id: "5E5B001C87D9D22D"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -17.75d
+			hide_dependency_lines: true
+			dependencies: [
+				"7B9FBBCD2F962A0B"
+				"121DF7B31DB4BEF8"
+			]
+			optional: true
+			id: "44B4F1B202C7F9E3"
+			tasks: [{
+				id: "4701146F0E3EF654"
+				type: "item"
+				item: "pneumaticcraft:spawner_core_shell"
+			}]
+			rewards: [{
+				id: "11E83039CAF0FA4F"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: -9.5d
+			y: -12.5d
+			shape: "diamond"
+			description: ["The Air Compressor is used to create compressed air from items that burn in a Furnace."]
+			hide_dependency_lines: true
+			dependencies: [
+				"1490D32522F73F20"
+				"1F9249795027D6AD"
+				"3D156DB23470F2D5"
+				"677773349FE468C2"
+				"31DB904A4019BD4B"
+			]
+			id: "0A30AD5BB3C1F6F2"
+			tasks: [{
+				id: "765E9A8050EB2C8A"
+				type: "item"
+				item: "pneumaticcraft:air_compressor"
+			}]
+			rewards: [{
+				id: "40736DA1B60A0B0D"
+				type: "item"
+				item: "minecraft:coal"
+				count: 8
+			}]
+		}
+		{
+			x: -10.0d
+			y: -17.25d
+			subtitle: "32,000 mb capacity"
+			description: ["Can be connected with tanks above and below with a wrench."]
+			dependencies: ["121DF7B31DB4BEF8"]
+			id: "625D10DD8943384A"
+			tasks: [{
+				id: "4389A6321D4B143F"
+				type: "item"
+				item: "pneumaticcraft:small_tank"
+			}]
+			rewards: [{
+				id: "7270AC989D34862F"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: -7.0d
+			y: -12.5d
+			shape: "diamond"
+			description: ["The liquid compressor creates compressed air by using liquid fuels (like Refined Fuel or Kerosene)."]
+			hide_dependency_lines: true
+			dependencies: [
+				"387646F8C259D92F"
+				"677773349FE468C2"
+				"31DB904A4019BD4B"
+				"625D10DD8943384A"
+				"3D156DB23470F2D5"
+			]
+			id: "42AF39F3337E2254"
+			tasks: [{
+				id: "39F83101F67974FE"
+				type: "item"
+				item: "pneumaticcraft:liquid_compressor"
+			}]
+			rewards: [{
+				id: "6E2D7B3D93F82EF5"
+				type: "item"
+				item: "pneumaticcraft:kerosene_bucket"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -17.75d
+			description: [
+				"The &bLiquid Hopper&r is a device which you can use to transfer fluids."
+				""
+				"Like the Omnidirectional Hopper, its input and output can point in any direction, and it uses the same placement and rotation rules."
+				""
+				"You can add &5Speed Upgrades&r to increase the transfer rate."
+			]
+			dependencies: ["121DF7B31DB4BEF8"]
+			optional: true
+			id: "197C7C3A59698566"
+			tasks: [{
+				id: "4EE2E6337B321471"
+				type: "item"
+				item: "pneumaticcraft:liquid_hopper"
+			}]
+			rewards: [{
+				id: "3E8AB6F09ACA8F92"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -12.0d
+			shape: "diamond"
+			description: [
+				"&5Heat Sink&r is a block used to get rid of Heat."
+				""
+				"He only dissipate heat from the block they're directly connected to. To connect more Heat Sinks, use Heat Pipes, the more the heat sinks the less the heat."
+			]
+			hide_dependency_lines: true
+			dependencies: ["121DF7B31DB4BEF8"]
+			id: "58E2FB84B9A9425B"
+			tasks: [{
+				id: "4BE57528752D6C3D"
+				type: "item"
+				item: "pneumaticcraft:heat_sink"
+			}]
+			rewards: [{
+				id: "3EF497B46DCBCAC6"
+				type: "item"
+				item: "pneumaticcraft:aphorism_tile"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -12.0d
+			shape: "diamond"
+			description: [
+				"The &5Vortex Tube&r is a dynamic heat source which converts pressure directly to heat and cold."
+				""
+				"It's highly recommended to put a Heat Sink on the unused side of a Vortex Tube, for efficiency."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"3D156DB23470F2D5"
+				"121DF7B31DB4BEF8"
+			]
+			id: "296D966FDD569C54"
+			tasks: [{
+				id: "3E69EF9BB04F57EC"
+				type: "item"
+				item: "pneumaticcraft:vortex_tube"
+			}]
+			rewards: [{
+				id: "4D058C0256D3998F"
+				type: "item"
+				item: "pneumaticcraft:thermal_lagging"
+			}]
+		}
+		{
+			x: -8.75d
+			y: -11.0d
+			shape: "diamond"
+			description: [
+				"The &5Refinery&r is a multiblock machine which uses heat to refine Oil into various fuels."
+				""
+				"The fuels that can be produced are, sorted from lightest to haviest :"
+				"• LPG"
+				"• Gasoline"
+				"• Kerosene"
+				"• Diesel"
+				""
+				"The &5Refinery&r multiblock is made by placing down a Refinery Controller, then stack 2-4 Refinery Outputs on top of or beside the Controller. "
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"625D10DD8943384A"
+				"7607D13B4DE67B94"
+			]
+			id: "4F8104E2A18D906D"
+			tasks: [{
+				id: "1AA82D41CB9AE3E3"
+				type: "item"
+				item: "pneumaticcraft:refinery"
+			}]
+			rewards: [{
+				id: "39489FFDF116C59B"
+				type: "item"
+				item: "pneumaticcraft:oil_bucket"
+			}]
+		}
+		{
+			x: -7.75d
+			y: -11.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"7607D13B4DE67B94"
+				"68E7A3D70265EBF0"
+			]
+			id: "64DB640B5D778890"
+			tasks: [{
+				id: "4D6CBD75869BB413"
+				type: "item"
+				item: "pneumaticcraft:refinery_output"
+				count: 4L
+			}]
+			rewards: [{
+				id: "43C67949C7B59196"
+				type: "item"
+				item: "pneumaticcraft:oil_bucket"
+			}]
+		}
+		{
+			x: -9.25d
+			y: -10.5d
+			shape: "diamond"
+			dependencies: [
+				"64DB640B5D778890"
+				"4F8104E2A18D906D"
+			]
+			id: "3C3F4EF507E0E6DF"
+			tasks: [{
+				id: "154659DDAFED292B"
+				type: "item"
+				item: "pneumaticcraft:kerosene_bucket"
+			}]
+			rewards: [{
+				id: "602A226927BFED4D"
+				type: "item"
+				item: "pneumaticcraft:kerosene_bucket"
+			}]
+		}
+		{
+			x: -7.25d
+			y: -10.5d
+			shape: "diamond"
+			dependencies: [
+				"64DB640B5D778890"
+				"4F8104E2A18D906D"
+			]
+			id: "5F6358E0BA7BC196"
+			tasks: [{
+				id: "2291F17F53ECB91E"
+				type: "item"
+				item: "pneumaticcraft:lpg_bucket"
+			}]
+			rewards: [{
+				id: "5E4F54F1271AC062"
+				type: "item"
+				item: "pneumaticcraft:lpg_bucket"
+			}]
+		}
+		{
+			x: -8.75d
+			y: -10.0d
+			shape: "diamond"
+			dependencies: [
+				"64DB640B5D778890"
+				"4F8104E2A18D906D"
+			]
+			id: "1F29CE2AAFA104A3"
+			tasks: [{
+				id: "26A613BD731A0EA5"
+				type: "item"
+				item: "pneumaticcraft:gasoline_bucket"
+			}]
+			rewards: [{
+				id: "2D62DFA4561E4163"
+				type: "item"
+				item: "pneumaticcraft:gasoline_bucket"
+			}]
+		}
+		{
+			x: -7.75d
+			y: -10.0d
+			shape: "diamond"
+			dependencies: [
+				"64DB640B5D778890"
+				"4F8104E2A18D906D"
+			]
+			id: "3D162F4F1A48E1E8"
+			tasks: [{
+				id: "2E90C28BD955426D"
+				type: "item"
+				item: "pneumaticcraft:diesel_bucket"
+			}]
+			rewards: [{
+				id: "676D236BF67C6A6E"
+				type: "item"
+				item: "pneumaticcraft:diesel_bucket"
+			}]
+		}
+		{
+			x: -8.25d
+			y: -7.75d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			dependencies: [
+				"7607D13B4DE67B94"
+				"3D156DB23470F2D5"
+				"625D10DD8943384A"
+				"7D351CB50EFE608B"
+			]
+			id: "75B03878AA52F00E"
+			tasks: [{
+				id: "773FA1F7FD05CF48"
+				type: "item"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+			}]
+			rewards: [{
+				id: "24F8A8095837EC5B"
+				type: "item"
+				item: "minecraft:coal"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: -6.0d
+			y: -5.75d
+			description: [
+				"&5Lubricant&r is required for crafting &bSpeed Upgrade&r."
+				""
+				"It is created in a Thermopneumatic Processing Plant with Diesel (or Biodiesel) and Redstone."
+			]
+			dependencies: ["75B03878AA52F00E"]
+			id: "0F0CE8DBEF01ED7D"
+			tasks: [{
+				id: "2E87F9B66A2F8DE5"
+				type: "item"
+				item: "pneumaticcraft:lubricant_bucket"
+			}]
+			rewards: [{
+				id: "397B5ABACDAE733E"
+				type: "item"
+				item: "pneumaticcraft:lubricant_bucket"
+			}]
+		}
+		{
+			x: -8.25d
+			y: -5.25d
+			shape: "octagon"
+			description: ["&5Molten Plastic&r is made from LPG and Coal, or Biodiesel and Chacoal in the Thermopneumatic Processing Plant."]
+			dependencies: ["75B03878AA52F00E"]
+			size: 2.0d
+			id: "5C05ABDF754FEC7A"
+			tasks: [{
+				id: "5B867791797D50D6"
+				type: "item"
+				item: "pneumaticcraft:plastic_bucket"
+			}]
+			rewards: [{
+				id: "486A772B8CEE2135"
+				type: "item"
+				item: "pneumaticcraft:plastic_bucket"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -6.75d
+			dependencies: ["75B03878AA52F00E"]
+			id: "2F16D6B1E305D0F1"
+			tasks: [{
+				id: "78B91F8D33207C62"
+				type: "item"
+				item: "pneumaticcraft:spawner_core"
+			}]
+			rewards: [{
+				id: "1D2F18DADEF426B5"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:spawner_core"
+					Count: 1b
+					tag: {
+						"pneumaticcraft:SpawnerCoreStats": {
+							"minecraft:zombie": 100
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -8.75d
+			dependencies: ["20C1F725A07E9CFF"]
+			id: "4CA86D176876CFCE"
+			tasks: [{
+				id: "1797CB4C94892283"
+				type: "item"
+				item: "pneumaticcraft:salmon_tempura"
+			}]
+			rewards: [{
+				id: "0FF41556E9D6C14D"
+				type: "item"
+				item: "pneumaticcraft:salmon_tempura"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -7.75d
+			dependencies: ["75B03878AA52F00E"]
+			id: "7B585A05A32652B1"
+			tasks: [{
+				id: "3BD2C8DBECB8798F"
+				type: "item"
+				item: "pneumaticcraft:drill_bit_iron"
+			}]
+			rewards: [{
+				id: "59457D423259A0F3"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: -10.5d
+			y: -6.75d
+			dependencies: ["75B03878AA52F00E"]
+			id: "459302D107ABA90B"
+			tasks: [{
+				id: "70A584CB111F2CB4"
+				type: "item"
+				item: "pneumaticcraft:drill_bit_compressed_iron"
+			}]
+			rewards: [{
+				id: "45AE2A7FFB13501D"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: -10.5d
+			y: -5.75d
+			dependencies: ["75B03878AA52F00E"]
+			id: "3B2BFD4C2C581352"
+			tasks: [{
+				id: "7C9F5874C5655703"
+				type: "item"
+				item: "pneumaticcraft:drill_bit_diamond"
+			}]
+			rewards: [{
+				id: "47038082B84CAAE7"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: -7.25d
+			y: 15.25d
+			dependencies: ["1FDDA157DFAF2A7F"]
+			id: "79B381015103DD9F"
+			tasks: [{
+				id: "3E44ECCD18F2EE94"
+				type: "item"
+				item: "pneumaticcraft:drill_bit_netherite"
+			}]
+			rewards: [{
+				id: "67C7C5460CE2D240"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -7.5d
+			dependencies: ["62381F85EF519221"]
+			id: "40E7B5AB012885F7"
+			tasks: [{
+				id: "014F154E5FC8B8DB"
+				type: "item"
+				item: "pneumaticcraft:sourdough_bread"
+			}]
+			rewards: [{
+				id: "337E3BA24F9E5D60"
+				type: "item"
+				item: "pneumaticcraft:sourdough_bread"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -7.75d
+			dependencies: ["75B03878AA52F00E"]
+			id: "6AE41D6C8CD05CDC"
+			tasks: [{
+				id: "5F007F4DB9177936"
+				type: "item"
+				item: "pneumaticcraft:chips"
+			}]
+			rewards: [{
+				id: "0395B87C6AC37CE9"
+				type: "item"
+				item: "pneumaticcraft:chips"
+			}]
+		}
+		{
+			x: -4.75d
+			y: -7.75d
+			dependencies: ["6AE41D6C8CD05CDC"]
+			id: "6940DF8C1BA280BE"
+			tasks: [{
+				id: "408809B927B0C18B"
+				type: "item"
+				item: "pneumaticcraft:cod_n_chips"
+			}]
+			rewards: [{
+				id: "57E04C05069A53FC"
+				type: "item"
+				item: "pneumaticcraft:cod_n_chips"
+			}]
+		}
+		{
+			x: -8.25d
+			y: -3.25d
+			shape: "hexagon"
+			description: ["&5Heat Frame&r is a gadget that can be used to heat (or freeze) items in any inventory."]
+			hide_dependency_lines: true
+			dependencies: ["121DF7B31DB4BEF8"]
+			id: "73F46C7D022F9708"
+			tasks: [{
+				id: "3B42B6D365F77F47"
+				type: "item"
+				item: "pneumaticcraft:heat_frame"
+			}]
+			rewards: [{
+				id: "41F5D7F583BA38C4"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: -8.25d
+			y: -1.25d
+			shape: "square"
+			description: [
+				"Place a bucket or tank of Molten Plastic into an inventory with Heat Frame attached, and chill the Heat Frame, ideally try to get a temperature below -80C (the colder the better)."
+				""
+				"Molten Plastic will be consumed from the bucket or tank, and you will have a chance for a second &5Plastic Sheet&r for each 1000mb of Molten Plastic consumed."
+			]
+			dependencies: [
+				"5C05ABDF754FEC7A"
+				"73F46C7D022F9708"
+			]
+			size: 1.5d
+			id: "6AF898598004DEC3"
+			tasks: [{
+				id: "5CE3905CCD6A7899"
+				type: "item"
+				item: "pneumaticcraft:plastic"
+			}]
+			rewards: [{
+				id: "07F231EC78B37EB3"
+				type: "item"
+				item: "pneumaticcraft:plastic"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -0.5d
+			shape: "square"
+			subtitle: "64,000 mb capacity"
+			description: ["Can be connected with tanks above and below with a wrench."]
+			hide_dependency_lines: true
+			dependencies: [
+				"3D156DB23470F2D5"
+				"625D10DD8943384A"
+				"6AF898598004DEC3"
+			]
+			id: "4B85D83C46CDB7E5"
+			tasks: [{
+				id: "7A105DF6C6C79538"
+				type: "item"
+				item: "pneumaticcraft:medium_tank"
+			}]
+			rewards: [{
+				id: "67B6E5E39408DC7A"
+				type: "item"
+				item: "pneumaticcraft:plastic_brick_gray"
+				count: 8
+			}]
+		}
+		{
+			x: -5.75d
+			y: -3.25d
+			description: [
+				"A &5Fluid Mixer&r uses pressure to combine two fluids into a resulting fluid and/or item."
+				""
+				"Its primary use is in Biodiesel production."
+				""
+				"The Fluid Mixer will run faster if more pressure is provided."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"7607D13B4DE67B94"
+				"3D156DB23470F2D5"
+				"625D10DD8943384A"
+			]
+			id: "34D00106A85CCA8E"
+			tasks: [{
+				id: "22F23658F2CB7AC4"
+				type: "item"
+				item: "pneumaticcraft:fluid_mixer"
+			}]
+			rewards: [
+				{
+					id: "67CAA11D26D9532D"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "763DF224191E2C9B"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+			]
+		}
+		{
+			x: -5.75d
+			y: -2.0d
+			dependencies: ["34D00106A85CCA8E"]
+			id: "0C34C6AF4EC961E9"
+			tasks: [{
+				id: "0EEB8525FDF8B257"
+				type: "item"
+				item: "pneumaticcraft:glycerol"
+			}]
+			rewards: [{
+				id: "390E70EE1E88E74C"
+				type: "item"
+				item: "pneumaticcraft:glycerol"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.25d
+			dependencies: ["0C34C6AF4EC961E9"]
+			optional: true
+			id: "061FB8A4C85BF765"
+			tasks: [{
+				id: "4BF7E6A46232C6CA"
+				type: "item"
+				item: "pneumaticcraft:bandage"
+			}]
+			rewards: [{
+				id: "6E62A82DDBD54556"
+				type: "item"
+				item: "pneumaticcraft:bandage"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -8.75d
+			dependencies: ["75B03878AA52F00E"]
+			id: "58D637659CFA12AB"
+			tasks: [{
+				id: "26DF5677B06A92CA"
+				type: "item"
+				item: "pneumaticcraft:yeast_culture_bucket"
+			}]
+			rewards: [{
+				id: "66F42E02235FE659"
+				type: "item"
+				item: "pneumaticcraft:yeast_culture_bucket"
+			}]
+		}
+		{
+			x: -4.75d
+			y: -8.75d
+			dependencies: ["58D637659CFA12AB"]
+			id: "62381F85EF519221"
+			tasks: [{
+				id: "418CA63D095A9345"
+				type: "item"
+				item: "pneumaticcraft:sourdough"
+			}]
+			rewards: [{
+				id: "7CF1FAA61350865D"
+				type: "item"
+				item: "pneumaticcraft:sourdough"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -10.0d
+			dependencies: ["62381F85EF519221"]
+			id: "20C1F725A07E9CFF"
+			tasks: [{
+				id: "44EBCCB4A7B8B5C0"
+				type: "item"
+				item: "pneumaticcraft:raw_salmon_tempura"
+			}]
+			rewards: [{
+				id: "6D4B7CBCAE2972AE"
+				type: "item"
+				item: "pneumaticcraft:raw_salmon_tempura"
+			}]
+		}
+		{
+			x: -8.75d
+			y: 1.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"6AF898598004DEC3"
+				"7B9FBBCD2F962A0B"
+			]
+			id: "61DE66EC5C066250"
+			tasks: [{
+				id: "6313CD5A6FF3E7D7"
+				type: "item"
+				item: "pneumaticcraft:transistor"
+			}]
+			rewards: [{
+				id: "57ACD6EC4C589F47"
+				type: "item"
+				item: "pneumaticcraft:transistor"
+			}]
+		}
+		{
+			x: -9.25d
+			y: 1.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"6AF898598004DEC3"
+				"7B9FBBCD2F962A0B"
+				"68E7A3D70265EBF0"
+			]
+			id: "6A4A1C5F2959DCD1"
+			tasks: [{
+				id: "77E53C9A48868A57"
+				type: "item"
+				item: "pneumaticcraft:capacitor"
+			}]
+			rewards: [{
+				id: "6D7439A30285EF02"
+				type: "item"
+				item: "pneumaticcraft:capacitor"
+			}]
+		}
+		{
+			x: -8.25d
+			y: 8.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: [
+				"7B9FBBCD2F962A0B"
+				"6AF898598004DEC3"
+			]
+			id: "1059E14E1E4377D6"
+			tasks: [{
+				id: "6B9F155ACB3E3DE4"
+				type: "item"
+				item: "pneumaticcraft:empty_pcb"
+			}]
+			rewards: [{
+				id: "25F9EBF22F298FB6"
+				type: "item"
+				item: "pneumaticcraft:empty_pcb"
+			}]
+		}
+		{
+			x: -7.25d
+			y: 1.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"6AF898598004DEC3"
+				"7B9FBBCD2F962A0B"
+				"68E7A3D70265EBF0"
+			]
+			id: "0BC66BB4F4B5D047"
+			tasks: [{
+				id: "79AB8C8AA1A59E3D"
+				type: "item"
+				item: "kubejs:uranium_capacitor"
+			}]
+			rewards: [{
+				id: "4B9F08D83B1FD035"
+				type: "item"
+				item: "kubejs:uranium_capacitor"
+			}]
+		}
+		{
+			x: -7.75d
+			y: 1.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"7B9FBBCD2F962A0B"
+				"6AF898598004DEC3"
+			]
+			id: "444936B29FBDCB48"
+			tasks: [{
+				id: "7F0EB4F22691C55C"
+				type: "item"
+				item: "kubejs:netherite_transistor"
+			}]
+			rewards: [{
+				id: "1F326378C2130DF8"
+				type: "item"
+				item: "kubejs:netherite_transistor"
+			}]
+		}
+		{
+			x: -9.25d
+			y: 9.0d
+			description: [
+				"The &5Etching Tank&r should first be filled with &bEtching Acid&r. Then insert up to 25 Empty PCB's which have already been either partially or fully exposed in a &bUV Light Box&r."
+				""
+				"While it's possible juste to pour Etching Acid into the world and throw PCB's into the pool, using the Etching Tank is a much safer and faster way to do it."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"625D10DD8943384A"
+				"7607D13B4DE67B94"
+			]
+			id: "3CC8CA7BBD0830F5"
+			tasks: [{
+				id: "1411CA06F7D908FF"
+				type: "item"
+				item: "pneumaticcraft:etching_tank"
+			}]
+			rewards: [{
+				id: "15994933A5E57C86"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: -7.25d
+			y: 9.0d
+			description: ["&5Etching Acid&r is used to chemically develop PCB's. Etching Acid is made in a Pressure Chamber and used in the Ething Tank."]
+			hide_dependency_lines: true
+			dependencies: [
+				"5C05ABDF754FEC7A"
+				"7B9FBBCD2F962A0B"
+			]
+			id: "562AD38C66134415"
+			tasks: [{
+				id: "45DC01B7E590908C"
+				type: "item"
+				item: "pneumaticcraft:etching_acid_bucket"
+			}]
+			rewards: [{
+				id: "4AB384039B22BF15"
+				type: "item"
+				item: "pneumaticcraft:etching_acid_bucket"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -0.5d
+			shape: "square"
+			description: ["Charging Station is used to charge or discharge PneumaticCraft items like the Air Canister, Manometer, Pneumatic Wrench, ..."]
+			hide_dependency_lines: true
+			dependencies: [
+				"3D156DB23470F2D5"
+				"7607D13B4DE67B94"
+				"31DB904A4019BD4B"
+			]
+			id: "2997A86BEE2B7CFF"
+			tasks: [{
+				id: "65EA44139D29B5B8"
+				type: "item"
+				item: "pneumaticcraft:charging_station"
+			}]
+			rewards: [{
+				id: "74D6FB3FD4C51C53"
+				type: "item"
+				item: "pneumaticcraft:charging_upgrade"
+			}]
+		}
+		{
+			x: -10.25d
+			y: 0.5d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["6AF898598004DEC3"]
+			id: "63F334577EE6C971"
+			tasks: [{
+				id: "724214B72A50C17B"
+				type: "item"
+				item: "pneumaticcraft:gps_tool"
+			}]
+			rewards: [{
+				id: "2B9A048699F7DB62"
+				type: "item"
+				item: "pneumaticcraft:plastic_brick_white"
+				count: 8
+			}]
+		}
+		{
+			x: -6.25d
+			y: 0.5d
+			shape: "square"
+			dependencies: ["63F334577EE6C971"]
+			id: "37D897DF428C8A60"
+			tasks: [{
+				id: "55FF931992B1172E"
+				type: "item"
+				item: "pneumaticcraft:gps_area_tool"
+			}]
+			rewards: [{
+				id: "72BFE9BD5899957B"
+				type: "item"
+				item: "pneumaticcraft:plastic_brick_white"
+				count: 8
+			}]
+		}
+		{
+			x: -4.6875d
+			y: 10.6875d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: [
+				"121DF7B31DB4BEF8"
+				"1490D32522F73F20"
+			]
+			size: 0.75d
+			id: "592A555468C4128F"
+			tasks: [{
+				id: "2C2BF4CE677FD044"
+				type: "item"
+				item: "pneumaticcraft:vortex_cannon"
+			}]
+			rewards: [{
+				id: "7538D8EA2EA101EC"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: -5.4375d
+			y: 9.5625d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: [
+				"121DF7B31DB4BEF8"
+				"1490D32522F73F20"
+			]
+			size: 0.75d
+			id: "3157A864389D125D"
+			tasks: [{
+				id: "2C43BC34A836DF1D"
+				type: "item"
+				item: "pneumaticcraft:pneumatic_wrench"
+			}]
+			rewards: [{
+				id: "5D976F2D1F6B3AD4"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: -5.4375d
+			y: 11.8125d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["1490D32522F73F20"]
+			size: 0.75d
+			id: "12DCF063C54CED77"
+			tasks: [{
+				id: "72352DD50CA6F210"
+				type: "item"
+				item: "pneumaticcraft:manometer"
+			}]
+			rewards: [{
+				id: "42FBE4230D7E9B39"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: -5.4375d
+			y: 10.3125d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: [
+				"121DF7B31DB4BEF8"
+				"1490D32522F73F20"
+			]
+			size: 0.75d
+			id: "13AB38BFA7DCE7ED"
+			tasks: [{
+				id: "57E3C76D1C12A34A"
+				type: "item"
+				item: "pneumaticcraft:logistics_configurator"
+			}]
+			rewards: [{
+				id: "13D37A93E2144E68"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: -4.6875d
+			y: 9.9375d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: [
+				"1490D32522F73F20"
+				"121DF7B31DB4BEF8"
+			]
+			size: 0.75d
+			id: "46B10D8D6CCDC585"
+			tasks: [{
+				id: "51F0E1DED875BF40"
+				type: "item"
+				item: "pneumaticcraft:minigun"
+			}]
+			rewards: [{
+				id: "70562F6ECEC399A0"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:gun_ammo"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.4375d
+			y: 11.0625d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: [
+				"1490D32522F73F20"
+				"121DF7B31DB4BEF8"
+			]
+			size: 0.75d
+			id: "21E1A629FD14FA0F"
+			tasks: [{
+				id: "6086C7ED05669236"
+				type: "item"
+				item: "pneumaticcraft:camo_applicator"
+			}]
+			rewards: [{
+				id: "687727F88463E912"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: -4.6875d
+			y: 11.4375d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: [
+				"1490D32522F73F20"
+				"121DF7B31DB4BEF8"
+				"6AF898598004DEC3"
+			]
+			size: 0.75d
+			id: "74CC2379246C79E8"
+			tasks: [{
+				id: "040616B93DC6231A"
+				type: "item"
+				item: "pneumaticcraft:jackhammer"
+			}]
+			rewards: [{
+				id: "3F61B81220D77D4E"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: -8.25d
+			y: 3.0d
+			shape: "rsquare"
+			description: [
+				"The &5Amadron Tablet&r is an item than can be used to order items and fluids for delivery by Drones."
+				""
+				"To do so, an inventory and/or fluid tank needs to be selected by right-clicking with the tablet to bind it. This inventory/tank is then used to take items as payment, and receive the items you ordered."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"63F334577EE6C971"
+				"6AF898598004DEC3"
+				"1490D32522F73F20"
+			]
+			size: 1.5d
+			id: "71A53E095D73463A"
+			tasks: [{
+				id: "120FC8A452301AD1"
+				type: "item"
+				item: "pneumaticcraft:amadron_tablet"
+			}]
+			rewards: [{
+				id: "689D1C39EF614227"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 8
+			}]
+		}
+		{
+			x: -8.25d
+			y: 5.75d
+			description: [
+				"The &5PCB Blueprint&r is a special component, required in the crafting of the UV Light Box."
+				""
+				"It cannot be crafted normally, but must be traded for, usually via Amadron Tablet."
+			]
+			dependencies: ["71A53E095D73463A"]
+			id: "372CC7F5B1EB8424"
+			tasks: [{
+				id: "54D46996DD466BA3"
+				type: "item"
+				item: "pneumaticcraft:pcb_blueprint"
+			}]
+			rewards: [{
+				id: "20496EE05A902DE2"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: -7.25d
+			y: 4.0d
+			dependencies: ["71A53E095D73463A"]
+			id: "720CD5EAF67712E5"
+			tasks: [{
+				id: "431FC95B8FF8EDCF"
+				type: "item"
+				item: "pneumaticcraft:assembly_program_laser"
+			}]
+			rewards: [{
+				id: "6D95D973EEE27BD7"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: -9.25d
+			y: 4.0d
+			dependencies: ["71A53E095D73463A"]
+			id: "3359F076AD3B6E90"
+			tasks: [{
+				id: "16BCBE3F0AD0BEB8"
+				type: "item"
+				item: "pneumaticcraft:assembly_program_drill"
+			}]
+			rewards: [{
+				id: "455B22C441777B4F"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: -8.25d
+			y: 4.5d
+			dependencies: [
+				"720CD5EAF67712E5"
+				"3359F076AD3B6E90"
+			]
+			id: "7121B812754A5FDC"
+			tasks: [{
+				id: "0CB7D0F2ADB0AC86"
+				type: "item"
+				item: "pneumaticcraft:assembly_program_drill_laser"
+			}]
+			rewards: [{
+				id: "4B532241AD50D888"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: -8.25d
+			y: 7.0d
+			description: [
+				"The &5UV Light Box&r is a machine in which you can expose PCB's to UV light."
+				""
+				"The exposure process takes a maximum of 10 minutes, less if you add Speed Upgrades to the machines."
+				""
+				"After the full 10 minutes, you'll have a 100% chance that the PCB will be successfully etched in Etching Acid."
+				"You can however expose the PCB for a shorter time, which will result in a lower chance of the PCB successfully being etched."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"372CC7F5B1EB8424"
+				"3D156DB23470F2D5"
+				"121DF7B31DB4BEF8"
+			]
+			id: "12763D6E82AB6527"
+			tasks: [{
+				id: "4532D60F329865D0"
+				type: "item"
+				item: "pneumaticcraft:uv_light_box"
+			}]
+			rewards: [{
+				id: "65BD73867452491D"
+				type: "item"
+				item: "simplylight:wall_lamp"
+			}]
+		}
+		{
+			x: -8.25d
+			y: 10.0d
+			shape: "hexagon"
+			dependencies: [
+				"3CC8CA7BBD0830F5"
+				"562AD38C66134415"
+				"1059E14E1E4377D6"
+			]
+			id: "415E0B809CECA783"
+			tasks: [{
+				id: "25D01F0FA41BDEC2"
+				type: "item"
+				item: "pneumaticcraft:unassembled_pcb"
+			}]
+			rewards: [{
+				id: "101903747F51116D"
+				type: "item"
+				item: "pneumaticcraft:display_table"
+			}]
+		}
+		{
+			x: -11.0d
+			y: 10.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: [
+				"1BB4E62851AF2A15"
+				"6AF898598004DEC3"
+			]
+			id: "57D556F29CAF21FC"
+			tasks: [{
+				id: "108D906AEE4E99BE"
+				type: "item"
+				item: "pneumaticcraft:security_station"
+			}]
+			rewards: [{
+				id: "6B6E1EFE6028EC40"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: -13.5d
+			y: 10.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: [
+				"1BB4E62851AF2A15"
+				"6AF898598004DEC3"
+			]
+			id: "6DF3EF704B97047E"
+			tasks: [{
+				id: "1A9DF2F0E47E7096"
+				type: "item"
+				item: "pneumaticcraft:programming_puzzle"
+			}]
+			rewards: [{
+				id: "1056714F63D960A4"
+				type: "item"
+				item: "pneumaticcraft:programming_puzzle"
+				count: 4
+			}]
+		}
+		{
+			x: -12.5d
+			y: 11.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: ["1BB4E62851AF2A15"]
+			id: "0884F45EDA226387"
+			tasks: [{
+				id: "1CC9BA5BF123B14E"
+				type: "item"
+				item: "pneumaticcraft:drone"
+			}]
+			rewards: [{
+				id: "46DC489961D07E21"
+				type: "item"
+				item: "pneumaticcraft:harvesting_drone"
+			}]
+		}
+		{
+			x: -12.5d
+			y: 10.0d
+			shape: "square"
+			description: [
+				"The &5Programmer&r is a machine used to program Drones, using a visual programming system where Puzzle Pieces are assembled in a programming GUI."
+				""
+				"The Programmer does not require pressure to operate."
+				""
+				"Refear at the manual to learn how drone programming works."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"1BB4E62851AF2A15"
+				"6AF898598004DEC3"
+			]
+			id: "64051736858F3248"
+			tasks: [{
+				id: "05D732F3D70CC124"
+				type: "item"
+				item: "pneumaticcraft:programmer"
+			}]
+			rewards: [{
+				id: "6A858E6C4C38A410"
+				type: "item"
+				item: "pneumaticcraft:tag_workbench"
+			}]
+		}
+		{
+			x: -7.25d
+			y: 16.75d
+			description: [
+				"The &5Aerial Interface&r is a very powerful device which can connect directly with a player's inventory. When sufficiently pressurized, it can be interacted with, like any other inventory."
+				""
+				"Instead of landing in the Interface, items get sent directly to the owning player."
+				""
+				"You could use a Logistics Resquester Frame on the Interface to keep yourself supplied with 64 torches, for example."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"01247DAB4826AAF3"
+				"7B9FBBCD2F962A0B"
+				"1F0FC143ED336A13"
+				"197C7C3A59698566"
+				"1996234F379C69E0"
+				"4AC1298723D8A89A"
+			]
+			min_width: 300
+			id: "26B1D972E03CE299"
+			tasks: [{
+				id: "22B6E0C805144767"
+				type: "item"
+				item: "pneumaticcraft:aerial_interface"
+			}]
+			rewards: [{
+				id: "782E2D0159514AD6"
+				type: "item"
+				item: "pneumaticcraft:logistics_frame_requester"
+			}]
+		}
+		{
+			x: -13.5d
+			y: 11.0d
+			shape: "square"
+			hide_dependency_lines: true
+			dependencies: [
+				"0884F45EDA226387"
+				"121DF7B31DB4BEF8"
+				"1BB4E62851AF2A15"
+			]
+			id: "12AE066E7B7B0270"
+			tasks: [{
+				id: "0831026E04325A06"
+				type: "item"
+				item: "pneumaticcraft:programmable_controller"
+			}]
+			rewards: [{
+				id: "5F98D5F12CA3EE65"
+				type: "item"
+				item: "pneumaticcraft:logistics_frame_requester"
+			}]
+		}
+		{
+			title: "Assembly Line"
+			icon: "pneumaticcraft:assembly_controller"
+			x: -8.25d
+			y: 14.0d
+			shape: "octagon"
+			description: [
+				"To be able to craft higher tier materials, you'll need an &5Assembly System&r, a collection of Assembly Machines."
+				""
+				"These machines communicate with each other when they're horizontally ajacent. Only one machine of each type can exist."
+				""
+				"The assembly line runs on compressed air, but you only need to suply air to the Assembly Controller to power the whole system."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"1BB4E62851AF2A15"
+				"6AF898598004DEC3"
+				"121DF7B31DB4BEF8"
+				"3D156DB23470F2D5"
+			]
+			size: 2.0d
+			id: "1FDDA157DFAF2A7F"
+			tasks: [
+				{
+					id: "2D82D2EC7934EAFE"
+					type: "item"
+					item: "pneumaticcraft:assembly_controller"
+				}
+				{
+					id: "48EEABE297C8BCB7"
+					type: "item"
+					item: "pneumaticcraft:assembly_io_unit_import"
+				}
+				{
+					id: "3338C2FEBCEE2BF7"
+					type: "item"
+					item: "pneumaticcraft:assembly_io_unit_export"
+				}
+				{
+					id: "2523181ED87C50DE"
+					type: "item"
+					item: "pneumaticcraft:assembly_drill"
+				}
+				{
+					id: "32DC06DFBE155DA8"
+					type: "item"
+					item: "pneumaticcraft:assembly_laser"
+				}
+				{
+					id: "25BD8F2A978CAFEF"
+					type: "item"
+					item: "pneumaticcraft:assembly_platform"
+				}
+			]
+			rewards: [{
+				id: "139F70303E9DB1B0"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				random_bonus: 5
+			}]
+		}
+		{
+			x: -9.25d
+			y: 11.75d
+			hide_dependency_lines: true
+			dependencies: [
+				"1BB4E62851AF2A15"
+				"6AF898598004DEC3"
+			]
+			id: "01247DAB4826AAF3"
+			tasks: [{
+				id: "6AB425C4ACBAF6CE"
+				type: "item"
+				item: "pneumaticcraft:advanced_pcb"
+			}]
+			rewards: [{
+				id: "64C1AE2CAD49B5EC"
+				type: "item"
+				item: "pneumaticcraft:advanced_pcb"
+			}]
+		}
+		{
+			x: -8.25d
+			y: 15.5d
+			description: ["&5Advanced Pressure Tubes&r require an Assembly Controller to manufacture. They can contain up to 20 bar of pressure and have a capacity of 4000mL of air."]
+			hide_dependency_lines: true
+			dependencies: ["1FDDA157DFAF2A7F"]
+			id: "1996234F379C69E0"
+			tasks: [{
+				id: "5D5FCA3F0E05577E"
+				type: "item"
+				item: "pneumaticcraft:advanced_pressure_tube"
+			}]
+			rewards: [{
+				id: "1F184CE3011A51CC"
+				type: "item"
+				item: "pneumaticcraft:advanced_pressure_tube"
+				count: 4
+			}]
+		}
+		{
+			x: -9.25d
+			y: 15.25d
+			subtitle: "128,000 mb capacity"
+			description: ["Can be connected with tanks above and below with a wrench."]
+			hide_dependency_lines: true
+			dependencies: [
+				"4B85D83C46CDB7E5"
+				"1996234F379C69E0"
+				"6AF898598004DEC3"
+			]
+			id: "319E93987C9DB62B"
+			tasks: [{
+				id: "65DD57A346E2965D"
+				type: "item"
+				item: "pneumaticcraft:large_tank"
+			}]
+			rewards: [{
+				id: "7788FADEBF50E3A6"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			x: -8.75d
+			y: 18.0d
+			shape: "diamond"
+			description: [
+				"&5Advanced Liquid Compressor&r is the Tier 2 version of the Liquid Compressor, which a maximum safe pressure of 20 bar. It generates a base 50mL air/tick, and can be upgraded with &bSpeed Upgrades&r."
+				""
+				"This generator must be cooled, as its efficiency will drop as the temperature rises, up to the point where no air is generated at all."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"01247DAB4826AAF3"
+				"1996234F379C69E0"
+				"121DF7B31DB4BEF8"
+				"42AF39F3337E2254"
+			]
+			id: "46641529387FA32D"
+			tasks: [{
+				id: "0B648E06470B2624"
+				type: "item"
+				item: "pneumaticcraft:advanced_liquid_compressor"
+			}]
+			rewards: [{
+				id: "460F31CAF8E0A05E"
+				type: "item"
+				item: "pneumaticcraft:safety_tube_module"
+			}]
+		}
+		{
+			x: -7.75d
+			y: 18.0d
+			shape: "diamond"
+			description: [
+				"&5Advanced Air Compressor&r is the Tier 2 version of the Air Compressor, which a maximum safe pressure of 20 bar. It generates a base 50mL air/tick, and can be upgraded with &bSpeed Upgrades&r."
+				""
+				"This generator must be cooled, as its efficiency will drop as the temperature rises, up to the point where no air is generated at all."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"01247DAB4826AAF3"
+				"1996234F379C69E0"
+				"121DF7B31DB4BEF8"
+				"0A30AD5BB3C1F6F2"
+			]
+			id: "169D1E526779D774"
+			tasks: [{
+				id: "7B3CFDD806E1C7EB"
+				type: "item"
+				item: "pneumaticcraft:advanced_air_compressor"
+			}]
+			rewards: [{
+				id: "78689382D2AA3FAA"
+				type: "item"
+				item: "pneumaticcraft:safety_tube_module"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 18.75d
+			shape: "diamond"
+			description: [
+				"&5Electrostatic Compressor&r is a tier 2 air compressor, which uses lightning for the energy to produce compressed air."
+				""
+				"When it is struck by lightning it will instantly produce 200,000mL of air. Seems like a lot, but how often do you see a Charged Creeper sneaking around ? Remember, the Electrostatic Compressor needs to get struck by lightning."
+				""
+				"To increase the chance of this happening, you can connect Iron Bars to this machine which act as a conductor for the lightning bolt."
+				""
+				"Some piece of advice would be to create a large grid of Iron Bars : they can be up 5 blocks away horizontally (circular radius), and up to 5 blocks above or below, but they must all be connected to the Electrostatic Compressor via each other."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"6AF898598004DEC3"
+				"1996234F379C69E0"
+				"169D1E526779D774"
+				"08672636B514D519"
+			]
+			min_width: 300
+			id: "58DFAD4B5B6A2123"
+			tasks: [{
+				id: "4B9E8E9BBE3BD719"
+				type: "item"
+				item: "pneumaticcraft:electrostatic_compressor"
+			}]
+			rewards: [{
+				id: "09E0699BDC612089"
+				type: "item"
+				item: "pneumaticcraft:safety_tube_module"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 18.75d
+			shape: "diamond"
+			description: [
+				"The &5Pneumatic Dynamo&r converts compressed air into &6Forge Energy&r."
+				""
+				"It produces 40 FE/tick by default; but can be upgraded with &bSpeed Upgrades&r."
+				""
+				"An important factor that influence efficiency is the Dynamo's temperature. The Dynamo need to be cooled, or its efficiency will drop as the temperature rises, up to the point where no air is generated at all."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"121DF7B31DB4BEF8"
+				"01247DAB4826AAF3"
+			]
+			id: "1B970611616BE6BE"
+			tasks: [{
+				id: "3C990B4903C4916A"
+				type: "item"
+				item: "pneumaticcraft:pneumatic_dynamo"
+			}]
+			rewards: [{
+				id: "197AFEAF912394D7"
+				type: "item"
+				item: "pneumaticcraft:safety_tube_module"
+			}]
+		}
+		{
+			x: -8.25d
+			y: 16.75d
+			hide_dependency_lines: true
+			dependencies: [
+				"1996234F379C69E0"
+				"121DF7B31DB4BEF8"
+				"1490D32522F73F20"
+			]
+			id: "77745626200420A0"
+			tasks: [{
+				id: "649CA44A1B8F8754"
+				type: "item"
+				item: "pneumaticcraft:reinforced_air_canister"
+			}]
+			rewards: [{
+				id: "154C51EFF083038E"
+				type: "item"
+				item: "pneumaticcraft:pressure_gauge_module"
+			}]
+		}
+		{
+			x: -9.25d
+			y: 16.75d
+			subtitle: "512,000 mb capacity"
+			description: ["Can be connected with tanks above and below with a wrench."]
+			dependencies: [
+				"319E93987C9DB62B"
+				"77745626200420A0"
+			]
+			id: "1EE2E6E53F153A14"
+			tasks: [{
+				id: "19D08DFBE6EAD5C1"
+				type: "item"
+				item: "pneumaticcraft:huge_tank"
+			}]
+			rewards: [{
+				id: "5C13DC3AE652EEE5"
+				type: "random"
+				table_id: 6524702956512656804L
+			}]
+		}
+		{
+			title: "Master Assembly Factory"
+			icon: "masterfulmachinery:assemblylaser_controller"
+			x: -8.25d
+			y: 20.25d
+			shape: "gear"
+			description: [
+				"The &aMaster Assembly Factory&r is a custom machinery to make different items and block like Pneumaticcraft's Armor or RfTools Machine frame."
+				""
+				"It needs energy and pressure to operate."
+				""
+				"You can use the create schematic to build it !"
+				""
+				"&cIn order to make create schematics work properly, please do not rotate them while building them !"
+				""
+				"&bYou can use the Entangled mod to entangle the inputs of your masterful machineries and have a better automation."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"2997A86BEE2B7CFF"
+				"121DF7B31DB4BEF8"
+				"6556C41B660B08F6"
+				"677773349FE468C2"
+				"31DB904A4019BD4B"
+				"4C32DDB98EFDC15A"
+				"63BFABD722A4669D"
+				"7B9FBBCD2F962A0B"
+			]
+			size: 2.0d
+			min_width: 350
+			id: "3B142D2ED1A34A2F"
+			tasks: [
+				{
+					id: "1064CB8B12652945"
+					type: "item"
+					item: "masterfulmachinery:assemblylaser_controller"
+				}
+				{
+					id: "3A0CDE1D59645DCB"
+					type: "item"
+					item: "masterfulmachinery:assemblylaser_assembly_item_port_items_input"
+				}
+				{
+					id: "17A6DB4528B61304"
+					type: "item"
+					item: "masterfulmachinery:assemblylaser_assembly_item_port_items_output"
+				}
+				{
+					id: "4220A11727907593"
+					type: "item"
+					item: "masterfulmachinery:assemblylaser_assembly_air_port_pncr_pressure_input"
+				}
+				{
+					id: "0E8DA6343C933F4C"
+					type: "item"
+					item: "masterfulmachinery:assemblylaser_assembly_energy_port_energy_input"
+				}
+				{
+					id: "4EA76CE810392185"
+					type: "item"
+					item: "pneumaticcraft:compressed_brick_tile"
+					count: 24L
+				}
+				{
+					id: "7E018F187AA986B7"
+					type: "item"
+					item: "pneumaticcraft:compressed_brick_wall"
+					count: 12L
+				}
+				{
+					id: "143A19DD7E3524FF"
+					type: "item"
+					item: "pneumaticcraft:compressed_bricks"
+					count: 46L
+				}
+				{
+					id: "61574139B5CA07AD"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 2L
+				}
+				{
+					id: "271132CDDDD8E7C3"
+					type: "item"
+					item: "pneumaticcraft:assembly_platform"
+				}
+				{
+					id: "4B323A0E9D8A7D3E"
+					type: "item"
+					item: "pneumaticcraft:assembly_io_unit_import"
+				}
+				{
+					id: "31B6147282D35F99"
+					type: "item"
+					item: "pneumaticcraft:assembly_io_unit_export"
+				}
+				{
+					id: "6D9E0C69DE0133D3"
+					type: "item"
+					item: "pneumaticcraft:assembly_drill"
+				}
+				{
+					id: "3A14756720A50B35"
+					type: "item"
+					item: "pneumaticcraft:assembly_laser"
+				}
+				{
+					id: "105447B9B8AC7F1E"
+					type: "item"
+					item: "pneumaticcraft:assembly_controller"
+				}
+				{
+					id: "619419507A7F84E8"
+					type: "item"
+					item: "pneumaticcraft:heat_sink"
+					count: 3L
+				}
+				{
+					id: "7A5B17B0965AE79C"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_valve"
+				}
+				{
+					id: "4EDFB09B97A4BECA"
+					type: "item"
+					item: "simplylight:illuminant_orange_block_on"
+				}
+			]
+			rewards: [
+				{
+					id: "6712ED5A78FBE900"
+					type: "item"
+					item: "pneumaticcraft:wall_lamp_inverted_yellow"
+					count: 4
+				}
+				{
+					id: "62609501F8E9E457"
+					type: "item"
+					item: "pneumaticcraft:advanced_air_compressor"
+				}
+			]
+		}
+		{
+			x: -6.75d
+			y: -15.75d
+			shape: "octagon"
+			description: ["This chest is blastproof and preserves its content when broken."]
+			dependencies: [
+				"1F9249795027D6AD"
+				"121DF7B31DB4BEF8"
+			]
+			id: "2427F60BED8EF311"
+			tasks: [{
+				id: "29CD8D2EDA5FE353"
+				type: "item"
+				item: "pneumaticcraft:reinforced_chest"
+			}]
+			rewards: [{
+				id: "371DF8285617A6B3"
+				type: "item"
+				item: "pneumaticcraft:reinforced_chest"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.25d
+			shape: "octagon"
+			dependencies: ["34D00106A85CCA8E"]
+			id: "29787E2FE68792C3"
+			tasks: [{
+				id: "117D714B8F65C865"
+				type: "item"
+				item: "kubejs:litherite_fluid_bucket"
+			}]
+			rewards: [{
+				id: "3D313A64FC9E6281"
+				type: "item"
+				item: "kubejs:litherite_fluid_bucket"
+			}]
+		}
+		{
+			title: "Unlock : &aLitherite&r recipe"
+			icon: "envirocore:litherite_crystal"
+			x: -0.75d
+			y: -3.25d
+			shape: "gear"
+			subtitle: "Making Litherite Crystal"
+			description: ["{image:chroma:textures/quests/litherite.png width:230 height:150 align:1}"]
+			dependencies: ["7C17F05252A4FC79"]
+			size: 1.5d
+			min_width: 300
+			id: "6C1CDB642DADEA2F"
+			tasks: [{
+				id: "0A0E965A2D94D8DD"
+				type: "checkmark"
+				title: "Unlock : &aLitherite&r recipe"
+			}]
+		}
+		{
+			x: -12.75d
+			y: -7.5d
+			description: ["{image:chroma:textures/quests/tiny_machine_frame.png width:200 height:100 align:1}"]
+			dependencies: [
+				"5C05ABDF754FEC7A"
+				"75B03878AA52F00E"
+			]
+			min_width: 240
+			id: "12658BA7FA33E104"
+			tasks: [{
+				id: "20411A3F25290851"
+				type: "item"
+				item: "rftoolsbase:machine_base"
+			}]
+			rewards: [{
+				id: "5668B480A8331D22"
+				type: "item"
+				item: "rftoolsbase:machine_base"
+			}]
+		}
+		{
+			title: "First impression with drones"
+			x: -15.5d
+			y: 10.5d
+			subtitle: "Programming 101"
+			description: ["To use drones you first need a drone, a programmer and somme puzzle pieces. Place and right click onto the programmer, you'll be greeted with an interface. I'll try to explain most of it but just know for now that it's just like the Scratch programming language."]
+			dependencies: [
+				"6DF3EF704B97047E"
+				"64051736858F3248"
+				"0884F45EDA226387"
+			]
+			dependency_requirement: "all_started"
+			id: "37ABB320CA809E91"
+			tasks: [{
+				id: "722E9E25E9746CB3"
+				type: "checkmark"
+				title: "Using Drones"
+			}]
+		}
+		{
+			title: "Some Basics"
+			x: -17.0d
+			y: 10.5d
+			subtitle: "How boi is this complicated"
+			description: [
+				"On the interface you have three important parts that you'll use throughout making your program. "
+				""
+				"First one is at the top right, this is where you will put your drone, the export arrow is for exporting your program and the import arrow for importing the program stored inside the drone."
+				""
+				"Second one is the middle area, this is where you will put every action you'r drone is going to make. You can zoom out and in with the mouse wheel or sidebar and drag click to move around."
+				""
+				"Lastly and most importantly, the area on the right. First try and hit the \"TAB\" key to open up the menu with all the pieces. Those pieces are the pieces used to make the drones action, you will put them in the middle area. Be aware of the output of those pieces, as you can observe some have different shape and just like when you are little you can't put a square on a triangle."
+				""
+				"(For people that want more complex program, at the bottom left there are three modes each having more pieces than the precedent)"
+			]
+			dependencies: ["37ABB320CA809E91"]
+			min_width: 300
+			id: "37CF7DD738BEB7C7"
+			tasks: [{
+				id: "0736BCFC1E92257D"
+				type: "checkmark"
+				title: "Some basics."
+			}]
+		}
+		{
+			x: -18.5d
+			y: 10.5d
+			subtitle: "Your turn now !"
+			description: [
+				"You might have seen that there is more than one drone. The first \"Drone\" is fully customizable but requires you to make a full program to work. Whilst the others work without one but aren't as customizable."
+				""
+				"On a side note, drones can be used as a replacement for most if not all of the automation you know of."
+				""
+				"The mod has a book in which everything is described. Now go on little one : Fly !"
+			]
+			dependencies: ["37CF7DD738BEB7C7"]
+			id: "050B2EA343C02DFC"
+			tasks: [{
+				id: "6E0FB6D7E365FDF5"
+				type: "checkmark"
+				title: "Some Precisions"
+			}]
+		}
+		{
+			x: -8.25d
+			y: -9.25d
+			shape: "diamond"
+			description: [
+				"A &5Gas Lift&r is a pump, basically. It uses pressure to decrease the density of a liquid to force it upwards."
+				""
+				"When pressurized, it extrudes Drill Pipes downwards until it hits any liquid, at which point it will pump it. This makes it perfect for Oil extraction, as Oil might be deep underground."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"625D10DD8943384A"
+				"3D156DB23470F2D5"
+			]
+			id: "4E53F7ACC383103C"
+			tasks: [{
+				id: "1ED5C65AE6E816C6"
+				type: "item"
+				item: "pneumaticcraft:gas_lift"
+			}]
+			rewards: [{
+				id: "053E402407F96417"
+				type: "item"
+				item: "create:mechanical_pump"
+			}]
+		}
+		{
+			x: -2.25d
+			y: -3.25d
+			dependencies: [
+				"29787E2FE68792C3"
+				"5174E5B7DC17EF63"
+			]
+			id: "7C17F05252A4FC79"
+			tasks: [{
+				id: "196A1D8C147F36E4"
+				type: "item"
+				item: "kubejs:contained_litherite_crystal"
+			}]
+			rewards: [{
+				id: "2B0CA4881695D2F5"
+				type: "item"
+				item: "kubejs:contained_litherite_crystal"
+			}]
+		}
+		{
+			x: -8.25d
+			y: 18.5d
+			shape: "diamond"
+			description: [
+				"&rFlux Compressor&r converts Forge Energy into compressed air. It consumes a base 40 FE/tick, but can be upgraded with &bSpeed Upgrades&r."
+				""
+				"The Flux Compressor has a capacity of 100,000 FE and accepts FE at double the rate it uses it."
+				""
+				"This generator must be cooled, as its efficiency will drop as the temperature rises, up to the point where no air is generated at all."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"01247DAB4826AAF3"
+				"1996234F379C69E0"
+				"1E6277225CA889FC"
+				"4AC1298723D8A89A"
+				"7607D13B4DE67B94"
+				"3AC2609EA33632B8"
+			]
+			id: "7022058396F8C145"
+			tasks: [{
+				id: "114748E711A001AE"
+				type: "item"
+				item: "pneumaticcraft:flux_compressor"
+			}]
+			rewards: [{
+				id: "54F8E95311DDC1B4"
+				type: "item"
+				item: "pneumaticcraft:safety_tube_module"
+			}]
+		}
+		{
+			x: -5.867346938775505d
+			y: -13.839285714285715d
+			shape: "octagon"
+			description: [
+				"&6Mining Dimension :&r Place in the Overworld and Sneak Right-Click with an empty hand."
+				""
+				"&4Other Place :&r Place in the Nether and Sneak Right-Click with an empty hand."
+			]
+			dependencies: [
+				"7B9FBBCD2F962A0B"
+				"7D06301D09F5D628"
+				"766AF7476B2AA9B6"
+			]
+			size: 1.3d
+			id: "28AB74353D3FBC81"
+			tasks: [{
+				id: "0CB9C49A22430DAD"
+				type: "item"
+				item: "allthemodium:teleport_pad"
+			}]
+			rewards: [
+				{
+					id: "6311C95A081C8239"
+					type: "item"
+					item: "allthemodium:allthemodium_ore"
+				}
+				{
+					id: "1120F5C1212C90E1"
+					type: "random"
+					table_id: 6524702956512656804L
+				}
+			]
+		}
+	]
+}

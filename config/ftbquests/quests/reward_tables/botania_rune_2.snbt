@@ -1,0 +1,17 @@
+{
+	id: "3132BF6F6C0E8831"
+	order_index: 22
+	title: "Botania Rune 2"
+	icon: {
+		id: "botania:cosmetic_tiny_potato_mask"
+		Count: 1b
+		tag: { }
+	}
+	loot_size: 1
+	rewards: [
+		{ item: "botania:rune_spring" }
+		{ item: "botania:rune_summer" }
+		{ item: "botania:rune_autumn" }
+		{ item: "botania:rune_winter" }
+	]
+}

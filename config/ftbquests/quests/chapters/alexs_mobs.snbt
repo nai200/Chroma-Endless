@@ -1,0 +1,1497 @@
+{
+	id: "789E2F722C696460"
+	group: ""
+	order_index: 4
+	filename: "alexs_mobs"
+	title: "Fantastic World of Animals"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "alexsmobs:textures/mob_effect/orcas_might.png"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -10.25d
+			y: -6.5d
+			width: 20.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/savana.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -8.0d
+			y: 8.25d
+			width: 23.0d
+			height: 23.0d
+			rotation: 0.0d
+			image: "chroma:textures/quests/zoo.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: -8.25d
+			y: 9.75d
+			description: ["Discover the unique creatures of the world !"]
+			id: "79A75390155A639A"
+			tasks: [{
+				id: "57FFDD2EACE40630"
+				type: "item"
+				item: "alexsmobs:animal_dictionary"
+			}]
+			rewards: [{
+				id: "69F18F6FA51359EC"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -1.75d
+			y: 13.0d
+			description: ["Tame a &4Bald Eagle&r with fish oil."]
+			id: "2B1C8C81DB441CD7"
+			tasks: [{
+				id: "7ED87842865458E4"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tame_bald_eagle"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0018B9EDB66313EC"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -3.75d
+			y: 13.0d
+			description: ["Receive a blessing from the great and noble sunbird."]
+			id: "0B5844BD3DBA3CE9"
+			tasks: [{
+				id: "16E2A72253658842"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/sunbird_blessing"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "24E919F0C159B593"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -10.75d
+			y: 9.0d
+			description: ["Tame a Mantis Shrimp with many feedings of Tropical Fish."]
+			id: "5EBA810A0BC1C7CA"
+			tasks: [{
+				id: "39EBA7F30F6A2F83"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tame_mantis_shrimp"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "04C5F445A2B6C03F"
+				type: "item"
+				item: "minecraft:tropical_fish"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.25d
+			description: ["Have food stolen from your inventory by a Seagull."]
+			id: "034EF6BD61EFF06D"
+			tasks: [{
+				id: "44D3EA6A5FFBD5F8"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/seagull_steal"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4E5F9188F9C55D87"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -12.75d
+			y: 9.25d
+			description: ["Obtain a Banana."]
+			id: "15CE8BB7F8F15066"
+			tasks: [
+				{
+					id: "50CB71689CB5D944"
+					type: "advancement"
+					advancement: "alexsmobs:alexsmobs/banana"
+					criterion: ""
+				}
+				{
+					id: "4AE0A5789CE7E550"
+					type: "item"
+					item: "alexsmobs:banana"
+				}
+			]
+			rewards: [{
+				id: "0301D9BA5FF8A113"
+				type: "item"
+				item: "alexsmobs:banana"
+			}]
+		}
+		{
+			x: -2.25d
+			y: 14.5d
+			description: [
+				"Craft a &2Falconry Glove&r from Leather and Hair of Bear."
+				""
+				"Use it to pick up and launch tamed eagles !"
+			]
+			dependencies: ["2B1C8C81DB441CD7"]
+			id: "76E0C362F2441A1F"
+			tasks: [
+				{
+					id: "68E6D43EB68B4C34"
+					type: "advancement"
+					advancement: "alexsmobs:alexsmobs/falconry_glove"
+					criterion: ""
+				}
+				{
+					id: "63BCD9F712E5ED62"
+					type: "item"
+					item: "alexsmobs:falconry_glove"
+				}
+			]
+			rewards: [{
+				id: "58B03606E1A0ACF4"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 15.5d
+			description: [
+				"Craft a &2Falconry Hood&r from Leather and Roadrunner Feather."
+				""
+				"Eagles wearing one can manually directed !"
+			]
+			dependencies: ["76E0C362F2441A1F"]
+			id: "43161522033A5796"
+			tasks: [
+				{
+					id: "077349EEEAE6B530"
+					type: "advancement"
+					advancement: "alexsmobs:alexsmobs/falconry_hood"
+					criterion: ""
+				}
+				{
+					id: "1A643D95178C0FD7"
+					type: "item"
+					item: "alexsmobs:falconry_hood"
+				}
+			]
+			rewards: [{
+				id: "33BE977D592BFDF3"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -4.75d
+			y: 15.25d
+			description: ["Kill any creature from 100 blocks away with an eagle wearing a hood."]
+			dependencies: ["43161522033A5796"]
+			id: "39D3210B449C654F"
+			tasks: [{
+				id: "2538FE17EAC443CD"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/bald_eagle_challenge"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5AF016563B45BB5C"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -10.5d
+			y: 7.75d
+			description: ["Sneak and give a tamed Mantis Shrimp a bucket of water so that it can live on land indefinitely."]
+			dependencies: ["5EBA810A0BC1C7CA"]
+			id: "53284FDBB09185B3"
+			tasks: [{
+				id: "7BBCEFCA628FB216"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/mantis_shrimp_bucket"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5F6127CEF51487B1"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -13.25d
+			y: 8.0d
+			description: ["Tame a Capuchin Monkey with bananas."]
+			dependencies: ["15CE8BB7F8F15066"]
+			id: "3F184FFDFD769A72"
+			tasks: [{
+				id: "4A02A9FED2DB0C07"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tame_capuchin"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0B76FFE4BE6AB1E1"
+				type: "item"
+				item: "alexsmobs:banana"
+			}]
+		}
+		{
+			x: -12.5d
+			y: 10.5d
+			description: ["Craft Sopa de Macaco with a banana peel."]
+			dependencies: ["74E91FB7E82BA7E3"]
+			id: "32514B62F026B648"
+			tasks: [{
+				id: "100DD1DDB0A7B803"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/sopa_de_macaco"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1ED6B82277D93BF2"
+				type: "item"
+				item: "alexsmobs:sopa_de_macaco"
+			}]
+		}
+		{
+			x: -12.0d
+			y: 8.5d
+			description: ["Tame a Gorilla with bananas."]
+			dependencies: ["15CE8BB7F8F15066"]
+			id: "17363AB625FAFA60"
+			tasks: [{
+				id: "0B343106AD5FED32"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tame_gorilla"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7F1BE0DD017990DA"
+				type: "item"
+				item: "alexsmobs:banana"
+			}]
+		}
+		{
+			x: -10.25d
+			y: 12.25d
+			description: ["Encounter a Soul Vulture in the nether."]
+			id: "0D1F611A49AA590E"
+			tasks: [{
+				id: "1B228A8282C163FC"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/soul_vulture"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0FC8A5CE30CA80AC"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -8.75d
+			y: 12.75d
+			description: ["Obtain a soul heart from slaying a bloated Soul Vulture."]
+			dependencies: ["0D1F611A49AA590E"]
+			id: "61CCF5417CEA930B"
+			tasks: [
+				{
+					id: "0EC2526C8E411244"
+					type: "advancement"
+					advancement: "alexsmobs:alexsmobs/soul_heart"
+					criterion: ""
+				}
+				{
+					id: "41D2A4B38E7A74B1"
+					type: "item"
+					item: "alexsmobs:soul_heart"
+				}
+			]
+			rewards: [{
+				id: "686535A14306DC79"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -7.5d
+			y: 12.25d
+			description: ["Lure a Spectre in the end with a Soul Heart. Use a lead on them to hitch a ride !"]
+			dependencies: ["61CCF5417CEA930B"]
+			id: "2386DF2BDE4A1D1D"
+			tasks: [{
+				id: "7BCC4BA39C2B109C"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/spectre"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "386DDDA4A3B07118"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -12.5d
+			y: 12.25d
+			description: ["Encounter a Straddler in the Basalt Deltas."]
+			id: "538243F7BEE6CAC0"
+			tasks: [{
+				id: "20A5EB68BF9B8413"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/straddler"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "29DD6203EAE5A01E"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -13.5d
+			y: 12.0d
+			description: ["Feed a Stradpole some Mosquito Larva, in hopes of turning it into a Straddler."]
+			dependencies: ["538243F7BEE6CAC0"]
+			id: "566857A493D2E77C"
+			tasks: [{
+				id: "74AFF7F81DF0891B"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/stradpole_feed"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "17EB0725FB49F305"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -13.5d
+			y: 13.0d
+			description: ["Craft a Straddleboard from some Netherite and Straddlerite."]
+			dependencies: ["538243F7BEE6CAC0"]
+			id: "71CD26FF5D567057"
+			tasks: [
+				{
+					id: "6B060164457183E6"
+					type: "advancement"
+					advancement: "alexsmobs:alexsmobs/straddleboard"
+					criterion: ""
+				}
+				{
+					id: "0A57EC4E25B0D491"
+					type: "item"
+					item: {
+						id: "alexsmobs:straddleboard"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3772FBA13FD8CD48"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 10.25d
+			description: ["Encounter a Guster during a stormy day in the desert."]
+			id: "384B2ACC511CD4D9"
+			tasks: [{
+				id: "3740A2B040A4F705"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/guster"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4D33AE273FCC0C06"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -3.75d
+			y: 9.0d
+			subtitle: "Sha-sha !"
+			description: ["Craft a Pocket Of Sand."]
+			dependencies: ["384B2ACC511CD4D9"]
+			id: "08023E3360BC08B3"
+			tasks: [
+				{
+					id: "7516FE454EB3DE8C"
+					type: "advancement"
+					advancement: "alexsmobs:alexsmobs/pocket_sand"
+					criterion: ""
+				}
+				{
+					id: "5422391C9D39E587"
+					type: "item"
+					item: {
+						id: "alexsmobs:pocket_sand"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6E776CA6C97CAB68"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -2.25d
+			y: 9.0d
+			description: ["Craft a Gustmaker. Now you can make your own mini-storms !"]
+			dependencies: ["384B2ACC511CD4D9"]
+			id: "79BD1F4B9DC6B3E6"
+			tasks: [
+				{
+					id: "674F4D4A4309935B"
+					type: "advancement"
+					advancement: "alexsmobs:alexsmobs/gustmaker"
+					criterion: ""
+				}
+				{
+					id: "668E2B010DFAF179"
+					type: "item"
+					item: "alexsmobs:gustmaker"
+				}
+			]
+			rewards: [{
+				id: "2868FB64C0BBFF76"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -9.5d
+			y: 0.5d
+			description: ["Breed two hummingbirds with flowers."]
+			id: "1FBFFB67133EB1F3"
+			tasks: [{
+				id: "6F1112E0086F92E1"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/breed_hummingbird"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7BF0B0344BF99D23"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -9.75d
+			y: 2.25d
+			description: ["Craft a Hummingbird Feeder in order to keep hummingbirds nearby."]
+			dependencies: ["1FBFFB67133EB1F3"]
+			id: "0D67C96E83CA65B5"
+			tasks: [
+				{
+					id: "37F2BCC48629D372"
+					type: "advancement"
+					advancement: "alexsmobs:alexsmobs/hummingbird_feeder"
+					criterion: ""
+				}
+				{
+					id: "09AA5D80C44E6A17"
+					type: "item"
+					item: "alexsmobs:hummingbird_feeder"
+				}
+			]
+			rewards: [{
+				id: "649DDC2E46438FAC"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -11.5d
+			y: 2.75d
+			description: ["Encounter a Kangaroo."]
+			id: "4E566DEE9D4C96A7"
+			tasks: [{
+				id: "318374246A6C5B00"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/kangaroo"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6766EE84581D61D8"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -13.5d
+			y: 2.75d
+			description: ["Watch an emu dodge a launched projectile."]
+			dependencies: ["454471DBED49864B"]
+			id: "4CD67FA78CF4533D"
+			tasks: [{
+				id: "14762E5DD1A53C63"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/emu_dodge"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "45AC6DA8A04219F1"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -12.5d
+			y: 1.0d
+			description: ["Encounter an Emu. Exercise caution."]
+			dependencies: ["4E566DEE9D4C96A7"]
+			id: "454471DBED49864B"
+			tasks: [{
+				id: "2DACAE4B87A1A3AF"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/emu"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "279BEEE2731B1CDE"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -4.75d
+			y: 1.0d
+			description: ["Save a beached Cachalot Whale by pushing it into the water, and then have it reward you by coughing up some Ambergris."]
+			id: "2A8F3F136EB8485A"
+			tasks: [{
+				id: "701F7CA03097FE5C"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/save_cachalot_whale"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6E8AFA0FA87AF17A"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			description: ["Craft an Echolocator, which can reveal nearby caves."]
+			dependencies: ["2A8F3F136EB8485A"]
+			id: "502819258E065AD3"
+			tasks: [
+				{
+					id: "517E3A4873606187"
+					type: "advancement"
+					advancement: "alexsmobs:alexsmobs/echolocator"
+					criterion: ""
+				}
+				{
+					id: "556B7F3C0E1D6E0E"
+					type: "item"
+					item: {
+						id: "alexsmobs:echolocator"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "36B463A9CDCF5D29"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			description: ["Craft an Endolocator, which can reveal nearby End Portal Frames."]
+			dependencies: ["502819258E065AD3"]
+			id: "422A0957DC7FF997"
+			tasks: [
+				{
+					id: "4926FDD580A9F599"
+					type: "advancement"
+					advancement: "alexsmobs:alexsmobs/endolocator"
+					criterion: ""
+				}
+				{
+					id: "4764ED28CE071DD1"
+					type: "item"
+					item: {
+						id: "alexsmobs:endolocator"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7C3FC515264C2276"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -13.75d
+			y: 5.5d
+			description: ["Encounter a Rattlesnake."]
+			id: "1B65B782F3E46420"
+			tasks: [{
+				id: "0993DAB3403B6F5C"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/rattlesnake"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3A067227F44F644A"
+				type: "item"
+				item: "alexsmobs:rattlesnake_rattle"
+			}]
+		}
+		{
+			x: -12.75d
+			y: 6.5d
+			description: ["Craft a Maraca with a Rattlesnake rattle."]
+			dependencies: ["1B65B782F3E46420"]
+			id: "0405F092BE2F54E6"
+			tasks: [
+				{
+					id: "78A5EE3D2EE8E07B"
+					type: "advancement"
+					advancement: "alexsmobs:alexsmobs/maraca"
+					criterion: ""
+				}
+				{
+					id: "11153A89784FB04B"
+					type: "item"
+					item: "alexsmobs:maraca"
+				}
+			]
+			rewards: [{
+				id: "5B288B4621921594"
+				type: "item"
+				item: "alexsmobs:maraca"
+			}]
+		}
+		{
+			x: -11.75d
+			y: 5.75d
+			subtitle: "La Cucuracha !"
+			description: ["Give a Maraca to a cockroach and enjoy the show."]
+			dependencies: ["0405F092BE2F54E6"]
+			id: "4FAE5FC80187F4FD"
+			tasks: [{
+				id: "541AA55760EF99BF"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/la_cucaracha"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6CB4F43C66F7F90A"
+				type: "item"
+				item: "immersiveengineering:earmuffs"
+			}]
+		}
+		{
+			x: -11.25d
+			y: 16.0d
+			description: ["Encounter a Crimson Mosquito !"]
+			id: "5E2731D71084CA19"
+			tasks: [{
+				id: "1661F2EB6FD6A7DA"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/crimson_mosquito"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "684CF344008F4C33"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -10.5d
+			y: 14.5d
+			description: ["Craft a &4Blood Sprayer&r from the dropts of a Crimson Mosquito."]
+			id: "76E7733EAAC40B8D"
+			tasks: [
+				{
+					id: "71004357910E6582"
+					type: "advancement"
+					advancement: "alexsmobs:alexsmobs/blood_sprayer"
+					criterion: ""
+				}
+				{
+					id: "5ED35C8E7CB71065"
+					type: "item"
+					item: {
+						id: "alexsmobs:blood_sprayer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4D94300253CB8ADA"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -10.75d
+			y: 13.5d
+			description: ["Craft a Crimson Mosquito Larvae from a Maggot and a Special Proboscis."]
+			id: "3831E05A66F5DC96"
+			tasks: [
+				{
+					id: "2EE416D8F51582C9"
+					type: "advancement"
+					advancement: "alexsmobs:alexsmobs/crimson_mosquito_larva"
+					criterion: ""
+				}
+				{
+					id: "06A57E05D0F206A6"
+					type: "item"
+					item: "alexsmobs:mosquito_larva"
+				}
+			]
+			rewards: [{
+				id: "30570015293478EB"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -11.5d
+			y: 15.0d
+			description: [
+				"Feed a Crimson Mosquito a strange fungal creature covered in Warped Fungus."
+				""
+				"Watch as the Crimson Mosquito transforms !"
+			]
+			id: "24CAAF4B70E6E209"
+			tasks: [{
+				id: "60ACB945CB700421"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/crimson_mosquito_sick"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "78F1480F024AD816"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -12.0d
+			y: 13.5d
+			description: ["Tame a Warped Toad, the perfect defense against any giant bug, with some larvae."]
+			id: "1FEF238486E8120C"
+			tasks: [{
+				id: "62AACC3F6D7994EF"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tame_warped_toad"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6690C6435A874BD6"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -12.75d
+			y: 15.0d
+			description: ["Slay the Warped Mosco, the swole defender of the Warped Forest."]
+			dependencies: ["24CAAF4B70E6E209"]
+			id: "29C6953A186D2285"
+			tasks: [{
+				id: "7D57C37E1B571D6D"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/warped_mosco_kill"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5335D3990E97115A"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -13.25d
+			y: 14.0d
+			description: ["Craft a Hemolyph Blaster, the ultimate upgrade to the Blood Sprayer."]
+			dependencies: ["29C6953A186D2285"]
+			id: "30FE1AC026528DC9"
+			tasks: [
+				{
+					id: "3C983B0EA7C0E180"
+					type: "advancement"
+					advancement: "alexsmobs:alexsmobs/hemolymph_blaster"
+					criterion: ""
+				}
+				{
+					id: "4977FCE50D3181EC"
+					type: "item"
+					item: {
+						id: "alexsmobs:hemolymph_blaster"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2CCC07775874F62C"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -8.75d
+			y: 5.25d
+			description: ["Encounter a Crocodile !"]
+			id: "74ADD9A5258F9247"
+			tasks: [{
+				id: "05AD5CC7E2A4ACE2"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/crocodile"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "408F98FA29F4F7BA"
+				type: "item"
+				item: "alexsmobs:crocodile_scute"
+			}]
+		}
+		{
+			x: -7.25d
+			y: 5.0d
+			description: ["Encounter an Alligator Snapping Turtle !"]
+			dependencies: ["74ADD9A5258F9247"]
+			id: "402D6BD7A01F3C98"
+			tasks: [{
+				id: "1C4B05CAAF751B65"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/alligator_snapping_turtle"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4A54FD4558C28213"
+				type: "item"
+				item: "minecraft:turtle_egg"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 4.0d
+			description: [
+				"Breed two crocodiles with rotten flesh."
+				""
+				"Careful not to trample their eggs !"
+			]
+			dependencies: ["74ADD9A5258F9247"]
+			id: "4D4DA7D53F1A2BD6"
+			tasks: [{
+				id: "31A626B780E64BC1"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/breed_crocodile"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "520A70BC4496311F"
+				type: "item"
+				item: "alexsmobs:crocodile_egg"
+			}]
+		}
+		{
+			x: -7.25d
+			y: 2.75d
+			description: ["Craft a crocodile chestplate from many crocodile scutes."]
+			dependencies: ["4D4DA7D53F1A2BD6"]
+			id: "1C77819659DE35DE"
+			tasks: [
+				{
+					id: "16736043061BAD16"
+					type: "advancement"
+					advancement: "alexsmobs:alexsmobs/crocodile_chestplate"
+					criterion: ""
+				}
+				{
+					id: "49215CF880466B88"
+					type: "item"
+					item: {
+						id: "alexsmobs:crocodile_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "358756402CC9D4E8"
+				type: "item"
+				item: "alexsmobs:crocodile_scute"
+			}]
+		}
+		{
+			x: -7.25d
+			y: 4.0d
+			description: ["Shear a moss-covered Alligator Snapping Turtle and obtain a Spiked Scute !"]
+			dependencies: ["402D6BD7A01F3C98"]
+			id: "01DAF235E6CBD7A3"
+			tasks: [
+				{
+					id: "0AB8894E76181BFB"
+					type: "advancement"
+					advancement: "alexsmobs:alexsmobs/spiked_scute"
+					criterion: ""
+				}
+				{
+					id: "01B1DDB4A35BD4F0"
+					type: "item"
+					item: "alexsmobs:spiked_scute"
+				}
+			]
+			rewards: [{
+				id: "0F953573158FDB86"
+				type: "item"
+				item: "alexsmobs:spiked_scute"
+			}]
+		}
+		{
+			x: -6.25d
+			y: 4.0d
+			description: ["Craft a Spiked Turtle Shell."]
+			dependencies: ["01DAF235E6CBD7A3"]
+			id: "20A511C453D94BB6"
+			tasks: [
+				{
+					id: "1B922B646687086D"
+					type: "advancement"
+					advancement: "alexsmobs:alexsmobs/spiked_turtle_shell"
+					criterion: ""
+				}
+				{
+					id: "078022C776CDAA30"
+					type: "item"
+					item: {
+						id: "alexsmobs:spiked_turtle_shell"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "19625A70FD608C6C"
+				type: "item"
+				item: {
+					id: "minecraft:turtle_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.75d
+			description: ["Be granted a blessing from a wild Orca."]
+			id: "36731EB5B663B029"
+			tasks: [{
+				id: "68516D278AC5B134"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/orcas_might"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4A89F905C77A2732"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -8.5d
+			y: 14.5d
+			description: [
+				"Encounter an Enderiophage, a giant biomechanical construct found in the &5End Midlands&r."
+				""
+				"Be careful not to catch Ender Flu !"
+			]
+			id: "0D19AC1E203BA931"
+			tasks: [{
+				id: "7F56B9CAF0A67847"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/enderiophage"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3D6CCE374E316347"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -7.75d
+			y: 13.5d
+			description: [
+				"Catch the Ender Flu effect."
+				""
+				"Cure it by eating many Chorus Fuit or drinking milk. Be sure no to let it run its toll !"
+			]
+			dependencies: ["0D19AC1E203BA931"]
+			id: "0E091A80E9D8E4D4"
+			tasks: [{
+				id: "7E777B0D88F2C522"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/ender_flu"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "657B7FB6D5D7FDC1"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -7.75d
+			y: 15.75d
+			description: [
+				"Obtain a Capsid from a slain Enderiophage."
+				""
+				"Use it to display items or the transfer them upwards."
+			]
+			dependencies: ["0D19AC1E203BA931"]
+			id: "72941F53A3897F41"
+			tasks: [{
+				id: "392D47D6755865FC"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/capsid"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2A7772BEF43C8513"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 14.25d
+			description: ["Craft an Enderiophage Rocket, which can be used in place of Firework Rockets when in the End."]
+			dependencies: ["72941F53A3897F41"]
+			id: "1CCB2740B845C17D"
+			tasks: [
+				{
+					id: "39E95FC2E84180AA"
+					type: "advancement"
+					advancement: "alexsmobs:alexsmobs/enderiophage_rocket"
+					criterion: ""
+				}
+				{
+					id: "3E3905C868624FDA"
+					type: "item"
+					item: "alexsmobs:enderiophage_rocket"
+				}
+			]
+			rewards: [{
+				id: "7E2F995A4FA990F4"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 16.0d
+			description: ["Create a Mysterious Work by putting a Crimson Mosquiton Larva in a Capsid."]
+			dependencies: ["72941F53A3897F41"]
+			id: "0EF3E38B205D5D3F"
+			tasks: [{
+				id: "5B9BDBC74714AA0A"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/mysterious_worm"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6D3E71774617FCAB"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -8.25d
+			y: 16.75d
+			description: ["Toss the Mysterious Worm into the void oh the End, and prepare to meet the Void Worm."]
+			dependencies: ["0EF3E38B205D5D3F"]
+			id: "32F80A35A1C5A42A"
+			tasks: [{
+				id: "2C891F07B7B28833"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/void_worm_summon"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6543FCB2B966720B"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -7.25d
+			y: 17.25d
+			description: ["Split a void worm in half by attacking one of its body segments. More worms, more problems !"]
+			dependencies: ["32F80A35A1C5A42A"]
+			id: "445154DC9F481968"
+			tasks: [{
+				id: "4704E0F9EEBFE042"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/void_worm_split"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3B19CE6AC1BD01CE"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -6.75d
+			y: 15.25d
+			description: ["Destroy the End Worm."]
+			dependencies: ["32F80A35A1C5A42A"]
+			id: "48EBEDE281A70BEB"
+			tasks: [{
+				id: "0FF4BA5AF66FF131"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/void_worm_kill"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3787F98431903AFE"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 16.5d
+			description: ["Using the drops of the Void Worm, create the Dimensional Carver, which allows you to dig through the fabric of reality to return home at any given point."]
+			dependencies: ["48EBEDE281A70BEB"]
+			id: "73F2BDD47E95495B"
+			tasks: [
+				{
+					id: "0307D9B1D50DDC99"
+					type: "advancement"
+					advancement: "alexsmobs:alexsmobs/dimensional_carver"
+					criterion: ""
+				}
+				{
+					id: "70503C3130C891D5"
+					type: "item"
+					item: {
+						id: "alexsmobs:dimensional_carver"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "28A333A8B9A926EA"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -2.75d
+			y: 5.75d
+			description: ["Obtain an Acacia Blossom from breaking Acacia Leaves."]
+			id: "74D01EEFEE9265BB"
+			tasks: [
+				{
+					id: "6116F33E050030CB"
+					type: "advancement"
+					advancement: "alexsmobs:alexsmobs/acacia_blossom"
+					criterion: ""
+				}
+				{
+					id: "7A6B2F8D3E9641AD"
+					type: "item"
+					item: "alexsmobs:acacia_blossom"
+				}
+			]
+			rewards: [{
+				id: "7C857907DBAE9C1C"
+				type: "item"
+				item: "alexsmobs:acacia_blossom"
+			}]
+		}
+		{
+			x: -2.75d
+			y: 7.0d
+			description: ["Tame an Elephant by feeding it Acacia Blossoms."]
+			dependencies: ["74D01EEFEE9265BB"]
+			id: "1217CE0D1409B563"
+			tasks: [{
+				id: "3844340F628EDC7F"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tame_elephant"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3AF810953855015F"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -4.0d
+			y: 7.5d
+			description: ["Tame a tusked elephant when it is a baby."]
+			dependencies: ["1217CE0D1409B563"]
+			id: "5305A32D66F76E70"
+			tasks: [{
+				id: "6E15A84DBD153489"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tame_elephant_tusked"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4D4ACEF730DC9B55"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -4.25d
+			y: 6.25d
+			description: ["Place a colored carpet on an elephant."]
+			dependencies: ["1217CE0D1409B563"]
+			id: "4AA7C7D377AA24EB"
+			tasks: [{
+				id: "02905FB51ED75593"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/elephant_swag"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6362D251FA294FFA"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -5.75d
+			y: 12.0d
+			description: ["Encounter a Grizzly Bear."]
+			id: "643C238C61A2B183"
+			tasks: [{
+				id: "4C5422DC41EAA24F"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/grizzly_bear"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "259FCCBA00D3B8B4"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -4.75d
+			y: 10.5d
+			description: ["Tame a Grizzly Bear by feeding it honey and salmon."]
+			dependencies: ["643C238C61A2B183"]
+			id: "6F38BA9383A9BE70"
+			tasks: [{
+				id: "5B3B9F954B6C8BA8"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tame_grizzly_bear"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7444DDDD0297C737"
+				type: "item"
+				item: "minecraft:salmon_bucket"
+			}]
+		}
+		{
+			x: -12.0d
+			y: 7.5d
+			description: ["Receive a Tiger's Blessing after feeding it Porkchops, Chicken or other meats."]
+			id: "406B9E68123A06B0"
+			tasks: [{
+				id: "61A8A864551BD1AD"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tigers_blessing"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "38D4138600D1EA8E"
+				type: "item"
+				item: "minecraft:porkchop"
+			}]
+		}
+		{
+			x: -6.75d
+			y: 9.0d
+			description: ["Stomp on a Leafcutter Anthill - beware the angry denizens within !"]
+			id: "431BF8F52DC3F9C2"
+			tasks: [{
+				id: "689F3A711C54C1C1"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/stomp_leafcutter_anthill"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7C376EB09F1F83C8"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 8.0d
+			description: ["Harvest Gongylidia from a Leafcutter Ant Chamber underground. Place Shroomlight near the camber to make sure you don't upset the locals."]
+			dependencies: ["431BF8F52DC3F9C2"]
+			id: "52B1951D996DD5FC"
+			tasks: [
+				{
+					id: "26D3B58540418C2C"
+					type: "advancement"
+					advancement: "alexsmobs:alexsmobs/gongylidia"
+					criterion: ""
+				}
+				{
+					id: "7468A8034043997B"
+					type: "item"
+					item: "alexsmobs:gongylidia"
+				}
+			]
+			rewards: [{
+				id: "2CCD16249F0B03A2"
+				type: "item"
+				item: "alexsmobs:gongylidia"
+			}]
+		}
+		{
+			x: -7.25d
+			y: 7.0d
+			description: ["Obtain a Leafcutter Ant Pupa, which can be placed on dirt to start a Leafcutter Ant colony."]
+			dependencies: ["52B1951D996DD5FC"]
+			id: "1FA27D5D00473B33"
+			tasks: [
+				{
+					id: "7D1817075D783BA2"
+					type: "advancement"
+					advancement: "alexsmobs:alexsmobs/leafcutter_ant_pupa"
+					criterion: ""
+				}
+				{
+					id: "061ADCE1E5B93E4F"
+					type: "item"
+					item: "alexsmobs:leafcutter_ant_pupa"
+				}
+			]
+			rewards: [{
+				id: "72266B307A562FA4"
+				type: "item"
+				item: "alexsmobs:leafcutter_ant_pupa"
+			}]
+		}
+		{
+			x: -4.75d
+			y: 5.0d
+			description: ["Encounter a Tarantula Hawk in a desert."]
+			id: "7157183EE75EF04A"
+			tasks: [{
+				id: "5CEC74AD55BF9C5D"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tarantula_hawk"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4719CD6C407601C4"
+				type: "random"
+				table_id: 3261296973996135385L
+			}]
+		}
+		{
+			x: -4.75d
+			y: 3.75d
+			description: ["Tame a Tarantula Hawk by feeding it Spider Eyes."]
+			dependencies: ["7157183EE75EF04A"]
+			id: "08AFE6242CBD54E7"
+			tasks: [{
+				id: "329E58B8AE8FE307"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tame_tarantula_hawk"
+				criterion: ""
+			}]
+		}
+		{
+			x: -14.0d
+			y: 9.0d
+			description: ["Occassionally, Monkey can drop a &eBanana Peel&r when eating a &eBanana&r."]
+			dependencies: ["3F184FFDFD769A72"]
+			id: "74E91FB7E82BA7E3"
+			tasks: [{
+				id: "7ABBABB2EF9EF28A"
+				type: "item"
+				item: "alexsmobs:banana_peel"
+			}]
+			rewards: [{
+				id: "6CD90826881CF5E2"
+				type: "item"
+				item: "alexsmobs:banana_peel"
+			}]
+		}
+	]
+}

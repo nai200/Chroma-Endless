@@ -1,0 +1,26 @@
+{
+  "controllerId": "autosmithing",
+  "name": "Auto Smithing Table",
+  "textureOverride": "immersiveengineering:block/wooden_decoration/treated_wood",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "textureOverride": "immersiveengineering:block/wooden_decoration/treated_wood",
+      "name": "Auto Smithing Item",
+      "id": "autosmithing_item",
+      "data": {
+        "rows": 4,
+        "columns": 6
+      }
+    },
+    {
+      "type": "masterfulmachinery:energy",
+      "textureOverride": "create:block/shadow_steel_casing",
+      "name": "Auto Smithing Energy",
+      "id": "autosmithing_energy",
+      "data": {
+        "capacity": 1000000
+      }
+    }
+  ]
+}
