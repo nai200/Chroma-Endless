@@ -3,7 +3,7 @@
 	group: "34085A64296DE6C7"
 	order_index: 1
 	filename: "the_endless"
-	title: "The Endless"
+	title: "永恒"
 	icon: "storagedrawers:creative_vending_upgrade"
 	default_quest_shape: "pentagon"
 	default_hide_dependency_lines: false
@@ -140,19 +140,19 @@
 			x: -3.25d
 			y: -0.5d
 			shape: "hexagon"
-			subtitle: "Only one is needed"
+			subtitle: "只需要一个"
 			description: [
-				"Many thought that two &d&lVending Upgrades&r are needed but no ! "
+				"大多数认为需要两个&d&l取出升级&r,但是不需要! "
 				""
-				"How can you get multiple vending upgrades? Well it's really simple ! "
+				"如何获得多个取出升级? 其实很简单! "
 				""
-				"First of all you will need a &e&lHopper&r and the &6&lDrawer Key&r. "
+				"首先你需要准备一个&e&l漏斗&r和&6&l抽屉钥匙&r. "
 				""
-				"The first step is simply to stick your &e&lHopper&r against any drawer (the &e&lHopper&r must be facing the drawer)."
+				"第一步是简单地把你的&e&l漏斗&r对着任何抽屉放置 ( &e&l漏斗&r朝向必须面对着抽屉)."
 				""
-				"The second step is to put your &d&lVending Upgrade&r in the &e&lHopper&r to store it. Then with the &6&lDrawer Key&r you will need to lock your drawer and then retrieve your upgrade. "
+				"第二步是把你的&d&l取出升级&r放到&e&l漏斗&r里面.然后你需要用&6&l抽屉钥匙&r锁住抽屉后拿出取出升级. "
 				""
-				"Since the &d&lVending&r is locked, it remains in the storage ! So now you can apply this &d&lVending&r to the drawer!"
+				"既然&d&l取出升级&r已经锁上了,它就留在了你的仓库里!所以现在你可以把这个&d&l取出升级&r用到抽屉上了!"
 			]
 			dependencies: ["70D21BEB5D6A2B8D"]
 			size: 2.0d
